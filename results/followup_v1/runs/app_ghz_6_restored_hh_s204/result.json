@@ -1,0 +1,9265 @@
+{
+  "summary": {
+    "kind": "application_timing_replay",
+    "seed": 204,
+    "policy": "hh",
+    "placement": "restored",
+    "classical": "wired",
+    "application_input_sha256": "28033e1014b1dc3297789fb4033655593112d87fe538f05cda66f562c2b3e99b",
+    "deadline_s": 0.2,
+    "offered_operations": 6,
+    "completed": true,
+    "offered_cnot_gates": 5,
+    "completed_cnot_gates": 5,
+    "completed_single_qubit_gates": 1,
+    "completed_operations": 6,
+    "failed_operations": 0,
+    "cancelled_operations": 0,
+    "application_makespan_s": 0.01000876155,
+    "completed_application_makespan_s": 0.01000876155,
+    "single_qubit_gate_s": 5e-08,
+    "end_to_end_state_fidelity": null,
+    "compiled_physical_circuit_depth": null,
+    "fidelity_scope": "timing replay only; inherited per-CNOT channels reset; no application fidelity",
+    "mapping_scope": "last known payload locations; failures do not certify usable states or frames",
+    "classical_wait_s": 0.0,
+    "classical_packets": 230,
+    "classical_lost_packets": 0,
+    "classical_bit_hops": 15400,
+    "radio_busy_s": 0.0,
+    "native_events": 3001,
+    "resource_leaks": 0,
+    "epr_attempts": 100,
+    "raw_pairs": 20,
+    "purification_attempts": 0,
+    "purification_accepts": 0,
+    "consumed_pairs": 20,
+    "quantum_hops": 20,
+    "quantum_queue_wait_s": 0.0
+  },
+  "config": {
+    "mesh_side": 4,
+    "policy": "hh",
+    "placement": "restored",
+    "classical": "wired",
+    "profile": "prospective_parametric",
+    "communication_memories": 8,
+    "link_servers": 1,
+    "pooled_servers": 0,
+    "excitation_rate_hz": 20000,
+    "reset_s": 5e-08,
+    "emission_efficiency": 0.75,
+    "detector_efficiency": 0.8,
+    "attenuation_db_per_m": 0.01,
+    "link_length_m": 0.001,
+    "raw_bell_fidelity": 0.99,
+    "memory_t2_s": 0.01,
+    "memory_cutoff_s": 0.02,
+    "teleport_s": 1e-07,
+    "teleport_pauli_error": 0.001,
+    "gate_s": 5e-08,
+    "gate_pauli_error": 0.001,
+    "purification_rounds": 0,
+    "purification_threshold": 0.8,
+    "purification_local_s": 2e-07,
+    "wired_clock_hz": 1000000000.0,
+    "wired_width_bits": 16,
+    "wired_router_cycles": 2,
+    "radio_rate_bps": 12000000000.0,
+    "radio_channels": 1,
+    "radio_token_s": 2e-09,
+    "radio_startup_s": 2e-09,
+    "control_bits": 128,
+    "herald_bits": 64,
+    "correction_header_bits": 64,
+    "packet_loss": 0,
+    "classical_ack_timeout_s": 1e-07,
+    "source_outage_probability": 0,
+    "deadline_s": 0.01,
+    "minimum_process_fidelity": 0.9,
+    "quality_weight_s": 0.002,
+    "max_attempts": 10000,
+    "max_events": 5000000
+  },
+  "circuit": {
+    "name": "ghz_6",
+    "num_qubits": 6,
+    "input_depth": 6,
+    "input_operation_count": 6,
+    "input_count_ops": {
+      "cx": 5,
+      "h": 1
+    },
+    "input_qasm": "OPENQASM 3.0;\ninclude \"stdgates.inc\";\nqubit[6] q;\nh q[0];\ncx q[0], q[1];\ncx q[1], q[2];\ncx q[2], q[3];\ncx q[3], q[4];\ncx q[4], q[5];\n",
+    "input_qasm_format": "OpenQASM 3",
+    "input_sha256": "bde95ced964dd4425e29fcfabab65664c112287e83a819737e75bd88efd77580",
+    "basis": [
+      "u",
+      "cx"
+    ],
+    "basis_depth": 6,
+    "basis_operation_count": 6,
+    "basis_count_ops": {
+      "cx": 5,
+      "u": 1
+    },
+    "basis_qasm": "OPENQASM 3.0;\ninclude \"stdgates.inc\";\nqubit[6] q;\nU(pi/2, 0, pi) q[0];\ncx q[0], q[1];\ncx q[1], q[2];\ncx q[2], q[3];\ncx q[3], q[4];\ncx q[4], q[5];\n",
+    "basis_qasm_format": "OpenQASM 3",
+    "basis_sha256": "2d1a85b59eae4d79da052b701778cbd66edf77a4a62a27aab68894cde19c23ab",
+    "seed_transpiler": 204,
+    "optimization_level": 0,
+    "depth_scope": "logical input and unplaced basis decomposition; not physical routing depth"
+  },
+  "initial_mapping": {
+    "0": [
+      0,
+      2
+    ],
+    "1": [
+      3,
+      0
+    ],
+    "2": [
+      3,
+      1
+    ],
+    "3": [
+      3,
+      2
+    ],
+    "4": [
+      2,
+      1
+    ],
+    "5": [
+      2,
+      0
+    ]
+  },
+  "final_mapping": {
+    "0": [
+      0,
+      2
+    ],
+    "1": [
+      3,
+      0
+    ],
+    "2": [
+      3,
+      1
+    ],
+    "3": [
+      3,
+      2
+    ],
+    "4": [
+      2,
+      1
+    ],
+    "5": [
+      2,
+      0
+    ]
+  },
+  "failed_operand_qubits": [],
+  "operations": [
+    {
+      "operation_id": 0,
+      "name": "u",
+      "qubits": [
+        0
+      ],
+      "params": [
+        1.5707963267948966,
+        0.0,
+        3.141592653589793
+      ],
+      "predecessors": [],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 0.0,
+      "started_s": 0.0,
+      "finished_s": 5e-08,
+      "gate_started_s": 0.0,
+      "gate_finished_s": 5e-08,
+      "mapping_before": {
+        "0": [
+          0,
+          2
+        ]
+      },
+      "mapping_after": {
+        "0": [
+          0,
+          2
+        ]
+      },
+      "counters": {
+        "epr_attempts": 0,
+        "raw_pairs": 0,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 0,
+        "quantum_hops": 0,
+        "quantum_queue_wait_s": 0.0
+      }
+    },
+    {
+      "operation_id": 1,
+      "name": "cx",
+      "qubits": [
+        0,
+        1
+      ],
+      "params": [],
+      "predecessors": [
+        0
+      ],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 5e-08,
+      "started_s": 5e-08,
+      "finished_s": 0.003703524593,
+      "gate_started_s": 0.002201975343,
+      "gate_finished_s": 0.002202025343,
+      "mapping_before": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          3,
+          0
+        ]
+      },
+      "mapping_after": {
+        "0": [
+          0,
+          2
+        ],
+        "1": [
+          3,
+          0
+        ]
+      },
+      "counters": {
+        "epr_attempts": 37,
+        "raw_pairs": 10,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 10,
+        "quantum_hops": 10,
+        "quantum_queue_wait_s": 0.0
+      }
+    },
+    {
+      "operation_id": 2,
+      "name": "cx",
+      "qubits": [
+        1,
+        2
+      ],
+      "params": [],
+      "predecessors": [
+        1
+      ],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 0.003703524593,
+      "started_s": 0.003703524593,
+      "finished_s": 0.004804482762,
+      "gate_started_s": 0.003903757626,
+      "gate_finished_s": 0.003903807626,
+      "mapping_before": {
+        "1": [
+          3,
+          0
+        ],
+        "2": [
+          3,
+          1
+        ]
+      },
+      "mapping_after": {
+        "1": [
+          3,
+          0
+        ],
+        "2": [
+          3,
+          1
+        ]
+      },
+      "counters": {
+        "epr_attempts": 11,
+        "raw_pairs": 2,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 2,
+        "quantum_hops": 2,
+        "quantum_queue_wait_s": 0.0
+      }
+    },
+    {
+      "operation_id": 3,
+      "name": "cx",
+      "qubits": [
+        2,
+        3
+      ],
+      "params": [],
+      "predecessors": [
+        2
+      ],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 0.004804482762,
+      "started_s": 0.004804482762,
+      "finished_s": 0.005805378917,
+      "gate_started_s": 0.005304901837,
+      "gate_finished_s": 0.005304951837,
+      "mapping_before": {
+        "2": [
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2
+        ]
+      },
+      "mapping_after": {
+        "2": [
+          3,
+          1
+        ],
+        "3": [
+          3,
+          2
+        ]
+      },
+      "counters": {
+        "epr_attempts": 10,
+        "raw_pairs": 2,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 2,
+        "quantum_hops": 2,
+        "quantum_queue_wait_s": 0.0
+      }
+    },
+    {
+      "operation_id": 4,
+      "name": "cx",
+      "qubits": [
+        3,
+        4
+      ],
+      "params": [],
+      "predecessors": [
+        3
+      ],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 0.005805378917,
+      "started_s": 0.005805378917,
+      "finished_s": 0.009608237479,
+      "gate_started_s": 0.007206481133,
+      "gate_finished_s": 0.007206531133,
+      "mapping_before": {
+        "3": [
+          3,
+          2
+        ],
+        "4": [
+          2,
+          1
+        ]
+      },
+      "mapping_after": {
+        "3": [
+          3,
+          2
+        ],
+        "4": [
+          2,
+          1
+        ]
+      },
+      "counters": {
+        "epr_attempts": 38,
+        "raw_pairs": 4,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 4,
+        "quantum_hops": 4,
+        "quantum_queue_wait_s": 0.0
+      }
+    },
+    {
+      "operation_id": 5,
+      "name": "cx",
+      "qubits": [
+        4,
+        5
+      ],
+      "params": [],
+      "predecessors": [
+        4
+      ],
+      "status": "completed",
+      "completed": true,
+      "terminal_reason": "completed",
+      "deadline_s": 0.2,
+      "ready_s": 0.009608237479,
+      "started_s": 0.009608237479,
+      "finished_s": 0.01000876155,
+      "gate_started_s": 0.009808478517,
+      "gate_finished_s": 0.009808528517,
+      "mapping_before": {
+        "4": [
+          2,
+          1
+        ],
+        "5": [
+          2,
+          0
+        ]
+      },
+      "mapping_after": {
+        "4": [
+          2,
+          1
+        ],
+        "5": [
+          2,
+          0
+        ]
+      },
+      "counters": {
+        "epr_attempts": 4,
+        "raw_pairs": 2,
+        "purification_attempts": 0,
+        "purification_accepts": 0,
+        "consumed_pairs": 2,
+        "quantum_hops": 2,
+        "quantum_queue_wait_s": 0.0
+      }
+    }
+  ],
+  "mapping_history": [
+    {
+      "time_s": 0.000100214014,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        1,
+        2
+      ]
+    },
+    {
+      "time_s": 0.000100221019,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        1,
+        2
+      ]
+    },
+    {
+      "time_s": 0.000300447047,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.000300454052,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.001801486262,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.001801493267,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.002101789314,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.002101796319,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.002201968338,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        3,
+        0
+      ]
+    },
+    {
+      "time_s": 0.002201975343,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        0
+      ]
+    },
+    {
+      "time_s": 0.003002623455,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.00300263046,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.003202856488,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003202863493,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003303035512,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003303042517,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.00350327655,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        1,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003503283555,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        1,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003703517588,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "payload_measured",
+      "position": [
+        0,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003703524593,
+      "operation_id": 1,
+      "qubit": 0,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        0,
+        2
+      ]
+    },
+    {
+      "time_s": 0.003903750621,
+      "operation_id": 2,
+      "qubit": 1,
+      "action": "payload_measured",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.003903757626,
+      "operation_id": 2,
+      "qubit": 1,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.004804475757,
+      "operation_id": 2,
+      "qubit": 1,
+      "action": "payload_measured",
+      "position": [
+        3,
+        0
+      ]
+    },
+    {
+      "time_s": 0.004804482762,
+      "operation_id": 2,
+      "qubit": 1,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        0
+      ]
+    },
+    {
+      "time_s": 0.005304894832,
+      "operation_id": 3,
+      "qubit": 2,
+      "action": "payload_measured",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.005304901837,
+      "operation_id": 3,
+      "qubit": 2,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.005805371912,
+      "operation_id": 3,
+      "qubit": 2,
+      "action": "payload_measured",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.005805378917,
+      "operation_id": 3,
+      "qubit": 2,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        1
+      ]
+    },
+    {
+      "time_s": 0.006706047048,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "payload_measured",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.006706054053,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.007206474128,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "payload_measured",
+      "position": [
+        2,
+        1
+      ]
+    },
+    {
+      "time_s": 0.007206481133,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        1
+      ]
+    },
+    {
+      "time_s": 0.009007749385,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "payload_measured",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.00900775639,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        2
+      ]
+    },
+    {
+      "time_s": 0.009608230474,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "payload_measured",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.009608237479,
+      "operation_id": 4,
+      "qubit": 3,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        3,
+        2
+      ]
+    },
+    {
+      "time_s": 0.009808471512,
+      "operation_id": 5,
+      "qubit": 4,
+      "action": "payload_measured",
+      "position": [
+        2,
+        0
+      ]
+    },
+    {
+      "time_s": 0.009808478517,
+      "operation_id": 5,
+      "qubit": 4,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        0
+      ]
+    },
+    {
+      "time_s": 0.010008754545,
+      "operation_id": 5,
+      "qubit": 4,
+      "action": "payload_measured",
+      "position": [
+        2,
+        1
+      ]
+    },
+    {
+      "time_s": 0.01000876155,
+      "operation_id": 5,
+      "qubit": 4,
+      "action": "pauli_frame_confirmed",
+      "position": [
+        2,
+        1
+      ]
+    }
+  ],
+  "cnot_tasks": [
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": 1,
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "meeting": [
+        3,
+        0
+      ],
+      "policy": "hh",
+      "placement": "restored",
+      "classical": "wired",
+      "arrival_s": 5e-08,
+      "deadline_s": 0.2,
+      "finished_s": 0.003703524593,
+      "latency_s": 0.003703474593,
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.6165545797726028,
+      "average_gate_fidelity": 0.6932436638180822,
+      "terminal_reason": "completed",
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "epr_attempts": 37,
+      "raw_pairs": 10,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 10,
+      "quantum_hops": 10,
+      "quantum_queue_wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": 2,
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "meeting": [
+        3,
+        1
+      ],
+      "policy": "hh",
+      "placement": "restored",
+      "classical": "wired",
+      "arrival_s": 0.003703524593,
+      "deadline_s": 0.2,
+      "finished_s": 0.004804482762,
+      "latency_s": 0.0011009581690000002,
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.8697927032397577,
+      "average_gate_fidelity": 0.8958341625918061,
+      "terminal_reason": "completed",
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "epr_attempts": 11,
+      "raw_pairs": 2,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 2,
+      "quantum_hops": 2,
+      "quantum_queue_wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": 3,
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "meeting": [
+        3,
+        2
+      ],
+      "policy": "hh",
+      "placement": "restored",
+      "classical": "wired",
+      "arrival_s": 0.004804482762,
+      "deadline_s": 0.2,
+      "finished_s": 0.005805378917,
+      "latency_s": 0.001000896155,
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.8778560141844068,
+      "average_gate_fidelity": 0.9022848113475256,
+      "terminal_reason": "completed",
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "epr_attempts": 10,
+      "raw_pairs": 2,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 2,
+      "quantum_hops": 2,
+      "quantum_queue_wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": 4,
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "meeting": [
+        2,
+        1
+      ],
+      "policy": "hh",
+      "placement": "restored",
+      "classical": "wired",
+      "arrival_s": 0.005805378917,
+      "deadline_s": 0.2,
+      "finished_s": 0.009608237479,
+      "latency_s": 0.0038028585619999996,
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.664407856820209,
+      "average_gate_fidelity": 0.7315262854561672,
+      "terminal_reason": "completed",
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "epr_attempts": 38,
+      "raw_pairs": 4,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 4,
+      "quantum_hops": 4,
+      "quantum_queue_wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": 5,
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        0
+      ],
+      "meeting": [
+        2,
+        0
+      ],
+      "policy": "hh",
+      "placement": "restored",
+      "classical": "wired",
+      "arrival_s": 0.009608237479,
+      "deadline_s": 0.2,
+      "finished_s": 0.01000876155,
+      "latency_s": 0.00040052407100000034,
+      "completed": true,
+      "quality_qualified": true,
+      "process_fidelity": 0.9301797759504079,
+      "average_gate_fidelity": 0.9441438207603262,
+      "terminal_reason": "completed",
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "epr_attempts": 4,
+      "raw_pairs": 2,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 2,
+      "quantum_hops": 2,
+      "quantum_queue_wait_s": 0.0
+    }
+  ],
+  "events": [
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "application_operation_started",
+      "qubits": [
+        0
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "gate:(0, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "application_gate_started",
+      "resource": "gate:(0, 2)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 5e-08,
+      "action": "single_qubit_gate",
+      "qubit": 0,
+      "duration_s": 5e-08,
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 5e-08,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "application_operation_started",
+      "qubits": [
+        0,
+        1
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "request_arrived",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "deadline_s": 0.2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "route_decision",
+      "meeting": [
+        3,
+        0
+      ],
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "observable_state_only": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "resource_admission",
+      "resource": "memory:(0, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "resource_admission",
+      "resource": "memory:(1, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5e-08,
+      "action": "resource_admission",
+      "resource": "bsm:((0, 2), (1, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 5.0083007e-05,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100114014,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100114014,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100114014,
+      "action": "pair_ready",
+      "pair_id": 0,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100214014,
+      "action": "pair_consumed",
+      "pair_id": 0,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100214014,
+      "action": "payload_measured",
+      "pair_id": 0,
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100221019,
+      "action": "classical_wired",
+      "tag": "correction:a:out:0",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100221019,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100221019,
+      "action": "resource_admission",
+      "resource": "memory:(1, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100221019,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000100221019,
+      "action": "resource_admission",
+      "resource": "bsm:((1, 2), (2, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000150254026,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000200285033,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000200285033,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00025031604,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300347047,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300347047,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300347047,
+      "action": "pair_ready",
+      "pair_id": 1,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300447047,
+      "action": "pair_consumed",
+      "pair_id": 1,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300447047,
+      "action": "payload_measured",
+      "pair_id": 1,
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "measurement_bits": 1,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300454052,
+      "action": "classical_wired",
+      "tag": "correction:a:out:1",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300454052,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 1
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300454052,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300454052,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000300454052,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 2), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000350487059,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000400518066,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000400518066,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000450549073,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00050058008,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00050058008,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000550611087,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000600642094,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000600642094,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000650673101,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000700704108,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000700704108,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000750735115,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000800766122,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000800766122,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000850797129,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000900828136,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000900828136,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 5,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.000950859143,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00100089015,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00100089015,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 6,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001050921157,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001100952164,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001100952164,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 7,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001150983171,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001201014178,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001201014178,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 8,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001251045185,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001301076192,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001301076192,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 9,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001351107199,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001401138206,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001401138206,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 10,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001451169213,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00150120022,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00150120022,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 11,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001551231227,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001601262234,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001601262234,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 12,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001651293241,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001701324248,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001701324248,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 13,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001751355255,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801386262,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801386262,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 14,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801386262,
+      "action": "pair_ready",
+      "pair_id": 2,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801486262,
+      "action": "pair_consumed",
+      "pair_id": 2,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801486262,
+      "action": "payload_measured",
+      "pair_id": 2,
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "measurement_bits": 3,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801493267,
+      "action": "classical_wired",
+      "tag": "correction:a:out:3",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801493267,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801493267,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801493267,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801493267,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 1), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001801503272,
+      "action": "classical_wired",
+      "tag": "control:a:out",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001851534279,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001901565286,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001901565286,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.001951596293,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.0020016273,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.0020016273,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002051658307,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101689314,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101689314,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 2,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101689314,
+      "action": "pair_ready",
+      "pair_id": 3,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101789314,
+      "action": "pair_consumed",
+      "pair_id": 3,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101789314,
+      "action": "payload_measured",
+      "pair_id": 3,
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "measurement_bits": 1,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101796319,
+      "action": "classical_wired",
+      "tag": "correction:a:out:1",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101796319,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 3
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101796319,
+      "action": "resource_admission",
+      "resource": "memory:(3, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101796319,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101796319,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 0), (3, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002101806324,
+      "action": "classical_wired",
+      "tag": "control:a:out",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002151837331,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201868338,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201868338,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201868338,
+      "action": "pair_ready",
+      "pair_id": 4,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201968338,
+      "action": "pair_consumed",
+      "pair_id": 4,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201968338,
+      "action": "payload_measured",
+      "pair_id": 4,
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "measurement_bits": 3,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201975343,
+      "action": "classical_wired",
+      "tag": "correction:a:out:3",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201975343,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 4
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201975343,
+      "action": "resource_admission",
+      "resource": "gate:(3, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002201975343,
+      "action": "application_gate_started",
+      "resource": "gate:(3, 0)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002202025343,
+      "action": "two_qubit_gate",
+      "meeting": [
+        3,
+        0
+      ],
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002202025343,
+      "action": "resource_admission",
+      "resource": "memory:(3, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002202025343,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002202025343,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 0), (3, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00225205835,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002302089357,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002302089357,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002352120364,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002402151371,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002402151371,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002452182378,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002502213385,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002502213385,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002552244392,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002602275399,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002602275399,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002652306406,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002702337413,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002702337413,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00275236842,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002802399427,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002802399427,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 5,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002852430434,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002902461441,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002902461441,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 6,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.002952492448,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003002523455,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003002523455,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 7,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003002523455,
+      "action": "pair_ready",
+      "pair_id": 5,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003002623455,
+      "action": "pair_consumed",
+      "pair_id": 5,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003002623455,
+      "action": "payload_measured",
+      "pair_id": 5,
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "measurement_bits": 2,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00300263046,
+      "action": "classical_wired",
+      "tag": "correction:a:return:2",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00300263046,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 5
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00300263046,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00300263046,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00300263046,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 1), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003052663467,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003102694474,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003102694474,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003152725481,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202756488,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202756488,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202756488,
+      "action": "pair_ready",
+      "pair_id": 6,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202856488,
+      "action": "pair_consumed",
+      "pair_id": 6,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202856488,
+      "action": "payload_measured",
+      "pair_id": 6,
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "measurement_bits": 2,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202863493,
+      "action": "classical_wired",
+      "tag": "correction:a:return:2",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202863493,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 6
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202863493,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202863493,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202863493,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 2), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003202873498,
+      "action": "classical_wired",
+      "tag": "control:a:return",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003252904505,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003302935512,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003302935512,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003302935512,
+      "action": "pair_ready",
+      "pair_id": 7,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303035512,
+      "action": "pair_consumed",
+      "pair_id": 7,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303035512,
+      "action": "payload_measured",
+      "pair_id": 7,
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303042517,
+      "action": "classical_wired",
+      "tag": "correction:a:return:0",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303042517,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 7
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303042517,
+      "action": "resource_admission",
+      "resource": "memory:(1, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303042517,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303042517,
+      "action": "resource_admission",
+      "resource": "bsm:((1, 2), (2, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003303052522,
+      "action": "classical_wired",
+      "tag": "control:a:return",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003353083529,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003403114536,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003403114536,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003453145543,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350317655,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350317655,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350317655,
+      "action": "pair_ready",
+      "pair_id": 8,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350327655,
+      "action": "pair_consumed",
+      "pair_id": 8,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350327655,
+      "action": "payload_measured",
+      "pair_id": 8,
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "measurement_bits": 3,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003503283555,
+      "action": "classical_wired",
+      "tag": "correction:a:return:3",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003503283555,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 8
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003503283555,
+      "action": "resource_admission",
+      "resource": "memory:(0, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003503283555,
+      "action": "resource_admission",
+      "resource": "memory:(1, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003503283555,
+      "action": "resource_admission",
+      "resource": "bsm:((0, 2), (1, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.00350329356,
+      "action": "classical_wired",
+      "tag": "control:a:return",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        0,
+        2
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003553324567,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003603355574,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003603355574,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003653386581,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703417588,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        0,
+        2
+      ],
+      "destination": [
+        1,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703417588,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703417588,
+      "action": "pair_ready",
+      "pair_id": 9,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703517588,
+      "action": "pair_consumed",
+      "pair_id": 9,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703517588,
+      "action": "payload_measured",
+      "pair_id": 9,
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        0,
+        2
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703524593,
+      "action": "classical_wired",
+      "tag": "correction:a:return:0",
+      "source": [
+        1,
+        2
+      ],
+      "destination": [
+        0,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703524593,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 9
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703524593,
+      "action": "request_terminal",
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.6165545797726028,
+      "reason": ""
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "1",
+      "time_s": 0.003703524593,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "application_operation_started",
+      "qubits": [
+        1,
+        2
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "request_arrived",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "deadline_s": 0.2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "route_decision",
+      "meeting": [
+        3,
+        1
+      ],
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "observable_state_only": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "resource_admission",
+      "resource": "memory:(3, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003703524593,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 0), (3, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.0037535576,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003803588607,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003803588607,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003853619614,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903650621,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903650621,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903650621,
+      "action": "pair_ready",
+      "pair_id": 10,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903750621,
+      "action": "pair_consumed",
+      "pair_id": 10,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903750621,
+      "action": "payload_measured",
+      "pair_id": 10,
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903757626,
+      "action": "classical_wired",
+      "tag": "correction:a:out:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903757626,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 10
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903757626,
+      "action": "resource_admission",
+      "resource": "gate:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903757626,
+      "action": "application_gate_started",
+      "resource": "gate:(3, 1)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903807626,
+      "action": "two_qubit_gate",
+      "meeting": [
+        3,
+        1
+      ],
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903807626,
+      "action": "resource_admission",
+      "resource": "memory:(3, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903807626,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903807626,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 0), (3, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003903817631,
+      "action": "classical_wired",
+      "tag": "control:a:return",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.003953848638,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004003879645,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004003879645,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004053910652,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004103941659,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004103941659,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004153972666,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004204003673,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004204003673,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.00425403468,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004304065687,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004304065687,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004354096694,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004404127701,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004404127701,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004454158708,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004504189715,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004504189715,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 5,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004554220722,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004604251729,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004604251729,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 6,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004654282736,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004704313743,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004704313743,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 7,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.00475434475,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804375757,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        0
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804375757,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 8,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804375757,
+      "action": "pair_ready",
+      "pair_id": 11,
+      "bell_fidelity": 0.985088222409429
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804475757,
+      "action": "pair_consumed",
+      "pair_id": 11,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804475757,
+      "action": "payload_measured",
+      "pair_id": 11,
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "measurement_bits": 1,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804482762,
+      "action": "classical_wired",
+      "tag": "correction:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        0
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804482762,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 11
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804482762,
+      "action": "request_terminal",
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.8697927032397577,
+      "reason": ""
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "2",
+      "time_s": 0.004804482762,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "application_operation_started",
+      "qubits": [
+        2,
+        3
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "request_arrived",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "deadline_s": 0.2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "route_decision",
+      "meeting": [
+        3,
+        2
+      ],
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "observable_state_only": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004804482762,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 1), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004854515769,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004904546776,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004904546776,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.004954577783,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.00500460879,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.00500460879,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005054639797,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005104670804,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005104670804,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005154701811,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005204732818,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005204732818,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005254763825,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304794832,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304794832,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 4,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304794832,
+      "action": "pair_ready",
+      "pair_id": 12,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304894832,
+      "action": "pair_consumed",
+      "pair_id": 12,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304894832,
+      "action": "payload_measured",
+      "pair_id": 12,
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "measurement_bits": 2,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304901837,
+      "action": "classical_wired",
+      "tag": "correction:a:out:2",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304901837,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 12
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304901837,
+      "action": "resource_admission",
+      "resource": "gate:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304901837,
+      "action": "application_gate_started",
+      "resource": "gate:(3, 2)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304951837,
+      "action": "two_qubit_gate",
+      "meeting": [
+        3,
+        2
+      ],
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304951837,
+      "action": "resource_admission",
+      "resource": "memory:(3, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304951837,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304951837,
+      "action": "resource_admission",
+      "resource": "bsm:((3, 1), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005304961842,
+      "action": "classical_wired",
+      "tag": "control:a:return",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005354992849,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005405023856,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005405023856,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005455054863,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.00550508587,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.00550508587,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005555116877,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005605147884,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005605147884,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005655178891,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005705209898,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005705209898,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005755240905,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805271912,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        3,
+        1
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805271912,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 4,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805271912,
+      "action": "pair_ready",
+      "pair_id": 13,
+      "bell_fidelity": 0.985088222409429
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805371912,
+      "action": "pair_consumed",
+      "pair_id": 13,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805371912,
+      "action": "payload_measured",
+      "pair_id": 13,
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "measurement_bits": 3,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805378917,
+      "action": "classical_wired",
+      "tag": "correction:a:return:3",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        3,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805378917,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 13
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805378917,
+      "action": "request_terminal",
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.8778560141844068,
+      "reason": ""
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.005805378917,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "application_operation_started",
+      "qubits": [
+        3,
+        4
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "request_arrived",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "deadline_s": 0.2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "route_decision",
+      "meeting": [
+        2,
+        1
+      ],
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "observable_state_only": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805378917,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 2), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005805388922,
+      "action": "classical_wired",
+      "tag": "control:a:out",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005855419929,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005905450936,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005905450936,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.005955481943,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00600551295,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00600551295,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006055543957,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006105574964,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006105574964,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006155605971,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006205636978,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006205636978,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006255667985,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006305698992,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006305698992,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006355729999,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006405761006,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006405761006,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 5,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006455792013,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00650582302,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00650582302,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 6,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006555854027,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006605885034,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006605885034,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 7,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006655916041,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006705947048,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006705947048,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 8,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006705947048,
+      "action": "pair_ready",
+      "pair_id": 14,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706047048,
+      "action": "pair_consumed",
+      "pair_id": 14,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706047048,
+      "action": "payload_measured",
+      "pair_id": 14,
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706054053,
+      "action": "classical_wired",
+      "tag": "correction:a:out:0",
+      "source": [
+        3,
+        2
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706054053,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 14
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706054053,
+      "action": "resource_admission",
+      "resource": "memory:(2, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706054053,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706054053,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 1), (2, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006706064058,
+      "action": "classical_wired",
+      "tag": "control:a:out",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006756095065,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006806126072,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006806126072,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006856157079,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006906188086,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006906188086,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.006956219093,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.0070062501,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.0070062501,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007056281107,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007106312114,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007106312114,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007156343121,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206374128,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206374128,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 4,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206374128,
+      "action": "pair_ready",
+      "pair_id": 15,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206474128,
+      "action": "pair_consumed",
+      "pair_id": 15,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206474128,
+      "action": "payload_measured",
+      "pair_id": 15,
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206481133,
+      "action": "classical_wired",
+      "tag": "correction:a:out:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206481133,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 15
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206481133,
+      "action": "resource_admission",
+      "resource": "gate:(2, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206481133,
+      "action": "application_gate_started",
+      "resource": "gate:(2, 1)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206531133,
+      "action": "two_qubit_gate",
+      "meeting": [
+        2,
+        1
+      ],
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206531133,
+      "action": "resource_admission",
+      "resource": "memory:(2, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206531133,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007206531133,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 1), (2, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00725656414,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007306595147,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007306595147,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007356626154,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007406657161,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007406657161,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007456688168,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007506719175,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007506719175,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007556750182,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007606781189,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007606781189,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007656812196,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007706843203,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007706843203,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00775687421,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007806905217,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007806905217,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 5,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007856936224,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007906967231,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007906967231,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 6,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.007956998238,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008007029245,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008007029245,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 7,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008057060252,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008107091259,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008107091259,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 8,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008157122266,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008207153273,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008207153273,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 9,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00825718428,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008307215287,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008307215287,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 10,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008357246294,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008407277301,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008407277301,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 11,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008457308308,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008507339315,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008507339315,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 12,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008557370322,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008607401329,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008607401329,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 13,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008657432336,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008707463343,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008707463343,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 14,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00875749435,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008807525357,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008807525357,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 15,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008857556364,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008907587371,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008907587371,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 16,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.008957618378,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009007649385,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009007649385,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 17,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009007649385,
+      "action": "pair_ready",
+      "pair_id": 16,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009007749385,
+      "action": "pair_consumed",
+      "pair_id": 16,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009007749385,
+      "action": "payload_measured",
+      "pair_id": 16,
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "measurement_bits": 2,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00900775639,
+      "action": "classical_wired",
+      "tag": "correction:a:return:2",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00900775639,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 16
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00900775639,
+      "action": "resource_admission",
+      "resource": "memory:(2, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00900775639,
+      "action": "resource_admission",
+      "resource": "memory:(3, 2)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00900775639,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 2), (3, 2))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009057789397,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009107820404,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009107820404,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009157851411,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009207882418,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009207882418,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009257913425,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009307944432,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009307944432,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 2,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009357975439,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009408006446,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009408006446,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 3,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009458037453,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00950806846,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.00950806846,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 4,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009558099467,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608130474,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608130474,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 5,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608130474,
+      "action": "pair_ready",
+      "pair_id": 17,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608230474,
+      "action": "pair_consumed",
+      "pair_id": 17,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608230474,
+      "action": "payload_measured",
+      "pair_id": 17,
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "measurement_bits": 2,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608237479,
+      "action": "classical_wired",
+      "tag": "correction:a:return:2",
+      "source": [
+        2,
+        2
+      ],
+      "destination": [
+        3,
+        2
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608237479,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 17
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608237479,
+      "action": "request_terminal",
+      "completed": true,
+      "quality_qualified": false,
+      "process_fidelity": 0.664407856820209,
+      "reason": ""
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "4",
+      "time_s": 0.009608237479,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "application_operation_started",
+      "qubits": [
+        4,
+        5
+      ]
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "request_arrived",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        0
+      ],
+      "deadline_s": 0.2
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "route_decision",
+      "meeting": [
+        2,
+        0
+      ],
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "observable_state_only": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "resource_admission",
+      "resource": "memory:(2, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "resource_admission",
+      "resource": "memory:(2, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608237479,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 0), (2, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009608247484,
+      "action": "classical_wired",
+      "tag": "control:a:out",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        0
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009658278491,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009708309498,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009708309498,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009758340505,
+      "action": "classical_wired",
+      "tag": "herald:a:out:0",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808371512,
+      "action": "classical_wired",
+      "tag": "herald:a:out:1",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808371512,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "phase": "a:out",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808371512,
+      "action": "pair_ready",
+      "pair_id": 18,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808471512,
+      "action": "pair_consumed",
+      "pair_id": 18,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808471512,
+      "action": "payload_measured",
+      "pair_id": 18,
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        0
+      ],
+      "measurement_bits": 0,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808478517,
+      "action": "classical_wired",
+      "tag": "correction:a:out:0",
+      "source": [
+        2,
+        1
+      ],
+      "destination": [
+        2,
+        0
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808478517,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 18
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808478517,
+      "action": "resource_admission",
+      "resource": "gate:(2, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808478517,
+      "action": "application_gate_started",
+      "resource": "gate:(2, 0)"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808528517,
+      "action": "two_qubit_gate",
+      "meeting": [
+        2,
+        0
+      ],
+      "completed": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808528517,
+      "action": "resource_admission",
+      "resource": "memory:(2, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808528517,
+      "action": "resource_admission",
+      "resource": "memory:(2, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009808528517,
+      "action": "resource_admission",
+      "resource": "bsm:((2, 0), (2, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009858561524,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009908592531,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009908592531,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 0,
+      "accepted": false
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.009958623538,
+      "action": "classical_wired",
+      "tag": "herald:a:return:0",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.010008654545,
+      "action": "classical_wired",
+      "tag": "herald:a:return:1",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 64,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.010008654545,
+      "action": "complete_epr_attempt",
+      "edge": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "phase": "a:return",
+      "attempt": 1,
+      "accepted": true
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.010008654545,
+      "action": "pair_ready",
+      "pair_id": 19,
+      "bell_fidelity": 0.9850882224094288
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.010008754545,
+      "action": "pair_consumed",
+      "pair_id": 19,
+      "reason": "payload_bell_measurement"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.010008754545,
+      "action": "payload_measured",
+      "pair_id": 19,
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "measurement_bits": 1,
+      "operand": "a"
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.01000876155,
+      "action": "classical_wired",
+      "tag": "correction:a:return:1",
+      "source": [
+        2,
+        0
+      ],
+      "destination": [
+        2,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.01000876155,
+      "action": "pauli_frame_confirmed",
+      "operand": "a",
+      "pair_id": 19
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.01000876155,
+      "action": "request_terminal",
+      "completed": true,
+      "quality_qualified": true,
+      "process_fidelity": 0.9301797759504079,
+      "reason": ""
+    },
+    {
+      "run_id": "application_replay",
+      "seed": 204,
+      "request_id": "5",
+      "time_s": 0.01000876155,
+      "action": "application_operation_terminal",
+      "completed": true,
+      "reason": "completed"
+    }
+  ]
+}

@@ -1,0 +1,1725 @@
+{
+  "depth": 28,
+  "events": [
+    {
+      "event": 0,
+      "name": "reset",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 1,
+      "name": "u",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 2,
+      "name": "reset",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 3,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 4,
+      "name": "cx",
+      "qubits": [
+        2,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 1,
+      "weight": 1
+    },
+    {
+      "event": 5,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 1,
+      "end": 2,
+      "weight": 1
+    },
+    {
+      "event": 6,
+      "name": "u",
+      "qubits": [
+        0
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 7,
+      "name": "reset",
+      "qubits": [
+        6
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 8,
+      "name": "reset",
+      "qubits": [
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 9,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 10,
+      "name": "reset",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 11,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 12,
+      "name": "reset",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 13,
+      "name": "u",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 0,
+      "weight": 0
+    },
+    {
+      "event": 14,
+      "name": "cx",
+      "qubits": [
+        14,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 0,
+      "end": 1,
+      "weight": 1
+    },
+    {
+      "event": 15,
+      "name": "cx",
+      "qubits": [
+        12,
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 1,
+      "end": 2,
+      "weight": 1
+    },
+    {
+      "event": 16,
+      "name": "u",
+      "qubits": [
+        12
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 17,
+      "name": "measure",
+      "qubits": [
+        0
+      ],
+      "classical_output": [
+        0
+      ],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 18,
+      "name": "reset",
+      "qubits": [
+        0
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 19,
+      "name": "reset",
+      "qubits": [
+        0
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 20,
+      "name": "measure",
+      "qubits": [
+        2
+      ],
+      "classical_output": [
+        1
+      ],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 21,
+      "name": "reset",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 22,
+      "name": "reset",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 23,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": 1,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 24,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": 0,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 25,
+      "name": "cx",
+      "qubits": [
+        5,
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 3,
+      "weight": 1
+    },
+    {
+      "event": 26,
+      "name": "cx",
+      "qubits": [
+        3,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 3,
+      "end": 4,
+      "weight": 1
+    },
+    {
+      "event": 27,
+      "name": "cx",
+      "qubits": [
+        5,
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 4,
+      "end": 5,
+      "weight": 1
+    },
+    {
+      "event": 28,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 29,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 30,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 31,
+      "name": "cx",
+      "qubits": [
+        5,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 6,
+      "weight": 1
+    },
+    {
+      "event": 32,
+      "name": "cx",
+      "qubits": [
+        3,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 6,
+      "end": 7,
+      "weight": 1
+    },
+    {
+      "event": 33,
+      "name": "u",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 34,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "classical_output": [
+        2
+      ],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 35,
+      "name": "reset",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 36,
+      "name": "reset",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 37,
+      "name": "measure",
+      "qubits": [
+        5
+      ],
+      "classical_output": [
+        3
+      ],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 38,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 39,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 40,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": 3,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 41,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": 2,
+      "start": 7,
+      "end": 7,
+      "weight": 0
+    },
+    {
+      "event": 42,
+      "name": "cx",
+      "qubits": [
+        8,
+        6
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 7,
+      "end": 8,
+      "weight": 1
+    },
+    {
+      "event": 43,
+      "name": "cx",
+      "qubits": [
+        6,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 8,
+      "end": 9,
+      "weight": 1
+    },
+    {
+      "event": 44,
+      "name": "cx",
+      "qubits": [
+        8,
+        6
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 9,
+      "end": 10,
+      "weight": 1
+    },
+    {
+      "event": 45,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 10,
+      "end": 10,
+      "weight": 0
+    },
+    {
+      "event": 46,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 10,
+      "end": 10,
+      "weight": 0
+    },
+    {
+      "event": 47,
+      "name": "measure",
+      "qubits": [
+        12
+      ],
+      "classical_output": [
+        4
+      ],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 48,
+      "name": "reset",
+      "qubits": [
+        12
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 49,
+      "name": "reset",
+      "qubits": [
+        12
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 50,
+      "name": "measure",
+      "qubits": [
+        14
+      ],
+      "classical_output": [
+        5
+      ],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 51,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": 5,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 52,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": 4,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 53,
+      "name": "cx",
+      "qubits": [
+        11,
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 3,
+      "weight": 1
+    },
+    {
+      "event": 54,
+      "name": "cx",
+      "qubits": [
+        9,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 3,
+      "end": 4,
+      "weight": 1
+    },
+    {
+      "event": 55,
+      "name": "cx",
+      "qubits": [
+        11,
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 4,
+      "end": 5,
+      "weight": 1
+    },
+    {
+      "event": 56,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 57,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 58,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 5,
+      "end": 5,
+      "weight": 0
+    },
+    {
+      "event": 59,
+      "name": "cx",
+      "qubits": [
+        11,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 10,
+      "end": 11,
+      "weight": 1
+    },
+    {
+      "event": 60,
+      "name": "cx",
+      "qubits": [
+        9,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 11,
+      "end": 12,
+      "weight": 1
+    },
+    {
+      "event": 61,
+      "name": "u",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 62,
+      "name": "reset",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 63,
+      "name": "reset",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 2,
+      "end": 2,
+      "weight": 0
+    },
+    {
+      "event": 64,
+      "name": "measure",
+      "qubits": [
+        9
+      ],
+      "classical_output": [
+        6
+      ],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 65,
+      "name": "reset",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 66,
+      "name": "reset",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 67,
+      "name": "measure",
+      "qubits": [
+        11
+      ],
+      "classical_output": [
+        7
+      ],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 68,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": 7,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 69,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": 6,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 70,
+      "name": "cx",
+      "qubits": [
+        8,
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 13,
+      "weight": 1
+    },
+    {
+      "event": 71,
+      "name": "cx",
+      "qubits": [
+        7,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 13,
+      "end": 14,
+      "weight": 1
+    },
+    {
+      "event": 72,
+      "name": "cx",
+      "qubits": [
+        8,
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 14,
+      "end": 15,
+      "weight": 1
+    },
+    {
+      "event": 73,
+      "name": "cx",
+      "qubits": [
+        6,
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 15,
+      "end": 16,
+      "weight": 1
+    },
+    {
+      "event": 74,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 16,
+      "end": 16,
+      "weight": 0
+    },
+    {
+      "event": 75,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 16,
+      "end": 16,
+      "weight": 0
+    },
+    {
+      "event": 76,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 16,
+      "end": 16,
+      "weight": 0
+    },
+    {
+      "event": 77,
+      "name": "cx",
+      "qubits": [
+        8,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 16,
+      "end": 17,
+      "weight": 1
+    },
+    {
+      "event": 78,
+      "name": "cx",
+      "qubits": [
+        6,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 17,
+      "end": 18,
+      "weight": 1
+    },
+    {
+      "event": 79,
+      "name": "u",
+      "qubits": [
+        6
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 80,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 81,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 12,
+      "end": 12,
+      "weight": 0
+    },
+    {
+      "event": 82,
+      "name": "measure",
+      "qubits": [
+        6
+      ],
+      "classical_output": [
+        8
+      ],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 83,
+      "name": "reset",
+      "qubits": [
+        6
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 84,
+      "name": "measure",
+      "qubits": [
+        8
+      ],
+      "classical_output": [
+        9
+      ],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 85,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": 9,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 86,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": 8,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 87,
+      "name": "cx",
+      "qubits": [
+        5,
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 19,
+      "weight": 1
+    },
+    {
+      "event": 88,
+      "name": "cx",
+      "qubits": [
+        3,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 19,
+      "end": 20,
+      "weight": 1
+    },
+    {
+      "event": 89,
+      "name": "cx",
+      "qubits": [
+        5,
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 20,
+      "end": 21,
+      "weight": 1
+    },
+    {
+      "event": 90,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 21,
+      "end": 21,
+      "weight": 0
+    },
+    {
+      "event": 91,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 21,
+      "end": 21,
+      "weight": 0
+    },
+    {
+      "event": 92,
+      "name": "u",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 21,
+      "end": 21,
+      "weight": 0
+    },
+    {
+      "event": 93,
+      "name": "cx",
+      "qubits": [
+        5,
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 21,
+      "end": 22,
+      "weight": 1
+    },
+    {
+      "event": 94,
+      "name": "cx",
+      "qubits": [
+        3,
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 22,
+      "end": 23,
+      "weight": 1
+    },
+    {
+      "event": 95,
+      "name": "u",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 96,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 97,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 98,
+      "name": "u",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 18,
+      "weight": 0
+    },
+    {
+      "event": 99,
+      "name": "cx",
+      "qubits": [
+        8,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 18,
+      "end": 19,
+      "weight": 1
+    },
+    {
+      "event": 100,
+      "name": "cx",
+      "qubits": [
+        7,
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 19,
+      "end": 20,
+      "weight": 1
+    },
+    {
+      "event": 101,
+      "name": "u",
+      "qubits": [
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 102,
+      "name": "measure",
+      "qubits": [
+        3
+      ],
+      "classical_output": [
+        10
+      ],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 103,
+      "name": "reset",
+      "qubits": [
+        3
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 104,
+      "name": "measure",
+      "qubits": [
+        5
+      ],
+      "classical_output": [
+        11
+      ],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 105,
+      "name": "u",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": 11,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 106,
+      "name": "u",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": 10,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 107,
+      "name": "cx",
+      "qubits": [
+        2,
+        0
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 24,
+      "weight": 1
+    },
+    {
+      "event": 108,
+      "name": "cx",
+      "qubits": [
+        0,
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 24,
+      "end": 25,
+      "weight": 1
+    },
+    {
+      "event": 109,
+      "name": "cx",
+      "qubits": [
+        2,
+        0
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 25,
+      "end": 26,
+      "weight": 1
+    },
+    {
+      "event": 110,
+      "name": "reset",
+      "qubits": [
+        2
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 26,
+      "end": 26,
+      "weight": 0
+    },
+    {
+      "event": 111,
+      "name": "reset",
+      "qubits": [
+        5
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 112,
+      "name": "measure",
+      "qubits": [
+        7
+      ],
+      "classical_output": [
+        12
+      ],
+      "condition_bit": null,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 113,
+      "name": "reset",
+      "qubits": [
+        7
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 114,
+      "name": "measure",
+      "qubits": [
+        8
+      ],
+      "classical_output": [
+        13
+      ],
+      "condition_bit": null,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 115,
+      "name": "reset",
+      "qubits": [
+        8
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 116,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": 13,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 117,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": 12,
+      "start": 20,
+      "end": 20,
+      "weight": 0
+    },
+    {
+      "event": 118,
+      "name": "cx",
+      "qubits": [
+        11,
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 20,
+      "end": 21,
+      "weight": 1
+    },
+    {
+      "event": 119,
+      "name": "cx",
+      "qubits": [
+        9,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 21,
+      "end": 22,
+      "weight": 1
+    },
+    {
+      "event": 120,
+      "name": "cx",
+      "qubits": [
+        11,
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 22,
+      "end": 23,
+      "weight": 1
+    },
+    {
+      "event": 121,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 122,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 123,
+      "name": "u",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 23,
+      "weight": 0
+    },
+    {
+      "event": 124,
+      "name": "cx",
+      "qubits": [
+        11,
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 23,
+      "end": 24,
+      "weight": 1
+    },
+    {
+      "event": 125,
+      "name": "cx",
+      "qubits": [
+        9,
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 24,
+      "end": 25,
+      "weight": 1
+    },
+    {
+      "event": 126,
+      "name": "u",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 127,
+      "name": "measure",
+      "qubits": [
+        9
+      ],
+      "classical_output": [
+        14
+      ],
+      "condition_bit": null,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 128,
+      "name": "reset",
+      "qubits": [
+        9
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 129,
+      "name": "measure",
+      "qubits": [
+        11
+      ],
+      "classical_output": [
+        15
+      ],
+      "condition_bit": null,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 130,
+      "name": "reset",
+      "qubits": [
+        11
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 131,
+      "name": "u",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": 15,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 132,
+      "name": "u",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": 14,
+      "start": 25,
+      "end": 25,
+      "weight": 0
+    },
+    {
+      "event": 133,
+      "name": "cx",
+      "qubits": [
+        14,
+        12
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 25,
+      "end": 26,
+      "weight": 1
+    },
+    {
+      "event": 134,
+      "name": "cx",
+      "qubits": [
+        12,
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 26,
+      "end": 27,
+      "weight": 1
+    },
+    {
+      "event": 135,
+      "name": "cx",
+      "qubits": [
+        14,
+        12
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 27,
+      "end": 28,
+      "weight": 1
+    },
+    {
+      "event": 136,
+      "name": "reset",
+      "qubits": [
+        14
+      ],
+      "classical_output": [],
+      "condition_bit": null,
+      "start": 28,
+      "end": 28,
+      "weight": 0
+    }
+  ],
+  "metric": "cx",
+  "concurrency": "one_primitive_per_core",
+  "conditional_count_scope": "positive correction reservation upper envelope"
+}

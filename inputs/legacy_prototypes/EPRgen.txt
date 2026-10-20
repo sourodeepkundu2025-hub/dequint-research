@@ -1,0 +1,39 @@
+Latencies (Outputs):
+1. Alice/Bob sends control packet to EPRGen through CC (Request) 
+2. EPR Generation (Entanglement)
+3. Sending entangled bits to Alice/Bob (distribution)
+4. Preprocessing: forming data packets
+5. Classical communication between wireless routers.
+
+Qubit i from core Alice has been moved adjacent to qubit j of core Bob (If {i,j} are the input qubit pairs) 
+
+Inputs: i, j (from user)
+
+Components:
+1. Core Alice: 
+    a) qubits(aka photons)
+    b) quantum memory
+    c) wireless router
+    d) control packet (Alice): sent through CC to the EPRGen
+        i) Header (src: core Alice, initial_dest: epr, actual_dest: core Bob)
+2. EPR Generator: 2D Matrix (table): Implemented using Queue data structure (FIFO)
+    a) Index
+    b) source (the sender of the request)
+    c) destination (EPR generator, fixed, can be abstracted)
+    e) core pairs (contains the cores which needs EPR) , (can be attained from the source and destination in the control packet)
+    f) EPR bit (distributed to Alice and Bob through QC): distribution on the basis of core pairs (sent to the QMs of Alice/Bob)
+
+*continued...
+1. b) After receiving the EPR bit into the QM the requested qubit enters the QM 
+    i) Data packets (Header: {src, actual_dest}, Payload: empty (64 bytes)): Now we append the quantum memory data (qubit + EPR bit) to the data packets [aka pre-processing]
+
+   e) Intra-core Classical channel (to send the processed data packet to the wireless router)
+
+3. Wireless Routers: sends processed data packet wireless through Classical channel to the wireless router of the actual_dest (Bob)
+
+
+4. Bob: (*contains all the Components of Alice)
+    a) Wireless router: receives data packet from Alice via wireless router
+    b) Post processing: reconstruction of the received data packet using the EPR bit Bob originally has.
+
+5. Prints the success line

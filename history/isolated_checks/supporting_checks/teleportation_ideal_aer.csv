@@ -1,0 +1,11 @@
+state,fidelity,qubits,shots,transpiled_depth,backend
+zero,0.9999999999999999,3,1024,6,Aer density_matrix ideal
+one,0.9999999999999999,3,1024,6,Aer density_matrix ideal
+plus,0.9999999999999998,3,1024,6,Aer density_matrix ideal
+minus,0.9999999999999998,3,1024,6,Aer density_matrix ideal
+phase,0.9999999999999998,3,1024,6,Aer density_matrix ideal
+random_1,0.9999999999999994,3,1024,6,Aer density_matrix ideal
+random_2,1.0000000000000013,3,1024,6,Aer density_matrix ideal
+random_3,1.0000000000000002,3,1024,6,Aer density_matrix ideal
+random_4,1.0000000000000002,3,1024,6,Aer density_matrix ideal
+random_5,0.9999999999999993,3,1024,6,Aer density_matrix ideal

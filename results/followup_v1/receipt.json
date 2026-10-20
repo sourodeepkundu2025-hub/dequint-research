@@ -1,0 +1,14 @@
+{
+  "runs": 300,
+  "groups": [
+    "native",
+    "applications",
+    "controls"
+  ],
+  "elapsed_wall_s": 182.04982279997785,
+  "summary_sha256": "6bdfd76731b7b13ab2d511ee025dd17db3b8b9e4e1fbcfdb1ddeccd7f671e0ab",
+  "resource_leaks": 0,
+  "native_gates_offered": 172,
+  "applications_offered": 128,
+  "control_gates_offered": 2304
+}

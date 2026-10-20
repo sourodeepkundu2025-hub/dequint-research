@@ -1,0 +1,84 @@
+{
+  "seed": 20261020,
+  "trials_per_model": 32,
+  "native_execution": true,
+  "whole_mesh_validated": false,
+  "hardware": false,
+  "models": {
+    "generation": {
+      "trials": 32,
+      "successes": 15,
+      "observed_success_fraction": 0.46875,
+      "wilson_95_interval": [
+        0.30869387108068835,
+        0.6355048288102536
+      ],
+      "expected_success_probability": 0.5,
+      "conditional_state_fidelity": 1.0,
+      "expected_conditional_fidelity": 1,
+      "max_fidelity_error": 0.0,
+      "mean_success_latency_s": 6.501251e-05
+    },
+    "teleportation": {
+      "trials": 32,
+      "successes": 32,
+      "observed_success_fraction": 1.0,
+      "wilson_95_interval": [
+        0.8928208017449293,
+        1
+      ],
+      "expected_success_probability": null,
+      "conditional_state_fidelity": 1.0,
+      "expected_conditional_fidelity": 1,
+      "max_fidelity_error": 4.440892098500626e-16,
+      "mean_success_latency_s": 0.015833451181875
+    },
+    "bbpssw": {
+      "trials": 32,
+      "successes": 22,
+      "observed_success_fraction": 0.6875,
+      "wilson_95_interval": [
+        0.5143332169904459,
+        0.8204745836639026
+      ],
+      "expected_success_probability": 0.768888888888889,
+      "conditional_state_fidelity": 0.8381502890173403,
+      "expected_conditional_fidelity": 0.8381502890173411,
+      "max_fidelity_error": 1.2212453270876722e-15,
+      "mean_success_latency_s": 9.999999999999999e-06
+    },
+    "swapping": {
+      "trials": 32,
+      "successes": 20,
+      "observed_success_fraction": 0.625,
+      "wilson_95_interval": [
+        0.4525440735307745,
+        0.7706611269054578
+      ],
+      "expected_success_probability": 0.6,
+      "conditional_state_fidelity": 0.7266666666666667,
+      "expected_conditional_fidelity": 0.7266666666666668,
+      "max_fidelity_error": 1.1102230246251565e-16,
+      "mean_success_latency_s": 9.999999999999999e-06
+    }
+  },
+  "conditional_fidelity_checks_passed": true,
+  "all_models_observed_success": true,
+  "rate_agreement_certified": false,
+  "known_discrepancies": [
+    "Native circuit swapping scalar metadata uses F_a*F_b*degradation, whereas its ideal Werner quantum-manager state includes Pauli cancellation: F_a*F_b+(1-F_a)*(1-F_b)/3."
+  ],
+  "assumptions": [
+    "native time unit picoseconds; exported seconds use 1e-12",
+    "generation is one complete two-round Barrett-Kok attempt, ideal detectors/emission and zero attenuation",
+    "teleportation uses official example parameters, native reservation/retries and classical correction bits",
+    "input amplitudes are prepared once; never transported in classical messages",
+    "BBPSSW starts from equal independent Werner density matrices, ideal operations, no output twirl applied",
+    "BBPSSW metadata requires Werner twirling before another recurrence; native start rejects F<=0.5",
+    "swapping prepares independent Werner matrices, configured success=0.6 and degradation=1",
+    "rate estimates include failures; small-sample rate agreement is not certified",
+    "photon_emissions counts native send-qubit calls, including null-encoded BK photon objects; clicks are separate",
+    "standalone protocol resource recorder resets RAW memories; not a full resource-manager/network validation",
+    "run serially or in isolated process; native global settings are restored on exit"
+  ]
+}

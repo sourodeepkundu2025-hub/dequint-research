@@ -1,0 +1,46 @@
+{
+  "policy": "sabre_swap",
+  "seed": 202,
+  "routing_swaps": 5,
+  "return_swaps": 5,
+  "swap_edges": [
+    [
+      2,
+      0
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      11,
+      8
+    ],
+    [
+      14,
+      12
+    ]
+  ],
+  "restored": true,
+  "router_final_layout": {
+    "<Qubit register=(15, \"q\"), index=0>": 11,
+    "<Qubit register=(15, \"q\"), index=1>": 1,
+    "<Qubit register=(15, \"q\"), index=2>": 0,
+    "<Qubit register=(15, \"q\"), index=3>": 3,
+    "<Qubit register=(15, \"q\"), index=4>": 4,
+    "<Qubit register=(15, \"q\"), index=5>": 2,
+    "<Qubit register=(15, \"q\"), index=6>": 6,
+    "<Qubit register=(15, \"q\"), index=7>": 7,
+    "<Qubit register=(15, \"q\"), index=8>": 5,
+    "<Qubit register=(15, \"q\"), index=9>": 9,
+    "<Qubit register=(15, \"q\"), index=10>": 10,
+    "<Qubit register=(15, \"q\"), index=11>": 8,
+    "<Qubit register=(15, \"q\"), index=12>": 14,
+    "<Qubit register=(15, \"q\"), index=13>": 13,
+    "<Qubit register=(15, \"q\"), index=14>": 12
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "pinned_source_commit": "88f92cca8aaa6dbf82bccc6a759465120afbdd34",
+  "actual_head": "88f92cca8aaa6dbf82bccc6a759465120afbdd34",
+  "version": "1.3.0",
+  "pinned_commit_is_ancestor": true,
+  "reviewed_sources_clean": true,
+  "source_comparison": "UTF-8 text with CRLF/LF normalized; raw byte hashes retained",
+  "installed_package": "<LOCAL_HOME>\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\CodexResearch\\venvs\\dequint-py312\\Lib\\site-packages\\sequence",
+  "reviewed_checkout": "<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\SeQUeNCe",
+  "timeline_source": "<LOCAL_HOME>\\AppData\\Local\\CodexResearch\\venvs\\dequint-py312\\Lib\\site-packages\\sequence\\kernel\\timeline.py",
+  "source_hashes": [
+    {
+      "path": "sequence/kernel/timeline.py",
+      "reviewed_sha256": "2952b07d7ecb836832322055c9a05cfb768b34d10c022b3c26b2cb1d6b356865",
+      "installed_sha256": "246ab0a201a729f26f2e824c18ae2943c7e611a7cce890eade12b32df9d9972e",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "2952b07d7ecb836832322055c9a05cfb768b34d10c022b3c26b2cb1d6b356865",
+      "normalized_lf_sha256": "246ab0a201a729f26f2e824c18ae2943c7e611a7cce890eade12b32df9d9972e",
+      "matches": true
+    },
+    {
+      "path": "sequence/kernel/quantum_manager/ket_vector.py",
+      "reviewed_sha256": "fa9dc6b9d76a1d632d9b8e1abedc136eeb5dd34ee4c7abeb6acf97081f6e3453",
+      "installed_sha256": "1afe1b6563422e5919c1911e9280bbf41d9fa6f0b13c660b04156be1849a36b3",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "fa9dc6b9d76a1d632d9b8e1abedc136eeb5dd34ee4c7abeb6acf97081f6e3453",
+      "normalized_lf_sha256": "1afe1b6563422e5919c1911e9280bbf41d9fa6f0b13c660b04156be1849a36b3",
+      "matches": true
+    },
+    {
+      "path": "sequence/kernel/quantum_manager/density_matrix.py",
+      "reviewed_sha256": "c5457c8b703428cdbe22746932d27402dd532f5d2460f8d1e673cd535222a004",
+      "installed_sha256": "7102d0fc7e65ac252694c504389be021f7f61a39026792bf8ec3ed71345d3f10",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "c5457c8b703428cdbe22746932d27402dd532f5d2460f8d1e673cd535222a004",
+      "normalized_lf_sha256": "7102d0fc7e65ac252694c504389be021f7f61a39026792bf8ec3ed71345d3f10",
+      "matches": true
+    },
+    {
+      "path": "sequence/components/memory.py",
+      "reviewed_sha256": "248ceae4da031d7c89306a739c2d0e9b1f93e77678886fbdd3025b09a3b286ca",
+      "installed_sha256": "ed9f5cb655b25e6a7fb5f66d206469bd7a0c6a48bb68d00afab116a26c77c09b",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "248ceae4da031d7c89306a739c2d0e9b1f93e77678886fbdd3025b09a3b286ca",
+      "normalized_lf_sha256": "ed9f5cb655b25e6a7fb5f66d206469bd7a0c6a48bb68d00afab116a26c77c09b",
+      "matches": true
+    },
+    {
+      "path": "sequence/components/photon.py",
+      "reviewed_sha256": "2329b54f720772cc9594e9a6faf71c1e11e63e421729653f31b93f7f20c5c68c",
+      "installed_sha256": "48f413aa216d30f0fe659e7689447735688e825487159e89b2c809ce899a2079",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "2329b54f720772cc9594e9a6faf71c1e11e63e421729653f31b93f7f20c5c68c",
+      "normalized_lf_sha256": "48f413aa216d30f0fe659e7689447735688e825487159e89b2c809ce899a2079",
+      "matches": true
+    },
+    {
+      "path": "sequence/components/detector.py",
+      "reviewed_sha256": "c80ade8bc27ebe0e41982319c6352fd0560e5796e5612b5ed8e6b8e86beb1ef7",
+      "installed_sha256": "79c933d2b7edcb40d8472c5483815cddef8baf34e0db76f92ae2b0b4ab582549",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "c80ade8bc27ebe0e41982319c6352fd0560e5796e5612b5ed8e6b8e86beb1ef7",
+      "normalized_lf_sha256": "79c933d2b7edcb40d8472c5483815cddef8baf34e0db76f92ae2b0b4ab582549",
+      "matches": true
+    },
+    {
+      "path": "sequence/components/bsm.py",
+      "reviewed_sha256": "8241ce53c0817f661cfa256b46607c1d5e14fdd7f0df38e12c84a2f532c86715",
+      "installed_sha256": "0a812ae6cbe5199d186fed56446b536e5cc384f77ee58303bd269465961a166a",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "8241ce53c0817f661cfa256b46607c1d5e14fdd7f0df38e12c84a2f532c86715",
+      "normalized_lf_sha256": "0a812ae6cbe5199d186fed56446b536e5cc384f77ee58303bd269465961a166a",
+      "matches": true
+    },
+    {
+      "path": "sequence/components/optical_channel.py",
+      "reviewed_sha256": "a3705093cebad66273c638b0a400c38eb5e35c763c85c01b87e715213f4f1126",
+      "installed_sha256": "080acc06561130f89136c28a3baa4abf06a98205b6ec275404eab4724149bc68",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "a3705093cebad66273c638b0a400c38eb5e35c763c85c01b87e715213f4f1126",
+      "normalized_lf_sha256": "080acc06561130f89136c28a3baa4abf06a98205b6ec275404eab4724149bc68",
+      "matches": true
+    },
+    {
+      "path": "sequence/topology/node.py",
+      "reviewed_sha256": "c117e0e88da4b3ca2ed9cab51a4336908247561c5b116c9a99d34f3abc732a69",
+      "installed_sha256": "3acad4e9f9b9d2f0e0819794476bb5efe8f42410d356119b5f8aed3666ce8fa6",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "c117e0e88da4b3ca2ed9cab51a4336908247561c5b116c9a99d34f3abc732a69",
+      "normalized_lf_sha256": "3acad4e9f9b9d2f0e0819794476bb5efe8f42410d356119b5f8aed3666ce8fa6",
+      "matches": true
+    },
+    {
+      "path": "sequence/topology/dqc_net_topo.py",
+      "reviewed_sha256": "ce873e5509dbdbd6f0bf64046c325725cc6d065be0d11ceae2e7166576ef3c93",
+      "installed_sha256": "cb17c21284c6ac371707e84172a7663bdda667ea318fb24b0db264c35fa8aab4",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "ce873e5509dbdbd6f0bf64046c325725cc6d065be0d11ceae2e7166576ef3c93",
+      "normalized_lf_sha256": "cb17c21284c6ac371707e84172a7663bdda667ea318fb24b0db264c35fa8aab4",
+      "matches": true
+    },
+    {
+      "path": "sequence/entanglement_management/generation/barret_kok.py",
+      "reviewed_sha256": "4ae5646c79e82b68f6cd9e0f133b88cd3ad31e8fc04db148f99d301a8c4f5ca1",
+      "installed_sha256": "65d80e8481f7232cb49ece1bc938c9c8152058801930720868cac59c6423e9aa",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "4ae5646c79e82b68f6cd9e0f133b88cd3ad31e8fc04db148f99d301a8c4f5ca1",
+      "normalized_lf_sha256": "65d80e8481f7232cb49ece1bc938c9c8152058801930720868cac59c6423e9aa",
+      "matches": true
+    },
+    {
+      "path": "sequence/entanglement_management/generation/generation_base.py",
+      "reviewed_sha256": "c6c6f8a1624ceae6eb4d1bbd2d582520ab5451c43ed693a74eafada00d7d9790",
+      "installed_sha256": "8338cbb8ab1680a9d759871c91bb8d8c4198a5198408e8060c9be2bd8adc4fb3",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "c6c6f8a1624ceae6eb4d1bbd2d582520ab5451c43ed693a74eafada00d7d9790",
+      "normalized_lf_sha256": "8338cbb8ab1680a9d759871c91bb8d8c4198a5198408e8060c9be2bd8adc4fb3",
+      "matches": true
+    },
+    {
+      "path": "sequence/entanglement_management/purification/bbpssw_circuit.py",
+      "reviewed_sha256": "17df56e1167fee82283abd4664abf88ea4aa67132f77fba0fd39fc050629aea3",
+      "installed_sha256": "3e49eb99aef6a333b8ff626c14dbb2a8d09a98e78fbf76bf60231515689f039a",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "17df56e1167fee82283abd4664abf88ea4aa67132f77fba0fd39fc050629aea3",
+      "normalized_lf_sha256": "3e49eb99aef6a333b8ff626c14dbb2a8d09a98e78fbf76bf60231515689f039a",
+      "matches": true
+    },
+    {
+      "path": "sequence/entanglement_management/swapping/swapping_circuit.py",
+      "reviewed_sha256": "545e0734cfd6f27ccfc9e8b73827e48fd2bea61fad8f7a2dc96c23d386539497",
+      "installed_sha256": "c74488eec90dbae69dd19d74b2e18385e705e7131e7d4455c74a69619d3f8283",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "545e0734cfd6f27ccfc9e8b73827e48fd2bea61fad8f7a2dc96c23d386539497",
+      "normalized_lf_sha256": "c74488eec90dbae69dd19d74b2e18385e705e7131e7d4455c74a69619d3f8283",
+      "matches": true
+    },
+    {
+      "path": "sequence/entanglement_management/teleportation.py",
+      "reviewed_sha256": "1444c03d8242c05b56596d6f80b54aa1d3ad64a8f504d6a0b1a353da5b120625",
+      "installed_sha256": "146e7204d58608cdec8bd2a84649edace9a15938833314fb33d0f17ed3f801de",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "1444c03d8242c05b56596d6f80b54aa1d3ad64a8f504d6a0b1a353da5b120625",
+      "normalized_lf_sha256": "146e7204d58608cdec8bd2a84649edace9a15938833314fb33d0f17ed3f801de",
+      "matches": true
+    },
+    {
+      "path": "sequence/app/teleport_app.py",
+      "reviewed_sha256": "2e4f7842558bb538b5d2a1cdf77e11f34977696d135badd24f3d5f25efce824a",
+      "installed_sha256": "3d0805d61ba51e719ca5b2a5653cdf70d6d0ce2de900ae69a95ff198dbdb3667",
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "2e4f7842558bb538b5d2a1cdf77e11f34977696d135badd24f3d5f25efce824a",
+      "normalized_lf_sha256": "3d0805d61ba51e719ca5b2a5653cdf70d6d0ce2de900ae69a95ff198dbdb3667",
+      "matches": true
+    },
+    {
+      "path": "example/demo_for_beginners/teleport_2node.json",
+      "reviewed_sha256": "45fd8c9b0a5522580f4cf3b277b07b9801db36c335a99e5f588c2166e1a22949",
+      "installed_sha256": null,
+      "raw_bytes_match": false,
+      "pinned_blob_sha256": "45fd8c9b0a5522580f4cf3b277b07b9801db36c335a99e5f588c2166e1a22949",
+      "normalized_lf_sha256": "83cc592257f3eec3d119ba1684a50439eff243babf549e4c4ab713073dbe79c6",
+      "matches": true
+    }
+  ]
+}

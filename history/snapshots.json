@@ -1,0 +1,44 @@
+[
+  {
+    "source_commit": "c7397bb97c97554cfc868c302e5a76c9f119b0b9",
+    "folder": "history/rebuild_snapshots/c7397bb97c97",
+    "files": 28,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "dc4040d84f9fc91b132a57076aa052612cf6cbd5",
+    "folder": "history/rebuild_snapshots/dc4040d84f9f",
+    "files": 28,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "9d3739e25bf0879cadd9875cd028db0299c5f93c",
+    "folder": "history/rebuild_snapshots/9d3739e25bf0",
+    "files": 35,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "e0331118b3779ce8def1d7713e0e18239ad85bc3",
+    "folder": "history/rebuild_snapshots/e0331118b377",
+    "files": 39,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "69e1cec1e7e80bbe4a4547230b2b13d5146da129",
+    "folder": "history/rebuild_snapshots/69e1cec1e7e8",
+    "files": 44,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "4ef6a256c5d9f6d965e80f75cd89fb26df22658a",
+    "folder": "history/rebuild_snapshots/4ef6a256c5d9",
+    "files": 44,
+    "status": "historical source snapshot, not current entry point"
+  },
+  {
+    "source_commit": "9e492810e62fe83384e1f85ad00e761f4db77a5d",
+    "folder": "history/rebuild_snapshots/9e492810e62f",
+    "files": 53,
+    "status": "historical source snapshot, not current entry point"
+  }
+]

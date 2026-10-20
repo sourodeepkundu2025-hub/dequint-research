@@ -1,0 +1,626 @@
+[
+  {
+    "request_id": 0,
+    "source": [
+      2,
+      3
+    ],
+    "destination": [
+      14,
+      11
+    ],
+    "arrival_s": 4.933541955684351e-07,
+    "deadline_s": 0.010000493354195568
+  },
+  {
+    "request_id": 1,
+    "source": [
+      4,
+      8
+    ],
+    "destination": [
+      6,
+      4
+    ],
+    "arrival_s": 3.3741141087856e-06,
+    "deadline_s": 0.010003374114108786
+  },
+  {
+    "request_id": 2,
+    "source": [
+      10,
+      10
+    ],
+    "destination": [
+      0,
+      9
+    ],
+    "arrival_s": 2.6681062429276112e-05,
+    "deadline_s": 0.010026681062429276
+  },
+  {
+    "request_id": 3,
+    "source": [
+      0,
+      0
+    ],
+    "destination": [
+      0,
+      1
+    ],
+    "arrival_s": 2.8123409640399345e-05,
+    "deadline_s": 0.0100281234096404
+  },
+  {
+    "request_id": 4,
+    "source": [
+      5,
+      5
+    ],
+    "destination": [
+      0,
+      11
+    ],
+    "arrival_s": 3.0113158416316253e-05,
+    "deadline_s": 0.010030113158416317
+  },
+  {
+    "request_id": 5,
+    "source": [
+      12,
+      4
+    ],
+    "destination": [
+      14,
+      11
+    ],
+    "arrival_s": 3.233417374670518e-05,
+    "deadline_s": 0.010032334173746705
+  },
+  {
+    "request_id": 6,
+    "source": [
+      7,
+      5
+    ],
+    "destination": [
+      3,
+      14
+    ],
+    "arrival_s": 3.426508484460626e-05,
+    "deadline_s": 0.010034265084844606
+  },
+  {
+    "request_id": 7,
+    "source": [
+      9,
+      12
+    ],
+    "destination": [
+      1,
+      12
+    ],
+    "arrival_s": 4.1528568374165976e-05,
+    "deadline_s": 0.010041528568374166
+  },
+  {
+    "request_id": 8,
+    "source": [
+      11,
+      2
+    ],
+    "destination": [
+      0,
+      0
+    ],
+    "arrival_s": 5.5086924341441626e-05,
+    "deadline_s": 0.010055086924341441
+  },
+  {
+    "request_id": 9,
+    "source": [
+      4,
+      14
+    ],
+    "destination": [
+      8,
+      6
+    ],
+    "arrival_s": 6.0676256854508975e-05,
+    "deadline_s": 0.01006067625685451
+  },
+  {
+    "request_id": 10,
+    "source": [
+      0,
+      13
+    ],
+    "destination": [
+      7,
+      0
+    ],
+    "arrival_s": 6.433534114887517e-05,
+    "deadline_s": 0.010064335341148875
+  },
+  {
+    "request_id": 11,
+    "source": [
+      8,
+      5
+    ],
+    "destination": [
+      11,
+      12
+    ],
+    "arrival_s": 9.01481263640287e-05,
+    "deadline_s": 0.010090148126364029
+  },
+  {
+    "request_id": 12,
+    "source": [
+      6,
+      4
+    ],
+    "destination": [
+      9,
+      5
+    ],
+    "arrival_s": 9.260404301767854e-05,
+    "deadline_s": 0.01009260404301768
+  },
+  {
+    "request_id": 13,
+    "source": [
+      14,
+      6
+    ],
+    "destination": [
+      7,
+      6
+    ],
+    "arrival_s": 0.00010138264479657238,
+    "deadline_s": 0.010101382644796573
+  },
+  {
+    "request_id": 14,
+    "source": [
+      8,
+      2
+    ],
+    "destination": [
+      0,
+      6
+    ],
+    "arrival_s": 0.00010707779804537949,
+    "deadline_s": 0.01010707779804538
+  },
+  {
+    "request_id": 15,
+    "source": [
+      10,
+      5
+    ],
+    "destination": [
+      9,
+      1
+    ],
+    "arrival_s": 0.00011033136614081047,
+    "deadline_s": 0.01011033136614081
+  },
+  {
+    "request_id": 16,
+    "source": [
+      1,
+      1
+    ],
+    "destination": [
+      12,
+      0
+    ],
+    "arrival_s": 0.00011445561041008115,
+    "deadline_s": 0.010114455610410081
+  },
+  {
+    "request_id": 17,
+    "source": [
+      13,
+      1
+    ],
+    "destination": [
+      6,
+      8
+    ],
+    "arrival_s": 0.0001269599599307116,
+    "deadline_s": 0.010126959959930713
+  },
+  {
+    "request_id": 18,
+    "source": [
+      9,
+      2
+    ],
+    "destination": [
+      1,
+      2
+    ],
+    "arrival_s": 0.00013339422760709423,
+    "deadline_s": 0.010133394227607095
+  },
+  {
+    "request_id": 19,
+    "source": [
+      3,
+      11
+    ],
+    "destination": [
+      10,
+      10
+    ],
+    "arrival_s": 0.00014217886680001186,
+    "deadline_s": 0.010142178866800012
+  },
+  {
+    "request_id": 20,
+    "source": [
+      14,
+      10
+    ],
+    "destination": [
+      5,
+      12
+    ],
+    "arrival_s": 0.00014668849564852696,
+    "deadline_s": 0.010146688495648527
+  },
+  {
+    "request_id": 21,
+    "source": [
+      6,
+      15
+    ],
+    "destination": [
+      4,
+      6
+    ],
+    "arrival_s": 0.00014675138926242856,
+    "deadline_s": 0.010146751389262429
+  },
+  {
+    "request_id": 22,
+    "source": [
+      7,
+      5
+    ],
+    "destination": [
+      6,
+      0
+    ],
+    "arrival_s": 0.00016725884988407082,
+    "deadline_s": 0.010167258849884071
+  },
+  {
+    "request_id": 23,
+    "source": [
+      13,
+      14
+    ],
+    "destination": [
+      14,
+      4
+    ],
+    "arrival_s": 0.00017088039775998664,
+    "deadline_s": 0.010170880397759987
+  },
+  {
+    "request_id": 24,
+    "source": [
+      13,
+      7
+    ],
+    "destination": [
+      13,
+      0
+    ],
+    "arrival_s": 0.0001736212087893531,
+    "deadline_s": 0.010173621208789353
+  },
+  {
+    "request_id": 25,
+    "source": [
+      13,
+      14
+    ],
+    "destination": [
+      4,
+      12
+    ],
+    "arrival_s": 0.00019192217737964,
+    "deadline_s": 0.01019192217737964
+  },
+  {
+    "request_id": 26,
+    "source": [
+      6,
+      5
+    ],
+    "destination": [
+      5,
+      6
+    ],
+    "arrival_s": 0.0002034691830890461,
+    "deadline_s": 0.010203469183089047
+  },
+  {
+    "request_id": 27,
+    "source": [
+      5,
+      9
+    ],
+    "destination": [
+      10,
+      9
+    ],
+    "arrival_s": 0.00020788483581656687,
+    "deadline_s": 0.010207884835816567
+  },
+  {
+    "request_id": 28,
+    "source": [
+      12,
+      11
+    ],
+    "destination": [
+      13,
+      15
+    ],
+    "arrival_s": 0.00021257557676213643,
+    "deadline_s": 0.010212575576762136
+  },
+  {
+    "request_id": 29,
+    "source": [
+      15,
+      9
+    ],
+    "destination": [
+      6,
+      8
+    ],
+    "arrival_s": 0.0002168542215600408,
+    "deadline_s": 0.01021685422156004
+  },
+  {
+    "request_id": 30,
+    "source": [
+      13,
+      14
+    ],
+    "destination": [
+      3,
+      14
+    ],
+    "arrival_s": 0.00021866756957721298,
+    "deadline_s": 0.010218667569577213
+  },
+  {
+    "request_id": 31,
+    "source": [
+      7,
+      0
+    ],
+    "destination": [
+      3,
+      12
+    ],
+    "arrival_s": 0.0002228524723604239,
+    "deadline_s": 0.010222852472360424
+  },
+  {
+    "request_id": 32,
+    "source": [
+      5,
+      11
+    ],
+    "destination": [
+      11,
+      11
+    ],
+    "arrival_s": 0.00024456687859979474,
+    "deadline_s": 0.010244566878599795
+  },
+  {
+    "request_id": 33,
+    "source": [
+      4,
+      12
+    ],
+    "destination": [
+      10,
+      3
+    ],
+    "arrival_s": 0.00025018754947939197,
+    "deadline_s": 0.010250187549479392
+  },
+  {
+    "request_id": 34,
+    "source": [
+      12,
+      10
+    ],
+    "destination": [
+      2,
+      14
+    ],
+    "arrival_s": 0.00025314845354575203,
+    "deadline_s": 0.010253148453545751
+  },
+  {
+    "request_id": 35,
+    "source": [
+      7,
+      12
+    ],
+    "destination": [
+      0,
+      15
+    ],
+    "arrival_s": 0.00025693502192411055,
+    "deadline_s": 0.01025693502192411
+  },
+  {
+    "request_id": 36,
+    "source": [
+      11,
+      0
+    ],
+    "destination": [
+      2,
+      9
+    ],
+    "arrival_s": 0.00025923398854632806,
+    "deadline_s": 0.010259233988546328
+  },
+  {
+    "request_id": 37,
+    "source": [
+      15,
+      13
+    ],
+    "destination": [
+      8,
+      13
+    ],
+    "arrival_s": 0.0002731011434638509,
+    "deadline_s": 0.010273101143463852
+  },
+  {
+    "request_id": 38,
+    "source": [
+      1,
+      2
+    ],
+    "destination": [
+      14,
+      10
+    ],
+    "arrival_s": 0.00027387449042532265,
+    "deadline_s": 0.010273874490425322
+  },
+  {
+    "request_id": 39,
+    "source": [
+      1,
+      5
+    ],
+    "destination": [
+      4,
+      3
+    ],
+    "arrival_s": 0.0002778472590438305,
+    "deadline_s": 0.010277847259043831
+  },
+  {
+    "request_id": 40,
+    "source": [
+      6,
+      11
+    ],
+    "destination": [
+      3,
+      6
+    ],
+    "arrival_s": 0.00030188426045233395,
+    "deadline_s": 0.010301884260452334
+  },
+  {
+    "request_id": 41,
+    "source": [
+      1,
+      13
+    ],
+    "destination": [
+      0,
+      2
+    ],
+    "arrival_s": 0.00030511811316404476,
+    "deadline_s": 0.010305118113164044
+  },
+  {
+    "request_id": 42,
+    "source": [
+      4,
+      3
+    ],
+    "destination": [
+      3,
+      4
+    ],
+    "arrival_s": 0.00030986667891678564,
+    "deadline_s": 0.010309866678916787
+  },
+  {
+    "request_id": 43,
+    "source": [
+      10,
+      12
+    ],
+    "destination": [
+      14,
+      9
+    ],
+    "arrival_s": 0.00031514668496657427,
+    "deadline_s": 0.010315146684966574
+  },
+  {
+    "request_id": 44,
+    "source": [
+      11,
+      0
+    ],
+    "destination": [
+      13,
+      0
+    ],
+    "arrival_s": 0.0003251844692275971,
+    "deadline_s": 0.010325184469227597
+  },
+  {
+    "request_id": 45,
+    "source": [
+      2,
+      14
+    ],
+    "destination": [
+      9,
+      0
+    ],
+    "arrival_s": 0.00032531079032911686,
+    "deadline_s": 0.010325310790329117
+  },
+  {
+    "request_id": 46,
+    "source": [
+      5,
+      12
+    ],
+    "destination": [
+      3,
+      9
+    ],
+    "arrival_s": 0.0003505681558802054,
+    "deadline_s": 0.010350568155880206
+  },
+  {
+    "request_id": 47,
+    "source": [
+      5,
+      13
+    ],
+    "destination": [
+      0,
+      6
+    ],
+    "arrival_s": 0.00036664911236226823,
+    "deadline_s": 0.01036664911236227
+  }
+]

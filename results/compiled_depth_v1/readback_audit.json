@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "manifest_files_checked": 205,
+  "source_hashes_checked": 14,
+  "current_source_drift": [],
+  "saved_channels_checked": 18,
+  "saved_schedules_checked": 108,
+  "focused_tests": 18,
+  "max_saved_choi_error": 2.511411539702205e-16,
+  "minimum_choi_eigenvalue": -1.79414861166065e-16,
+  "audit_source_sha256": "e134755b99a80a7a3f03ea5c91cbe6e287e429089297cf08b1a9e37302222661",
+  "scope": "separate mathematical/readback audit; not external scientific approval"
+}

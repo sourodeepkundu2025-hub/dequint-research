@@ -1,0 +1,13 @@
+id,source,locator,inspection_scope,boundary
+SRC-01,Supplied latest archive,inputs/original/TEST_WILEY.zip,"full local archive identity, manuscript sources",Preserved unchanged; source instructions not executed
+SRC-02,Recovered internship prototypes,inputs/legacy_prototypes,actual code inspection,Not the missing original integrated simulator
+LIT-01,Suance et al. 2025,https://arxiv.org/html/2505.11195v1,primary full-text inspection in prior audit,Per-link BSM/two-sided migration are prior art
+LIT-02,Official SeQUeNCe,https://github.com/sequence-toolbox/SeQUeNCe,actual pinned local source v1.3.0,Installed reviewed source hashes checked; addon separate
+LIT-03,Zhan et al. ACP2025,https://arxiv.org/html/2502.01964v1,primary method positioning,Background-generation policy not reproduced or beaten here
+LIT-04,InterQ2026,https://arxiv.org/abs/2605.17769,primary abstract/metadata positioning,Not a direct quantitative baseline reproduction
+LIT-05,Priority-aware routing2026,https://arxiv.org/abs/2609.38380,primary abstract/metadata positioning,No broad first fidelity/queue-aware claim
+LIT-06,Task-based control2026,https://arxiv.org/abs/2605.03336,primary abstract/metadata positioning,Task-based SeQUeNCe control is existing work
+LIT-07,Barrett-Kok2005,https://doi.org/10.1103/PhysRevA.71.060310,primary protocol identification,Native model is not calibrated microscopic device validation
+LIT-08,BBPSSW1996,https://doi.org/10.1103/PhysRevLett.76.722,primary recurrence/protocol plus independent circuit verification,Ideal Werner assumptions explicit
+LIT-09,Fan et al. 2025,https://doi.org/10.1038/s41377-025-01805-1,primary searchable PDF/abstract and publication metadata,Multiplexing prevents universal serialization assumption; not a reproduced hardware baseline
+LIT-10,van Leent et al. 2022,https://doi.org/10.1038/s41586-022-04764-4,primary indexed title/abstract/metadata; full-text access was blocked,"Physical remote-atom experiment, not on-chip multicore validation"

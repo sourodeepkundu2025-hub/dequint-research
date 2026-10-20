@@ -1,0 +1,103 @@
+{
+  "scope": "Independent isolated checks; original DEQUINT SeQUeNCe code and raw runs not available locally",
+  "teleportation": {
+    "state_count": 10,
+    "minimum_ideal_fidelity": 0.9999999999999993,
+    "backend": "Qiskit Aer 0.17.2 density_matrix, ideal, 1024 shots per state"
+  },
+  "barrett_kok": {
+    "at_c500": 0.9909987775181183,
+    "at_c100_equation": 0.9576357620380831,
+    "at_c100_plotted": 0.83
+  },
+  "bbpssw_at_f080": {
+    "purified_fidelity": 0.838150289017341,
+    "success_probability": 0.7688888888888891
+  },
+  "throughput": {
+    "at_eta_075_pairs_per_s": 740.6,
+    "at_eta_090_pairs_per_s": 895.5,
+    "slope_eta_050_to_090_pairs_per_s_per_eta": 1020.0,
+    "ideal_link_rate_at_eta_075_pairs_per_s": 22500.0,
+    "ideal_24_link_rate_pairs_per_s": 540000.0
+  },
+  "latency": {
+    "from_2_to_16_core_pct_increase": 29.931972789115655,
+    "log2_fit": {
+      "intercept": 0.13049999999999998,
+      "slope": 0.014599999999999988,
+      "r_squared": 0.9850277264325322
+    },
+    "linear_n_fit": {
+      "intercept": 0.14430434782608692,
+      "slope": 0.0030260869565217462,
+      "r_squared": 0.9732701117093949
+    },
+    "hh_to_twt_mc_pct_reduction": 39.0625,
+    "b1_to_dequint_16_core_pct_reduction": 69.68253968253968,
+    "b2_to_dequint_16_core_pct_reduction": 29.520295202952035
+  },
+  "routing_table": [
+    {
+      "connectivity_radius": 1,
+      "hh_ms": 0.12,
+      "twt_ms": 0.12,
+      "calculated_latency_saving_pct": 0.0,
+      "printed_latency_saving_pct": 0,
+      "hh_depth": 2,
+      "twt_depth": 2,
+      "calculated_depth_saving_pct": 0.0
+    },
+    {
+      "connectivity_radius": 2,
+      "hh_ms": 0.23,
+      "twt_ms": 0.12,
+      "calculated_latency_saving_pct": 47.82608695652174,
+      "printed_latency_saving_pct": 50,
+      "hh_depth": 4,
+      "twt_depth": 2,
+      "calculated_depth_saving_pct": 50.0
+    },
+    {
+      "connectivity_radius": 3,
+      "hh_ms": 0.35,
+      "twt_ms": 0.23,
+      "calculated_latency_saving_pct": 34.28571428571428,
+      "printed_latency_saving_pct": 33,
+      "hh_depth": 6,
+      "twt_depth": 4,
+      "calculated_depth_saving_pct": 33.333333333333336
+    },
+    {
+      "connectivity_radius": 4,
+      "hh_ms": 0.47,
+      "twt_ms": 0.23,
+      "calculated_latency_saving_pct": 51.063829787234035,
+      "printed_latency_saving_pct": 50,
+      "hh_depth": 8,
+      "twt_depth": 4,
+      "calculated_depth_saving_pct": 50.0
+    },
+    {
+      "connectivity_radius": 6,
+      "hh_ms": 0.7,
+      "twt_ms": 0.35,
+      "calculated_latency_saving_pct": 50.0,
+      "printed_latency_saving_pct": 50,
+      "hh_depth": 12,
+      "twt_depth": 6,
+      "calculated_depth_saving_pct": 50.0
+    }
+  ],
+  "fault_model": {
+    "trials_per_condition": 100000,
+    "one_hop_eta_075_equation": 0.35636710305680536,
+    "one_hop_eta_075_plot": 0.76,
+    "model": "Independent Bernoulli trial of manuscript Eq. reliability; not SeQUeNCe"
+  },
+  "topology": {
+    "four_by_four_nearest_neighbor_links": 24,
+    "manuscript_first_formula_n16": 24.0,
+    "manuscript_second_formula_n16": 96
+  }
+}

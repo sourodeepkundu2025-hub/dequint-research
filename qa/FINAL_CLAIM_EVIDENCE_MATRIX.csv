@@ -1,0 +1,17 @@
+claim_id,statement,status,manuscript,evidence,boundary
+C01,"Identical ordered-CNOT task, separate output contracts",implemented and integrated,revision_protocol.tex,results/batch_v2/summary.csv,Free and restored are not pooled; not bidirectional state exchange
+C02,"Stochastic retries, queues and destructive failure",implemented and tested,revision_implementation.tex,src/dequint/network.py,"Declared complete-attempt abstraction, not microscopic optics"
+C03,Native routed CNOT channel,native simulated evidence,revision_results.tex,results/followup_v1/summary.csv,Separate native profiles and fixed generation sidebands
+C04,Additional quality-term utility,not established,revision_discussion.tex,results/batch_v2/paired_differences.csv,"121/480 versus116/480; paired95%CI[-.41,+2.49]pp"
+C05,Universal WiNoC speedup,not established,revision_implementation.tex,results/batch_v2/aggregate.csv,Prospective ns-scale assumptions; shared channel can contend
+C06,Logarithmic quantum-overlay hop diameter,constructively proved for extended graph,shortcut_extension.tex,results/shortcut_v1/topology_census.csv,Not original mesh; known de Bruijn construction
+C07,Logarithmic expected latency,conditional sufficient conditions only,shortcut_extension.tex,results/shortcut_v1/summary.csv,Uniform bounded link service/waits required; loss/load may violate
+C08,Compiled physical application depth/QEC benefit,not established by timing replay,revision_benchmark.tex,results/followup_v1/summary.csv,Separate compiled skeleton has its own scope; no hardware/QEC result
+C09,BBPSSW accepted-channel correctness,exact ideal-model validation,revision_implementation.tex,results/quantum_validation/summary.json,Twirl/ideal local assumptions; usefulness not guaranteed
+C10,Purification improves useful supply,not established in matched stress,revision_reliability.tex,results/followup_v1/paired_controls.csv,295/576vs575/576 complete;0qualified both
+C11,Per-link BSM universally better than pooling,not established,revision_reliability.tex,results/followup_v1/aggregate.csv,"Equal active-server allocation control, not full physical central source"
+C12,S8 physical entanglement certification,not implemented; resource association clarified,revision_protocol.tex,src/dequint/network.py,Sacrificial ensemble design distinct from runtime payload verification
+C13,Hardware synchronization,"assumed, not implemented",revision_protocol.tex,src/dequint/kernel.py,Common simulation clock/causality; no clock-jitter testbed
+C14,Complete area/thermal/EMI/prototype feasibility,requires external physical evidence,revision_architecture.tex,output/validation_reports/11_prototype_environment.pdf,No physical validation orTRL4-5 inference
+C15,Legacy740/540000 throughput and depth/fidelity percentages,replaced by traceable evidence,revision_results.tex,inputs/original/TEST_WILEY.zip,Original numbers not reproducibly recovered or defended as new data
+C16,"Per-link BSM, rendezvous and shortcuts are novel",not claimed as inventions,revision_front.tex,qa/shortcut_literature.csv,Existing mechanisms attributed; evaluation novelty still needs editor judgment

@@ -1,0 +1,15 @@
+{
+  "administratively_censored": 0,
+  "analysis_sha256": "539004e79bd007985870602581b7fd260a428eb24dd2ee6bbc4d0be32a988c86",
+  "completed": 1138,
+  "failed": 14,
+  "freeze_sha256": "5a3c3f0a8a65525812223b0d74d8638f362f232823823504110075073b4fabf4",
+  "independent_review": "Not supplied by this receipt; reconciliation is local deterministic verification.",
+  "offered": 1152,
+  "protected_results_unchanged": true,
+  "qualified": 736,
+  "report_sha256": "601c9e91be5cd29c53f07d28c82bd12dd4f291008cbf68f638adb1a4bb00d568",
+  "resource_leaks": 0,
+  "runs": 48,
+  "verified_at_utc": "2026-10-20T13:36:26.676188+00:00"
+}

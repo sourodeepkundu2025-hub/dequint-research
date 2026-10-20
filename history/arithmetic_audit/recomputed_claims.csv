@@ -1,0 +1,33 @@
+check,value,interpretation
+ideal_per_link_pairs_per_second,22500.0,Inverse of manuscript tau_EPR; not validated delivered throughput
+ideal_24_link_pairs_per_second,540000.0,"540,000 follows from the printed formula and 24 parallel links"
+throughput_claim_ratio,729.7297297297297,Different primary throughput values need event/metric definitions
+mean_latency_reduction_percent,39.0625,Reduction computed from the printed rounded means
+mean_hop_reduction_percent,39.27272727272727,Hop reduction differs from latency reduction after rounding
+HH_ms_per_mean_hop,0.11636363636363636,Near-constant latency per hop is not by itself proof of absent simulation
+TWT_ms_per_mean_critical_round,0.11676646706586827,Critical-path rounds must not be confused with total quantum hop operations
+printed_model_one_hop_reliability,0.35636710305680536,Scalar Eq.6; interpretation of F_g as probability is not established
+printed_model_at_mean_2_75_hops,0.05857582556915185,Plug-in value only: R(E[h]) is not E[R(h)]
+retry_mean_multiplier_if_geometric,2.806095151382699,Only if p is independent retry success and whole hop is repeated at equal cost
+epr_latency_microseconds,44.44444444444444,Already contains eta_m^2; blindly adding same loss again can double-count
+qm_load_microseconds,50.0,Printed 1/f_m latency
+24_bsm_area_square_mm,0.0144,Manuscript 14.4 mm^2 has a factor-1000 unit error
+detector_300x180_area_square_mm,0.054,"0.054 mm^2 per cited detector, larger than claimed complete 600 um^2 node"
+wired_delay_ns,50000.0,"50,000 ns is not justified by on-chip propagation; queue/service latency needs measured assumptions"
+wireless_delay_ns,10000.0,"10,000 ns likewise needs MAC/channel/queue decomposition"
+0_5K_to_20mK_ratio,25.0,A bound DeltaT<0.5K does not establish millikelvin compatibility
+0_5K_to_10mK_ratio,50.0,"This is a permissive bound, not evidence the actual rise equals 0.5K"
+mesh_bsm_count_correct_N16,24.0,Square-grid edge count
+mesh_bsm_count_wrong_N16,96.0,Printed non-equivalent expression
+cooperativity_at_equation_F_0_8,14.70967621990267,"About 14.7, not 100, for the printed Eq.3 parameters"
+BBPSSW_F0_8_output,0.838150289017341,"Werner-state, ideal-operation conditional fidelity"
+BBPSSW_F0_8_success,0.7688888888888891,Acceptance probability must enter resource accounting
+BBPSSW_expected_raw_pairs_per_output,2.601156069364161,"About 2.60, not exactly two, for repeat-until-success at F=.8"
+ordered_distinct_pairs_tested,240,"Exhaustive check of printed midpoint, without congestion"
+suboptimal_midpoint_pair_count,32,Coordinate-wise floor fails to minimize maximum Manhattan distance for these pairs
+all_shortest_midpoint_paths_total_hops_equal_HH,True,Counters the categorical claim that rendezvous doubles EPR consumption
+uniform_distinct_pair_mean_HH_hops,2.6666666666666665,"Uniform all-pair reference, not the unknown manuscript 100-pair sample"
+uniform_distinct_pair_mean_paper_critical_rounds,1.7333333333333334,Printed floor rule
+uniform_distinct_pair_mean_optimal_rounds,1.6,Correct minimax reference
+midpoint_counterexample_h_2,"(0,0)->(1,1): floor midpoint=(0,0), paths=(0,2), optimal midpoint=(0,1), paths=(1,1)",Printed rule fails its ceil(h/2) claim
+fallback_bounds_counterexample,"(3,2)->(3,3): midpoint=(3,2), candidate midpoint+(1,0)=(4,2)",No bounds check or reservation protocol appears in Algorithm 3

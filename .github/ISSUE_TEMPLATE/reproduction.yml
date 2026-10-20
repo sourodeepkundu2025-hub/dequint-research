@@ -1,0 +1,33 @@
+name: Reproduction or numerical discrepancy
+description: Report a setup, execution or result discrepancy with enough detail to investigate.
+title: "[Reproduction]: "
+body:
+  - type: input
+    id: commit
+    attributes:
+      label: Repository commit
+      description: Exact SHA, not only the branch name.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python, SeQUeNCe, Qiskit and relevant dependency versions. Do not include secrets or personal paths.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and observed outcome
+      description: Include the full non-sensitive command and relevant output.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected result and scientific context
+      description: Backend, profile, placement, seed/run ID, offered denominator and metric. State the source of the expected result.
+    validations:
+      required: true

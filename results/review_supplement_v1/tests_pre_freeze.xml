@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="5" failures="0" skipped="0" tests="7" time="19.196" timestamp="2026-10-20T19:00:57.177843+05:30" hostname="ZZ-839309"><testcase classname="tests.test_review_supplement" name="test_design_and_matched_workloads" time="0.081" /><testcase classname="tests.test_review_supplement" name="test_summary_counts_raw_sha_and_failed_pair_cost[wired]" time="0.006"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'&quot;">self = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_review_supplement" name="test_summary_counts_raw_sha_and_failed_pair_cost[radio]" time="0.006"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'&quot;">self = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_review_supplement" name="test_summary_tamper_detected_even_with_rehashed_summary" time="0.005"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'&quot;">self = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_review_supplement" name="test_exclusive_writes_and_missing_latency" time="0.006"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'&quot;">self = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError</error></testcase><testcase classname="tests.test_review_supplement" name="test_unobserved_stages_not_invented" time="0.053" /><testcase classname="tests.test_review_supplement" name="test_source_inventory_recursive_and_drift" time="0.005"><error message="failed on setup with &quot;FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'&quot;">self = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+&gt;           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: '<LOCAL_HOME>\\<LOCAL_WORKSPACE>\\Documents\\AI_research\\DEQUINT_rebuild\\results\\review_supplement_v1\\test_tmp'
+
+..\..\..\..\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1311: FileNotFoundError</error></testcase></testsuite></testsuites>

@@ -1,0 +1,3306 @@
+[
+  {
+    "check": "teleportation/ideal/zero",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/zero/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/zero/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/zero/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/zero/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/one/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/ideal/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero",
+    "expected": 0.0,
+    "observed": 4.440892098500626e-16,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/zero/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one",
+    "expected": 0.0,
+    "observed": 4.440892098500626e-16,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/one/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/werner/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/zero/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/one/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/asymmetric/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero",
+    "expected": 0.0,
+    "observed": 4.440892098500626e-16,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero/branch_00",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero/branch_01",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero/branch_10",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/zero/branch_11",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one",
+    "expected": 0.0,
+    "observed": 4.440892098500626e-16,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one/branch_00",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one/branch_01",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one/branch_10",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/one/branch_11",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999992,
+    "absolute_error": 7.771561172376096e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999992,
+    "absolute_error": 7.771561172376096e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999992,
+    "absolute_error": 7.771561172376096e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999992,
+    "absolute_error": 7.771561172376096e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic/branch_00",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic/branch_01",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic/branch_10",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/generic/branch_11",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/aged/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/zero/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/one/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_X/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/zero/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/one/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Y/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/zero/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one",
+    "expected": 0.0,
+    "observed": 3.3306690738754696e-16,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999997,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one/branch_00",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one/branch_01",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one/branch_10",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/one/branch_11",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/plus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999993,
+    "absolute_error": 6.661338147750939e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/minus_i/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/generic/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed",
+    "expected": 0.0,
+    "observed": 2.220446049250313e-16,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed/branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed/branch_00",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed/branch_01",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed/branch_10",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "teleportation/pure_Z/mixed/branch_11",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/fidelity",
+    "expected": 1.0,
+    "observed": 0.9999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/acceptance",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/accepted_00/fidelity",
+    "expected": 1.0,
+    "observed": 0.9999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/accepted_00/probability",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/accepted_11/fidelity",
+    "expected": 1.0,
+    "observed": 0.9999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/1/accepted_11/probability",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/fidelity",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/acceptance",
+    "expected": 0.5555555555555556,
+    "observed": 0.5555555555555556,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/all_branch_mass",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.942890293094024e-16,
+    "absolute_error": 1.942890293094024e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/accepted_00/fidelity",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/accepted_00/probability",
+    "expected": 0.2777777777777778,
+    "observed": 0.2777777777777778,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/accepted_11/fidelity",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.5/0.5/accepted_11/probability",
+    "expected": 0.2777777777777778,
+    "observed": 0.2777777777777778,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/fidelity",
+    "expected": 0.25,
+    "observed": 0.24999999999999994,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/acceptance",
+    "expected": 0.5,
+    "observed": 0.4999999999999998,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/twirled_werner",
+    "expected": 0.0,
+    "observed": 2.7755575615628914e-17,
+    "absolute_error": 2.7755575615628914e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/accepted_00/fidelity",
+    "expected": 0.25,
+    "observed": 0.24999999999999994,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/accepted_00/probability",
+    "expected": 0.25,
+    "observed": 0.2499999999999999,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/accepted_11/fidelity",
+    "expected": 0.25,
+    "observed": 0.24999999999999994,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.25/0.25/accepted_11/probability",
+    "expected": 0.25,
+    "observed": 0.2499999999999999,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/fidelity",
+    "expected": 0.19999999999999998,
+    "observed": 0.19999999999999993,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/acceptance",
+    "expected": 0.5555555555555556,
+    "observed": 0.5555555555555554,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/accepted_00/fidelity",
+    "expected": 0.19999999999999998,
+    "observed": 0.19999999999999993,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/accepted_00/probability",
+    "expected": 0.2777777777777778,
+    "observed": 0.2777777777777777,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/accepted_11/fidelity",
+    "expected": 0.19999999999999998,
+    "observed": 0.19999999999999993,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0/0/accepted_11/probability",
+    "expected": 0.2777777777777778,
+    "observed": 0.2777777777777777,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/fidelity",
+    "expected": 0.8381502890173411,
+    "observed": 0.8381502890173409,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/acceptance",
+    "expected": 0.768888888888889,
+    "observed": 0.7688888888888885,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999994,
+    "absolute_error": 5.551115123125783e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/accepted_00/fidelity",
+    "expected": 0.8381502890173411,
+    "observed": 0.8381502890173409,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/accepted_00/probability",
+    "expected": 0.3844444444444445,
+    "observed": 0.38444444444444426,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/accepted_11/fidelity",
+    "expected": 0.8381502890173411,
+    "observed": 0.8381502890173409,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.8/0.8/accepted_11/probability",
+    "expected": 0.3844444444444445,
+    "observed": 0.38444444444444426,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/fidelity",
+    "expected": 0.8054711246200609,
+    "observed": 0.8054711246200607,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/acceptance",
+    "expected": 0.7311111111111112,
+    "observed": 0.7311111111111108,
+    "absolute_error": 3.3306690738754696e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.6653345369377348e-16,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/accepted_00/fidelity",
+    "expected": 0.8054711246200609,
+    "observed": 0.8054711246200607,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/accepted_00/probability",
+    "expected": 0.3655555555555556,
+    "observed": 0.3655555555555554,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/accepted_11/fidelity",
+    "expected": 0.8054711246200609,
+    "observed": 0.8054711246200607,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.9/0.65/accepted_11/probability",
+    "expected": 0.3655555555555556,
+    "observed": 0.3655555555555554,
+    "absolute_error": 1.6653345369377348e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/fidelity",
+    "expected": 0.4146919431279621,
+    "observed": 0.414691943127962,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/acceptance",
+    "expected": 0.4688888888888889,
+    "observed": 0.4688888888888887,
+    "absolute_error": 2.220446049250313e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.3877787807814457e-16,
+    "absolute_error": 1.3877787807814457e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/accepted_00/fidelity",
+    "expected": 0.4146919431279621,
+    "observed": 0.414691943127962,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/accepted_00/probability",
+    "expected": 0.23444444444444446,
+    "observed": 0.23444444444444434,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/accepted_11/fidelity",
+    "expected": 0.4146919431279621,
+    "observed": 0.414691943127962,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/0.2/0.95/accepted_11/probability",
+    "expected": 0.23444444444444446,
+    "observed": 0.23444444444444434,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/fidelity",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/acceptance",
+    "expected": 0.3333333333333333,
+    "observed": 0.3333333333333332,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/all_branch_mass",
+    "expected": 1.0,
+    "observed": 0.9999999999999996,
+    "absolute_error": 4.440892098500626e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/twirled_werner",
+    "expected": 0.0,
+    "observed": 1.1102230246251565e-16,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/accepted_00/fidelity",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/accepted_00/probability",
+    "expected": 0.16666666666666666,
+    "observed": 0.1666666666666666,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/accepted_11/fidelity",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "bbpssw/1/0/accepted_11/probability",
+    "expected": 0.16666666666666666,
+    "observed": 0.1666666666666666,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0/process",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0/average",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0.17/process",
+    "expected": 0.83,
+    "observed": 0.8300000000000001,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0.17/average",
+    "expected": 0.8640000000000001,
+    "observed": 0.8640000000000001,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/1/process",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/1/average",
+    "expected": 0.2,
+    "observed": 0.2,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/0/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0/process",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0/average",
+    "expected": 0.2,
+    "observed": 0.2,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0.17/process",
+    "expected": 0.011333333333333334,
+    "observed": 0.011333333333333334,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0.17/average",
+    "expected": 0.20906666666666665,
+    "observed": 0.20906666666666665,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/1/process",
+    "expected": 0.06666666666666667,
+    "observed": 0.06666666666666665,
+    "absolute_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/1/average",
+    "expected": 0.2533333333333333,
+    "observed": 0.2533333333333333,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/1/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0/process",
+    "expected": 0.6238753635770463,
+    "observed": 0.6238753635770463,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0/average",
+    "expected": 0.699100290861637,
+    "observed": 0.699100290861637,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0.17/process",
+    "expected": 0.5220792976484085,
+    "observed": 0.5220792976484087,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0.17/average",
+    "expected": 0.6176634381187268,
+    "observed": 0.6176634381187269,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/1/process",
+    "expected": 0.025074975761530244,
+    "observed": 0.02507497576153024,
+    "absolute_error": 3.469446951953614e-18,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/1/average",
+    "expected": 0.2200599806092242,
+    "observed": 0.2200599806092242,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/2/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0/process",
+    "expected": 0.28400000000000003,
+    "observed": 0.28400000000000003,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0/average",
+    "expected": 0.4272,
+    "observed": 0.4272,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0.17/process",
+    "expected": 0.24383466666666667,
+    "observed": 0.2438346666666667,
+    "absolute_error": 2.7755575615628914e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0.17/average",
+    "expected": 0.39506773333333334,
+    "observed": 0.39506773333333334,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/1/process",
+    "expected": 0.04773333333333333,
+    "observed": 0.047733333333333336,
+    "absolute_error": 6.938893903907228e-18,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/1/average",
+    "expected": 0.23818666666666669,
+    "observed": 0.23818666666666669,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/3/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0/process",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0/average",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0.17/process",
+    "expected": 0.83,
+    "observed": 0.8300000000000001,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0.17/average",
+    "expected": 0.8640000000000001,
+    "observed": 0.8640000000000001,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/1/process",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/1/average",
+    "expected": 0.2,
+    "observed": 0.2,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/4/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0/process",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0/average",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0.17/process",
+    "expected": 0.83,
+    "observed": 0.8300000000000001,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0.17/average",
+    "expected": 0.8640000000000001,
+    "observed": 0.8640000000000001,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/1/process",
+    "expected": 0.0,
+    "observed": 0.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/1/average",
+    "expected": 0.2,
+    "observed": 0.2,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/5/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0/process",
+    "expected": 0.25,
+    "observed": 0.25000000000000006,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0/average",
+    "expected": 0.4,
+    "observed": 0.4,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0.17/process",
+    "expected": 0.216,
+    "observed": 0.21600000000000008,
+    "absolute_error": 8.326672684688674e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0.17/average",
+    "expected": 0.37279999999999996,
+    "observed": 0.3728000000000001,
+    "absolute_error": 1.1102230246251565e-16,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/1/process",
+    "expected": 0.05,
+    "observed": 0.05,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/1/average",
+    "expected": 0.24,
+    "observed": 0.24,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/6/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0/process",
+    "expected": 0.41029634797343667,
+    "observed": 0.4102963479734366,
+    "absolute_error": 5.551115123125783e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0/average",
+    "expected": 0.5282370783787493,
+    "observed": 0.5282370783787493,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0.17/process",
+    "expected": 0.3472292768742535,
+    "observed": 0.3472292768742535,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0.17/average",
+    "expected": 0.47778342149940284,
+    "observed": 0.47778342149940284,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/0.17/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/1/process",
+    "expected": 0.03931357680177088,
+    "observed": 0.039313576801770896,
+    "absolute_error": 1.3877787807814457e-17,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/1/average",
+    "expected": 0.23145086144141672,
+    "observed": 0.23145086144141672,
+    "absolute_error": 0.0,
+    "passed": true
+  },
+  {
+    "check": "cnot/7/1/cptp",
+    "expected": 1.0,
+    "observed": 1.0,
+    "absolute_error": 0.0,
+    "passed": true
+  }
+]

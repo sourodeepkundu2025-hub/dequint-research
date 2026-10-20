@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": 472,
+  "failed_checks": [],
+  "max_absolute_error": 7.771561172376096e-16,
+  "tolerance": 1e-10,
+  "backend": "local Qiskit exact density matrices and Kraus channels",
+  "qiskit_version": "2.2.3",
+  "numpy_version": "2.5.4",
+  "python_version": "3.12.14",
+  "shots": 0,
+  "hardware": false,
+  "network_execution": false,
+  "whole_network_validated": false,
+  "bell_order_IXYZ": [
+    "Phi+",
+    "Psi+",
+    "Psi-",
+    "Phi-"
+  ],
+  "endianness": "q0 is least significant; tensor order high qubit to low qubit",
+  "assumptions": [
+    "independent input Pauli channels; gate errors occur after CNOT",
+    "independent post-CNOT return channels; retain correlated pre-gate errors",
+    "ideal operations and independent Werner inputs for BBPSSW",
+    "accept equal target Z outcomes; no retries",
+    "24 Clifford U tensor U* twirl preserves Phi+ fidelity and restores Werner form",
+    "primitive circuit checks do not validate scheduling, links, devices or network"
+  ]
+}

@@ -1,0 +1,7 @@
+evidence,source,backend,checks_or_runs,hardware,QPU_shots,boundary
+Qiskit exact primitives,results/quantum_validation/summary.json,local exact density/Kraus,472,False,0,No network or physical device
+Native protocol references,results/native_reference/native_summary.json,native SeQUeNCe protocols,128,False,0,32 trials per each of4 submodels; no whole mesh
+Primary abstract mesh,results/batch_v2/summary.csv,native Timeline + declared optical/Pauli model,460,False,0,460 finite-batch runs; not native photon-level events
+Native photonic mesh,results/followup_v1/summary.csv,native optical/protocol/density Choi execution,124,False,0,Dedicated generation sidebands; addon admission/dephasing
+Application timing,results/followup_v1/summary.csv,Qiskit DAG + abstract gate task timing,128,False,0,No application state fidelity or compiled physical depth
+Matched controls,results/followup_v1/summary.csv,abstract native-Timeline mesh,48,False,0,Equal active server count / equal raw Bell fidelity

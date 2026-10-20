@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "packages": {
+    "sequence": "1.3.0",
+    "qiskit": "2.2.3",
+    "qiskit-aer": "0.17.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1"
+  },
+  "upstream_commit": "88f92cca8aaa6dbf82bccc6a759465120afbdd34",
+  "sources": {
+    "src/dequint/__init__.py": "27734f2d63e3741f122d64f5290fd1186851a0b17fae4da75f42292cb16deab9",
+    "src/dequint/config.py": "f1412a47a1ec5c8b6b172edf09a496fc8d5516eee52f43051f88cc4ffd5dc4c6",
+    "src/dequint/experiments.py": "0b9ad5adc82682c21b010615dd6510847c2bd82ac4b236f6ebe832869a28e4f9",
+    "src/dequint/kernel.py": "6305ace673bd8e684f316424d92345a82311beb3c85d048c5c7bcd781ff5765c",
+    "src/dequint/native_reference.py": "125f0b28981c060f063d7090b327e4d7b0bdcd765422731f54f1d21528a54f5f",
+    "src/dequint/network.py": "dd10c92383679ffb5af0277f7538209fa8962dc48dedaea7ea5592592205190b",
+    "src/dequint/quantum.py": "978b4534f2db15d84009ff0070b4245341b46c9715be0af25d022cf125a5aaa5",
+    "src/dequint/quantum_validation.py": "1619261342b2b343b553768d89bc0763e6612f0abbb07b2a97be211172ba06ec",
+    "src/dequint/routing.py": "493d5313579d8e5e5356bceb485b5fc6c0fc6316c378780362d987ffbb0cead6",
+    "src/dequint/transport.py": "854adff31b60e958db79cb61c53c12fa3809f5a5ed3f8ae695ec89b89342b5ac",
+    "src/dequint/workload.py": "14351f1316198ab79beb0edc4358e87a7b57b6a7b7676f70a1b305b27ee17c13",
+    "docs/EXPERIMENT_PROTOCOL.md": "7244dd7ebc231e19785a5b6c624da47c0147ad98acee15efa2d330b87cc78758",
+    "pyproject.toml": "ee189a96234e089f519a1d9940e4e1346a44972917cdf971c030fa6d554cbaa8"
+  },
+  "hardware_claim": false
+}

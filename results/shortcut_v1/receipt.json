@@ -1,0 +1,8 @@
+{
+  "runs": 432,
+  "offered_tasks": 13824,
+  "resource_leaks": 0,
+  "paired_workloads": true,
+  "elapsed_s": 173.39687779999986,
+  "summary_sha256": "048dec6900a74fd7f952bc89326c6d5d68d165602a2c11446a5c6a0d2fd33c39"
+}

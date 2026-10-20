@@ -1,0 +1,116 @@
+{
+  "action_counts": {
+    "classical_radio": 751,
+    "complete_epr_attempt": 329,
+    "pair_consumed": 58,
+    "pair_ready": 58,
+    "pauli_frame_confirmed": 58,
+    "payload_measured": 58,
+    "request_arrived": 24,
+    "request_terminal": 24,
+    "resource_admission": 200,
+    "route_decision": 24,
+    "two_qubit_gate": 23
+  },
+  "all_pairs_consumed_failed_requests": 3,
+  "classical_action_tag_counts": {
+    "classical_radio:control": 35,
+    "classical_radio:correction": 58,
+    "classical_radio:herald": 658
+  },
+  "completed_epr_attempts": 329,
+  "local_gate_events_completed": 23,
+  "pair_consumed_by_reason": {
+    "payload_bell_measurement": 58
+  },
+  "payload_pairs_consumed_failed_requests": 3,
+  "radio_service_outcomes_completed": 751,
+  "radio_service_outcomes_incomplete": 0,
+  "resource_admission_counts": {
+    "bsm:admitted": 58,
+    "bsm:denied": 1,
+    "gate:admitted": 23,
+    "memory:admitted": 118
+  },
+  "stages_overlapping": {
+    "arrival": {
+      "actions": [
+        "request_arrived"
+      ],
+      "events": 24,
+      "requests_observed": 24
+    },
+    "correction_confirmed": {
+      "actions": [
+        "pauli_frame_confirmed"
+      ],
+      "events": 58,
+      "requests_observed": 24
+    },
+    "epr_attempt_completed": {
+      "actions": [
+        "complete_epr_attempt"
+      ],
+      "events": 329,
+      "requests_observed": 24
+    },
+    "local_gate_attempt": {
+      "actions": [
+        "two_qubit_gate"
+      ],
+      "events": 23,
+      "requests_observed": 23
+    },
+    "pair_available": {
+      "actions": [
+        "pair_ready"
+      ],
+      "events": 58,
+      "requests_observed": 24
+    },
+    "payload_bell_measurement": {
+      "actions": [
+        "payload_measured"
+      ],
+      "events": 58,
+      "requests_observed": 24
+    },
+    "purification_decision": {
+      "actions": [
+        "purification"
+      ],
+      "events": 0,
+      "requests_observed": 0
+    },
+    "resource_admission": {
+      "actions": [
+        "resource_admission"
+      ],
+      "events": 200,
+      "requests_observed": 24
+    },
+    "route_selection": {
+      "actions": [
+        "route_decision"
+      ],
+      "events": 24,
+      "requests_observed": 24
+    },
+    "terminal": {
+      "actions": [
+        "request_terminal"
+      ],
+      "events": 24,
+      "requests_observed": 24
+    }
+  },
+  "started_not_completed_epr_attempts": 0,
+  "terminal_failure_reasons_exact": {
+    "resource_deadline": 1
+  },
+  "terminal_outcomes_mutually_exclusive": {
+    "completed_qualified": 9,
+    "completed_unqualified": 14,
+    "failed:resource_deadline": 1
+  }
+}

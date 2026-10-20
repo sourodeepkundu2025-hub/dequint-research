@@ -1,0 +1,162 @@
+[
+  {
+    "check": "ideal_per_link_pairs_per_second",
+    "value": 22500.0,
+    "interpretation": "Inverse of manuscript tau_EPR; not validated delivered throughput"
+  },
+  {
+    "check": "ideal_24_link_pairs_per_second",
+    "value": 540000.0,
+    "interpretation": "540,000 follows from the printed formula and 24 parallel links"
+  },
+  {
+    "check": "throughput_claim_ratio",
+    "value": 729.7297297297297,
+    "interpretation": "Different primary throughput values need event/metric definitions"
+  },
+  {
+    "check": "mean_latency_reduction_percent",
+    "value": 39.0625,
+    "interpretation": "Reduction computed from the printed rounded means"
+  },
+  {
+    "check": "mean_hop_reduction_percent",
+    "value": 39.27272727272727,
+    "interpretation": "Hop reduction differs from latency reduction after rounding"
+  },
+  {
+    "check": "HH_ms_per_mean_hop",
+    "value": 0.11636363636363636,
+    "interpretation": "Near-constant latency per hop is not by itself proof of absent simulation"
+  },
+  {
+    "check": "TWT_ms_per_mean_critical_round",
+    "value": 0.11676646706586827,
+    "interpretation": "Critical-path rounds must not be confused with total quantum hop operations"
+  },
+  {
+    "check": "printed_model_one_hop_reliability",
+    "value": 0.35636710305680536,
+    "interpretation": "Scalar Eq.6; interpretation of F_g as probability is not established"
+  },
+  {
+    "check": "printed_model_at_mean_2_75_hops",
+    "value": 0.05857582556915185,
+    "interpretation": "Plug-in value only: R(E[h]) is not E[R(h)]"
+  },
+  {
+    "check": "retry_mean_multiplier_if_geometric",
+    "value": 2.806095151382699,
+    "interpretation": "Only if p is independent retry success and whole hop is repeated at equal cost"
+  },
+  {
+    "check": "epr_latency_microseconds",
+    "value": 44.44444444444444,
+    "interpretation": "Already contains eta_m^2; blindly adding same loss again can double-count"
+  },
+  {
+    "check": "qm_load_microseconds",
+    "value": 50.0,
+    "interpretation": "Printed 1/f_m latency"
+  },
+  {
+    "check": "24_bsm_area_square_mm",
+    "value": 0.0144,
+    "interpretation": "Manuscript 14.4 mm^2 has a factor-1000 unit error"
+  },
+  {
+    "check": "detector_300x180_area_square_mm",
+    "value": 0.054,
+    "interpretation": "0.054 mm^2 per cited detector, larger than claimed complete 600 um^2 node"
+  },
+  {
+    "check": "wired_delay_ns",
+    "value": 50000.0,
+    "interpretation": "50,000 ns is not justified by on-chip propagation; queue/service latency needs measured assumptions"
+  },
+  {
+    "check": "wireless_delay_ns",
+    "value": 10000.0,
+    "interpretation": "10,000 ns likewise needs MAC/channel/queue decomposition"
+  },
+  {
+    "check": "0_5K_to_20mK_ratio",
+    "value": 25.0,
+    "interpretation": "A bound DeltaT<0.5K does not establish millikelvin compatibility"
+  },
+  {
+    "check": "0_5K_to_10mK_ratio",
+    "value": 50.0,
+    "interpretation": "This is a permissive bound, not evidence the actual rise equals 0.5K"
+  },
+  {
+    "check": "mesh_bsm_count_correct_N16",
+    "value": 24.0,
+    "interpretation": "Square-grid edge count"
+  },
+  {
+    "check": "mesh_bsm_count_wrong_N16",
+    "value": 96.0,
+    "interpretation": "Printed non-equivalent expression"
+  },
+  {
+    "check": "cooperativity_at_equation_F_0_8",
+    "value": 14.70967621990267,
+    "interpretation": "About 14.7, not 100, for the printed Eq.3 parameters"
+  },
+  {
+    "check": "BBPSSW_F0_8_output",
+    "value": 0.838150289017341,
+    "interpretation": "Werner-state, ideal-operation conditional fidelity"
+  },
+  {
+    "check": "BBPSSW_F0_8_success",
+    "value": 0.7688888888888891,
+    "interpretation": "Acceptance probability must enter resource accounting"
+  },
+  {
+    "check": "BBPSSW_expected_raw_pairs_per_output",
+    "value": 2.601156069364161,
+    "interpretation": "About 2.60, not exactly two, for repeat-until-success at F=.8"
+  },
+  {
+    "check": "ordered_distinct_pairs_tested",
+    "value": 240,
+    "interpretation": "Exhaustive check of printed midpoint, without congestion"
+  },
+  {
+    "check": "suboptimal_midpoint_pair_count",
+    "value": 32,
+    "interpretation": "Coordinate-wise floor fails to minimize maximum Manhattan distance for these pairs"
+  },
+  {
+    "check": "all_shortest_midpoint_paths_total_hops_equal_HH",
+    "value": true,
+    "interpretation": "Counters the categorical claim that rendezvous doubles EPR consumption"
+  },
+  {
+    "check": "uniform_distinct_pair_mean_HH_hops",
+    "value": 2.6666666666666665,
+    "interpretation": "Uniform all-pair reference, not the unknown manuscript 100-pair sample"
+  },
+  {
+    "check": "uniform_distinct_pair_mean_paper_critical_rounds",
+    "value": 1.7333333333333334,
+    "interpretation": "Printed floor rule"
+  },
+  {
+    "check": "uniform_distinct_pair_mean_optimal_rounds",
+    "value": 1.6,
+    "interpretation": "Correct minimax reference"
+  },
+  {
+    "check": "midpoint_counterexample_h_2",
+    "value": "(0,0)->(1,1): floor midpoint=(0,0), paths=(0,2), optimal midpoint=(0,1), paths=(1,1)",
+    "interpretation": "Printed rule fails its ceil(h/2) claim"
+  },
+  {
+    "check": "fallback_bounds_counterexample",
+    "value": "(3,2)->(3,3): midpoint=(3,2), candidate midpoint+(1,0)=(4,2)",
+    "interpretation": "No bounds check or reservation protocol appears in Algorithm 3"
+  }
+]

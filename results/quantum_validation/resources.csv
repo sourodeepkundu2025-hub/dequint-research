@@ -1,0 +1,4 @@
+circuit,qubits,classical_bits,depth,operations,shots,execution,resource_scope
+teleportation,3,2,6,"{""cx"": 2, ""h"": 2, ""if_else"": 2, ""measure"": 2}",0,exact_density_matrix_or_Kraus,ideal protocol skeleton; noise/twirl applied as matrices
+bbpssw,4,2,4,"{""cx"": 4, ""h"": 2, ""measure"": 2}",0,exact_density_matrix_or_Kraus,ideal protocol skeleton; noise/twirl applied as matrices
+cnot,2,0,1,"{""cx"": 1}",0,exact_density_matrix_or_Kraus,ideal protocol skeleton; noise/twirl applied as matrices

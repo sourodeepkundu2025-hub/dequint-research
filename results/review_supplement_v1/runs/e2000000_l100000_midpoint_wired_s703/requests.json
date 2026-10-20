@@ -1,0 +1,938 @@
+[
+  {
+    "arrival_s": 4.601113570529962e-06,
+    "average_gate_fidelity": 0.9722789042530617,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 7.020000066404464e-05,
+    "deadline_s": 0.00500460111357053,
+    "destination": [
+      0,
+      3
+    ],
+    "epr_attempts": 10,
+    "finished_s": 1.444326e-05,
+    "latency_s": 9.842146429470039e-06,
+    "meeting": [
+      0,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9653486303163271,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 0,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      2,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 8.86171464433825e-06,
+    "average_gate_fidelity": 0.9723604175184335,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.809999947814504e-05,
+    "deadline_s": 0.005008861714644338,
+    "destination": [
+      1,
+      2
+    ],
+    "epr_attempts": 11,
+    "finished_s": 1.7641847e-05,
+    "latency_s": 8.78013235566175e-06,
+    "meeting": [
+      1,
+      3
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9654505218980419,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 1,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      3,
+      3
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 1.2612823707962294e-05,
+    "average_gate_fidelity": 0.9901059247917103,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 1,
+    "controller_wall_s": 4.9199999921256676e-05,
+    "deadline_s": 0.005012612823707963,
+    "destination": [
+      3,
+      1
+    ],
+    "epr_attempts": 3,
+    "finished_s": 1.5965876e-05,
+    "latency_s": 3.353052292037706e-06,
+    "meeting": [
+      3,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9876324059896379,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 1,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 1,
+    "request_id": 2,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      3,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 1.9444405637492687e-05,
+    "average_gate_fidelity": 0.9900221987198847,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 1,
+    "controller_wall_s": 5.250000049272785e-05,
+    "deadline_s": 0.005019444405637493,
+    "destination": [
+      3,
+      1
+    ],
+    "epr_attempts": 4,
+    "finished_s": 2.3859472e-05,
+    "latency_s": 4.415066362507314e-06,
+    "meeting": [
+      3,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.987527748399856,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 1,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 1,
+    "request_id": 3,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      3,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 2.5039835611954822e-05,
+    "average_gate_fidelity": 0.9812952248975101,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 4.960000023856992e-05,
+    "deadline_s": 0.005025039835611955,
+    "destination": [
+      0,
+      3
+    ],
+    "epr_attempts": 7,
+    "finished_s": 2.9446897e-05,
+    "latency_s": 4.407061388045177e-06,
+    "meeting": [
+      0,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9766190311218876,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 4,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      1
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 3.0505464971040606e-05,
+    "average_gate_fidelity": 0.9901059247917103,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 1,
+    "controller_wall_s": 4.830000034417026e-05,
+    "deadline_s": 0.005030505464971041,
+    "destination": [
+      2,
+      1
+    ],
+    "epr_attempts": 3,
+    "finished_s": 3.3858517e-05,
+    "latency_s": 3.3530520289593946e-06,
+    "meeting": [
+      2,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9876324059896379,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 1,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 1,
+    "request_id": 5,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      2,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 3.3324323359574294e-05,
+    "average_gate_fidelity": 0.963377783480681,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 4,
+    "controller_wall_s": 6.0200000007171184e-05,
+    "deadline_s": 0.005033324323359574,
+    "destination": [
+      3,
+      1
+    ],
+    "epr_attempts": 23,
+    "finished_s": 4.8476539e-05,
+    "latency_s": 1.5152215640425709e-05,
+    "meeting": [
+      1,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9542222293508513,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 4,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 4,
+    "request_id": 6,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      0
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 3.9858738319872515e-05,
+    "average_gate_fidelity": 0.9812946020059765,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 5.020000025979243e-05,
+    "deadline_s": 0.005039858738319873,
+    "destination": [
+      2,
+      0
+    ],
+    "epr_attempts": 7,
+    "finished_s": 4.4273804e-05,
+    "latency_s": 4.4150656801274856e-06,
+    "meeting": [
+      1,
+      0
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9766182525074708,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 7,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      0
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 5.0314455640188116e-05,
+    "average_gate_fidelity": 0.9810467464289403,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 5.429999964690069e-05,
+    "deadline_s": 0.005050314455640188,
+    "destination": [
+      0,
+      2
+    ],
+    "epr_attempts": 9,
+    "finished_s": 5.7915564e-05,
+    "latency_s": 7.601108359811884e-06,
+    "meeting": [
+      0,
+      3
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9763084330361753,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 8,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      3
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 5.4711641797340504e-05,
+    "average_gate_fidelity": 0.9725330821709957,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.8200000239594374e-05,
+    "deadline_s": 0.005054711641797341,
+    "destination": [
+      2,
+      0
+    ],
+    "epr_attempts": 10,
+    "finished_s": 6.1242731e-05,
+    "latency_s": 6.531089202659496e-06,
+    "meeting": [
+      2,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9656663527137445,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 9,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      3,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 6.0037676619732114e-05,
+    "average_gate_fidelity": 0.9722789042530617,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.7700000070326496e-05,
+    "deadline_s": 0.005060037676619732,
+    "destination": [
+      0,
+      0
+    ],
+    "epr_attempts": 15,
+    "finished_s": 6.9879823e-05,
+    "latency_s": 9.84214638026789e-06,
+    "meeting": [
+      0,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9653486303163271,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 10,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 8.767463404853576e-05,
+    "average_gate_fidelity": 0.9808821974777068,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 5.3200000365905e-05,
+    "deadline_s": 0.005087674634048536,
+    "destination": [
+      3,
+      2
+    ],
+    "epr_attempts": 10,
+    "finished_s": 9.7391765e-05,
+    "latency_s": 9.717130951464233e-06,
+    "meeting": [
+      2,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9761027468471334,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 11,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 9.740044795242694e-05,
+    "average_gate_fidelity": 0.9726866002013772,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.740000051446259e-05,
+    "deadline_s": 0.005097400447952427,
+    "destination": [
+      0,
+      1
+    ],
+    "epr_attempts": 5,
+    "finished_s": 0.000101932524,
+    "latency_s": 4.532076047573068e-06,
+    "meeting": [
+      0,
+      0
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9658582502517215,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 12,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      2,
+      0
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00010582308888128258,
+    "average_gate_fidelity": 0.9719529807443319,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.729999975301325e-05,
+    "deadline_s": 0.005105823088881282,
+    "destination": [
+      2,
+      0
+    ],
+    "epr_attempts": 14,
+    "finished_s": 0.000119913291,
+    "latency_s": 1.4090202118717429e-05,
+    "meeting": [
+      1,
+      0
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9649412259304148,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 13,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00013454424458198995,
+    "average_gate_fidelity": 0.9545245110070514,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 5,
+    "controller_wall_s": 7.080000068526715e-05,
+    "deadline_s": 0.00513454424458199,
+    "destination": [
+      2,
+      3
+    ],
+    "epr_attempts": 27,
+    "finished_s": 0.000156185555,
+    "latency_s": 2.164131041801004e-05,
+    "meeting": [
+      0,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9431556387588144,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 5,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 5,
+    "request_id": 14,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      0
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00014291284348056998,
+    "average_gate_fidelity": 0.9803869980155715,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 5.4600000112259295e-05,
+    "deadline_s": 0.0051429128434805705,
+    "destination": [
+      0,
+      2
+    ],
+    "epr_attempts": 16,
+    "finished_s": 0.000159002058,
+    "latency_s": 1.6089214519430026e-05,
+    "meeting": [
+      1,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9754837475194644,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 15,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      2,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.000145180005454159,
+    "average_gate_fidelity": 0.9714752911463783,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.780000083177583e-05,
+    "deadline_s": 0.005145180005454159,
+    "destination": [
+      1,
+      2
+    ],
+    "epr_attempts": 12,
+    "finished_s": 0.000165501157,
+    "latency_s": 2.032115154584099e-05,
+    "meeting": [
+      0,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.964344113932973,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 1.3665047999999997e-05,
+    "raw_pairs": 3,
+    "request_id": 16,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      0
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00017894540971253106,
+    "average_gate_fidelity": 0.9901059247917103,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 1,
+    "controller_wall_s": 8.340000022144523e-05,
+    "deadline_s": 0.005178945409712531,
+    "destination": [
+      0,
+      1
+    ],
+    "epr_attempts": 3,
+    "finished_s": 0.000182298462,
+    "latency_s": 3.353052287468944e-06,
+    "meeting": [
+      0,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9876324059896379,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 1,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 1,
+    "request_id": 17,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00018065304276285906,
+    "average_gate_fidelity": 0.9727681782889324,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 4.489999992074445e-05,
+    "deadline_s": 0.00518065304276286,
+    "destination": [
+      1,
+      0
+    ],
+    "epr_attempts": 4,
+    "finished_s": 0.000184123105,
+    "latency_s": 3.470062237140943e-06,
+    "meeting": [
+      1,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9659602228611656,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 18,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      3
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00020445098316065443,
+    "average_gate_fidelity": 0.963377783480681,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 4,
+    "controller_wall_s": 5.9100000726175494e-05,
+    "deadline_s": 0.005204450983160655,
+    "destination": [
+      2,
+      1
+    ],
+    "epr_attempts": 28,
+    "finished_s": 0.000219603199,
+    "latency_s": 1.5152215839345576e-05,
+    "meeting": [
+      0,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9542222293508513,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 4,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 4,
+    "request_id": 19,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      3
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.0002129263787045813,
+    "average_gate_fidelity": 0.9695962147123156,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 3,
+    "controller_wall_s": 5.759999930887716e-05,
+    "deadline_s": 0.005212926378704581,
+    "destination": [
+      3,
+      3
+    ],
+    "epr_attempts": 45,
+    "finished_s": 0.000257814987,
+    "latency_s": 4.488860829541868e-05,
+    "meeting": [
+      1,
+      3
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9619952683903945,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 3,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 3,
+    "request_id": 20,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      0,
+      3
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.0002147323953583723,
+    "average_gate_fidelity": 0.9899384785386343,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 1,
+    "controller_wall_s": 4.8099999730766285e-05,
+    "deadline_s": 0.0052147323953583725,
+    "destination": [
+      1,
+      2
+    ],
+    "epr_attempts": 5,
+    "finished_s": 0.000220209475,
+    "latency_s": 5.4770796416276995e-06,
+    "meeting": [
+      1,
+      1
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9874230981732928,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 1,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 1,
+    "request_id": 21,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      1,
+      1
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.0002226249002047724,
+    "average_gate_fidelity": 0.9811293518115249,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 2,
+    "controller_wall_s": 6.050000047252979e-05,
+    "deadline_s": 0.005222624900204772,
+    "destination": [
+      1,
+      1
+    ],
+    "epr_attempts": 10,
+    "finished_s": 0.000229163994,
+    "latency_s": 6.539093795227593e-06,
+    "meeting": [
+      1,
+      2
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9764116897644063,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 2,
+    "quantum_queue_wait_s": 0.0,
+    "raw_pairs": 2,
+    "request_id": 22,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      2,
+      2
+    ],
+    "terminal_reason": "completed"
+  },
+  {
+    "arrival_s": 0.00022356067570155578,
+    "average_gate_fidelity": 0.9618529509965059,
+    "classical": "wired",
+    "completed": true,
+    "consumed_pairs": 4,
+    "controller_wall_s": 6.0400000620575156e-05,
+    "deadline_s": 0.005223560675701556,
+    "destination": [
+      1,
+      1
+    ],
+    "epr_attempts": 16,
+    "finished_s": 0.000258887006,
+    "latency_s": 3.5326330298444215e-05,
+    "meeting": [
+      1,
+      3
+    ],
+    "placement": "free",
+    "policy": "midpoint",
+    "predicted_latency_s": null,
+    "predicted_process_fidelity": null,
+    "process_fidelity": 0.9523161887456324,
+    "purification_accepts": 0,
+    "purification_attempts": 0,
+    "quality_qualified": true,
+    "quantum_hops": 4,
+    "quantum_queue_wait_s": 2.6674436000000015e-05,
+    "raw_pairs": 4,
+    "request_id": 23,
+    "run_id": "e2000000_l100000_midpoint_wired_s703",
+    "seed": 703,
+    "source": [
+      3,
+      3
+    ],
+    "terminal_reason": "completed"
+  }
+]

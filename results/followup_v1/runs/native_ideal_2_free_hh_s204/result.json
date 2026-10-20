@@ -1,0 +1,1861 @@
+{
+  "summary": {
+    "run_id": "native_ideal_2_free_hh_s204",
+    "seed": 204,
+    "backend": "SeQUeNCe 1.3.0 native photonic mesh and density-matrix Choi channel",
+    "config": {
+      "mesh_side": 2,
+      "policy": "hh",
+      "placement": "free",
+      "classical": "wired",
+      "profile": "prospective_parametric",
+      "communication_memories": 8,
+      "link_servers": 1,
+      "pooled_servers": 0,
+      "excitation_rate_hz": 20000,
+      "reset_s": 5e-08,
+      "emission_efficiency": 1,
+      "detector_efficiency": 1,
+      "attenuation_db_per_m": 0,
+      "link_length_m": 0.001,
+      "raw_bell_fidelity": 1,
+      "memory_t2_s": "Infinity",
+      "memory_cutoff_s": 0.02,
+      "teleport_s": 1e-07,
+      "teleport_pauli_error": 0,
+      "gate_s": 5e-08,
+      "gate_pauli_error": 0,
+      "purification_rounds": 0,
+      "purification_threshold": 0.8,
+      "purification_local_s": 2e-07,
+      "wired_clock_hz": 1000000000.0,
+      "wired_width_bits": 16,
+      "wired_router_cycles": 2,
+      "radio_rate_bps": 12000000000.0,
+      "radio_channels": 1,
+      "radio_token_s": 2e-09,
+      "radio_startup_s": 2e-09,
+      "control_bits": 128,
+      "herald_bits": 64,
+      "correction_header_bits": 64,
+      "packet_loss": 0,
+      "classical_ack_timeout_s": 1e-07,
+      "source_outage_probability": 0,
+      "deadline_s": 0.01,
+      "minimum_process_fidelity": 0.9,
+      "quality_weight_s": 0.002,
+      "max_attempts": 10000,
+      "max_events": 5000000
+    },
+    "workload_sha256": "bad4b0d55e4e28ca9e108ac0175891f450a6ee7124941abc8ed84ee3f95f4596",
+    "requests": 1,
+    "completed": 1,
+    "quality_qualified": 1,
+    "observation_s": 0.02,
+    "raw_pair_rate_s": 100.0,
+    "completed_gate_rate_s": 50.0,
+    "quality_gate_rate_s": 50.0,
+    "mean_completed_latency_s": 0.000550319022,
+    "p95_completed_latency_s": 0.000550319022,
+    "mean_completed_process_fidelity": 0.9999999999999998,
+    "attempts": 4,
+    "consumed_pairs": 2,
+    "quantum_queue_wait_s": 0.0,
+    "classical_wait_s": 0.0,
+    "classical_packets": 4,
+    "classical_lost_packets": 0,
+    "classical_bit_hops": 388,
+    "radio_busy_s": 0.0,
+    "native_events": 170,
+    "wall_time_s": 0.042799899994861335,
+    "generator_capacity": 4,
+    "resource_leaks": 0,
+    "native_photon_emissions": 12,
+    "native_control_messages": 12,
+    "photon_counter_scope": "native send_qubit calls, including null BK photon objects",
+    "native_detector_notifications": 8,
+    "native_quantum_cores": 4,
+    "native_bsm_nodes": 4,
+    "full_native_reservation_stack": false,
+    "hardware": false,
+    "generation_control": "dedicated fixed-delay native sidebands",
+    "payload_control": "contended classical FIFO/radio fabric",
+    "pair_dephasing": "post-herald only; no microscopic in-generation dephasing",
+    "storage_swap_cnot_started": 6,
+    "storage_swap_cnot_completed": 6,
+    "native_data_cnot_started": 9,
+    "native_data_cnot_completed": 9,
+    "data_slots_per_core": 8
+  },
+  "requests": [
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": 0,
+      "policy": "hh",
+      "placement": "free",
+      "classical": "wired",
+      "source": [
+        0,
+        0
+      ],
+      "destination": [
+        1,
+        1
+      ],
+      "meeting": [
+        1,
+        1
+      ],
+      "arrival_s": 0,
+      "deadline_s": 0.02,
+      "finished_s": 0.000550319022,
+      "latency_s": 0.000550319022,
+      "completed": true,
+      "quality_qualified": true,
+      "process_fidelity": 0.9999999999999998,
+      "average_gate_fidelity": 0.9999999999999998,
+      "terminal_reason": "completed",
+      "controller_wall_s": 4.499976057559252e-06,
+      "predicted_latency_s": null,
+      "predicted_process_fidelity": null,
+      "final_positions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "choi_density_real": [
+        [
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0,
+          0.0,
+          0.24999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "choi_density_imag": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "epr_attempts": 4,
+      "raw_pairs": 2,
+      "purification_attempts": 0,
+      "purification_accepts": 0,
+      "consumed_pairs": 2,
+      "quantum_hops": 2,
+      "quantum_queue_wait_s": 0.0,
+      "storage_swap_cnot_started": 6,
+      "storage_swap_cnot": 6,
+      "useful_cnot_started": 1,
+      "useful_cnot_completed": 1
+    }
+  ],
+  "events": [
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "data:(0, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "data:(1, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "data:(1, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "memory:(0, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "memory:(1, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.0,
+      "action": "resource_admission",
+      "resource": "bsm:((0, 0), (1, 0))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 5e-08,
+      "action": "native_generation_started",
+      "generation_id": 1,
+      "protocol_names": [
+        "eg.1.core.0.0",
+        "eg.1.core.1.0"
+      ],
+      "edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "attempt": 0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5e-08,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.0.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.1.core.0.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5.2e-08,
+      "action": "native_control",
+      "source": "core.0.0",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.1.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5e-05,
+      "action": "native_photon",
+      "node": "core.0.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5e-05,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5.0002012e-05,
+      "action": "native_resource_update",
+      "node": "core.0.0",
+      "memory": "core.0.0.comm[0]",
+      "state": "RAW",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.1.core.0.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5.0002012e-05,
+      "action": "native_resource_update",
+      "node": "core.1.0",
+      "memory": "core.1.0.comm[0]",
+      "state": "RAW",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.1.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 5.0002012e-05,
+      "action": "native_generation_terminal",
+      "generation_id": 1,
+      "accepted": false,
+      "edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 5.0060117e-05,
+      "action": "native_generation_started",
+      "generation_id": 2,
+      "protocol_names": [
+        "eg.2.core.0.0",
+        "eg.2.core.1.0"
+      ],
+      "edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "attempt": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5.0060117e-05,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.0.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.2.core.0.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 5.0062117e-05,
+      "action": "native_control",
+      "source": "core.0.0",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.2.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00015,
+      "action": "native_photon",
+      "node": "core.0.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00015,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000150000002,
+      "action": "native_herald",
+      "node": "bsm.core.0.0.core.1.0",
+      "destination": "core.0.0",
+      "detector": 0,
+      "generation_id": 2
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000150000002,
+      "action": "native_herald",
+      "node": "bsm.core.0.0.core.1.0",
+      "destination": "core.1.0",
+      "detector": 0,
+      "generation_id": 2
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000150002012,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.0.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.2.core.0.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000150004012,
+      "action": "native_control",
+      "source": "core.0.0",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.2.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00025,
+      "action": "native_photon",
+      "node": "core.0.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00025,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.0.0.core.1.0",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250000002,
+      "action": "native_herald",
+      "node": "bsm.core.0.0.core.1.0",
+      "destination": "core.0.0",
+      "detector": 1,
+      "generation_id": 2
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250000002,
+      "action": "native_herald",
+      "node": "bsm.core.0.0.core.1.0",
+      "destination": "core.1.0",
+      "detector": 1,
+      "generation_id": 2
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250002012,
+      "action": "native_resource_update",
+      "node": "core.0.0",
+      "memory": "core.0.0.comm[0]",
+      "state": "ENTANGLED",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.2.core.0.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250002012,
+      "action": "native_resource_update",
+      "node": "core.1.0",
+      "memory": "core.1.0.comm[0]",
+      "state": "ENTANGLED",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.2.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250002012,
+      "action": "native_generation_terminal",
+      "generation_id": 2,
+      "accepted": true,
+      "edge": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250002012,
+      "action": "native_pair_ready",
+      "pair_id": 0,
+      "state_fidelity": 1.0,
+      "first_herald_s": 0.000150000002,
+      "generation_id": 2
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250002012,
+      "action": "resource_admission",
+      "resource": "gate:(0, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250102012,
+      "action": "pair_consumed",
+      "pair_id": 0,
+      "reason": "native_payload_measurement"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250102012,
+      "action": "native_payload_measured",
+      "phase": "a:out",
+      "source": [
+        0,
+        0
+      ],
+      "destination": [
+        1,
+        0
+      ],
+      "reservation_id": 3,
+      "pair_id": 0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.000250109017,
+      "action": "classical_wired",
+      "tag": "native:3:MEASUREMENT_RESULT",
+      "source": [
+        0,
+        0
+      ],
+      "destination": [
+        1,
+        0
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": 3,
+      "time_s": 0.000250109017,
+      "action": "native_payload_message",
+      "source": "core.0.0",
+      "destination": "core.1.0",
+      "message_type": "MEASUREMENT_RESULT",
+      "accepted": true,
+      "reservation_id": 3,
+      "x_flip": 1,
+      "z_flip": 0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "3",
+      "time_s": 0.000250119022,
+      "action": "classical_wired",
+      "tag": "native:3:ACK",
+      "source": [
+        1,
+        0
+      ],
+      "destination": [
+        0,
+        0
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": 3,
+      "time_s": 0.000250119022,
+      "action": "native_payload_message",
+      "source": "core.1.0",
+      "destination": "core.0.0",
+      "message_type": "ACK",
+      "accepted": true,
+      "reservation_id": 3,
+      "x_flip": null,
+      "z_flip": null
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250119022,
+      "action": "resource_admission",
+      "resource": "gate:(1, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250119022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        0
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250169022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        0
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250169022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        0
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250219022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        0
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250219022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        0
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250269022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        0
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250269022,
+      "action": "resource_admission",
+      "resource": "data:(1, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250269022,
+      "action": "resource_admission",
+      "resource": "memory:(1, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250269022,
+      "action": "resource_admission",
+      "resource": "memory:(1, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250269022,
+      "action": "resource_admission",
+      "resource": "bsm:((1, 0), (1, 1))",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000250319022,
+      "action": "native_generation_started",
+      "generation_id": 4,
+      "protocol_names": [
+        "eg.4.core.1.0",
+        "eg.4.core.1.1"
+      ],
+      "edge": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "attempt": 0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250319022,
+      "action": "native_control",
+      "source": "core.1.1",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.4.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000250321022,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.1.1",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.4.core.1.1"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00035,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00035,
+      "action": "native_photon",
+      "node": "core.1.1",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000350002012,
+      "action": "native_resource_update",
+      "node": "core.1.0",
+      "memory": "core.1.0.comm[0]",
+      "state": "RAW",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.4.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000350002012,
+      "action": "native_resource_update",
+      "node": "core.1.1",
+      "memory": "core.1.1.comm[0]",
+      "state": "RAW",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.4.core.1.1"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000350002012,
+      "action": "native_generation_terminal",
+      "generation_id": 4,
+      "accepted": false,
+      "edge": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000350060117,
+      "action": "native_generation_started",
+      "generation_id": 5,
+      "protocol_names": [
+        "eg.5.core.1.0",
+        "eg.5.core.1.1"
+      ],
+      "edge": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "attempt": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000350060117,
+      "action": "native_control",
+      "source": "core.1.1",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.5.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000350062117,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.1.1",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.5.core.1.1"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00045,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00045,
+      "action": "native_photon",
+      "node": "core.1.1",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000450000002,
+      "action": "native_herald",
+      "node": "bsm.core.1.0.core.1.1",
+      "destination": "core.1.0",
+      "detector": 1,
+      "generation_id": 5
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000450000002,
+      "action": "native_herald",
+      "node": "bsm.core.1.0.core.1.1",
+      "destination": "core.1.1",
+      "detector": 1,
+      "generation_id": 5
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000450002012,
+      "action": "native_control",
+      "source": "core.1.1",
+      "destination": "core.1.0",
+      "message_type": "NEGOTIATE",
+      "receiver": "eg.5.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000450004012,
+      "action": "native_control",
+      "source": "core.1.0",
+      "destination": "core.1.1",
+      "message_type": "NEGOTIATE_ACK",
+      "receiver": "eg.5.core.1.1"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00055,
+      "action": "native_photon",
+      "node": "core.1.0",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.00055,
+      "action": "native_photon",
+      "node": "core.1.1",
+      "destination": "bsm.core.1.0.core.1.1",
+      "is_null": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000550000002,
+      "action": "native_herald",
+      "node": "bsm.core.1.0.core.1.1",
+      "destination": "core.1.0",
+      "detector": 1,
+      "generation_id": 5
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000550000002,
+      "action": "native_herald",
+      "node": "bsm.core.1.0.core.1.1",
+      "destination": "core.1.1",
+      "detector": 1,
+      "generation_id": 5
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000550002012,
+      "action": "native_resource_update",
+      "node": "core.1.0",
+      "memory": "core.1.0.comm[0]",
+      "state": "ENTANGLED",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.5.core.1.0"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "native",
+      "time_s": 0.000550002012,
+      "action": "native_resource_update",
+      "node": "core.1.1",
+      "memory": "core.1.1.comm[0]",
+      "state": "ENTANGLED",
+      "protocol": "BarretKokA",
+      "protocol_name": "eg.5.core.1.1"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550002012,
+      "action": "native_generation_terminal",
+      "generation_id": 5,
+      "accepted": true,
+      "edge": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550002012,
+      "action": "native_pair_ready",
+      "pair_id": 1,
+      "state_fidelity": 1.0,
+      "first_herald_s": 0.000450000002,
+      "generation_id": 5
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550002012,
+      "action": "resource_admission",
+      "resource": "gate:(1, 0)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550102012,
+      "action": "pair_consumed",
+      "pair_id": 1,
+      "reason": "native_payload_measurement"
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550102012,
+      "action": "native_payload_measured",
+      "phase": "a:out",
+      "source": [
+        1,
+        0
+      ],
+      "destination": [
+        1,
+        1
+      ],
+      "reservation_id": 6,
+      "pair_id": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "6",
+      "time_s": 0.000550109017,
+      "action": "classical_wired",
+      "tag": "native:6:MEASUREMENT_RESULT",
+      "source": [
+        1,
+        0
+      ],
+      "destination": [
+        1,
+        1
+      ],
+      "bits": 66,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": 6,
+      "time_s": 0.000550109017,
+      "action": "native_payload_message",
+      "source": "core.1.0",
+      "destination": "core.1.1",
+      "message_type": "MEASUREMENT_RESULT",
+      "accepted": true,
+      "reservation_id": 6,
+      "x_flip": 1,
+      "z_flip": 0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "6",
+      "time_s": 0.000550119022,
+      "action": "classical_wired",
+      "tag": "native:6:ACK",
+      "source": [
+        1,
+        1
+      ],
+      "destination": [
+        1,
+        0
+      ],
+      "bits": 128,
+      "wait_s": 0.0
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": 6,
+      "time_s": 0.000550119022,
+      "action": "native_payload_message",
+      "source": "core.1.1",
+      "destination": "core.1.0",
+      "message_type": "ACK",
+      "accepted": true,
+      "reservation_id": 6,
+      "x_flip": null,
+      "z_flip": null
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550119022,
+      "action": "resource_admission",
+      "resource": "gate:(1, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550119022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        1
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550169022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550169022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        1
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550219022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550219022,
+      "action": "native_storage_cnot_started",
+      "core": [
+        1,
+        1
+      ],
+      "gate_resource_used": 1
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550269022,
+      "action": "native_storage_cnot_completed",
+      "core": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550269022,
+      "action": "resource_admission",
+      "resource": "gate:(1, 1)",
+      "amount": 1,
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550269022,
+      "action": "native_useful_cnot_started",
+      "core": [
+        1,
+        1
+      ]
+    },
+    {
+      "run_id": "native_ideal_2_free_hh_s204",
+      "seed": 204,
+      "request_id": "0",
+      "time_s": 0.000550319022,
+      "action": "native_useful_cnot_finished",
+      "core": [
+        1,
+        1
+      ],
+      "completed": true
+    }
+  ]
+}

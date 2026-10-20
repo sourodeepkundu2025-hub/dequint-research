@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: dequint-rebuild
+Version: 0.1.0
+Summary: Reproducible failure- and resource-aware quantum interconnect experiments
+Requires-Python: >=3.12
+Requires-Dist: simpy==4.1.1
+Requires-Dist: sequence==1.3.0
+Requires-Dist: qiskit==2.2.3
+Requires-Dist: qiskit-aer==0.17.2
+Requires-Dist: numpy<3,>=2.0
+Requires-Dist: scipy<2,>=1.13
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: matplotlib<4,>=3.9
+Requires-Dist: networkx<4,>=3
+Requires-Dist: pypdf<7,>=5
+Requires-Dist: reportlab<5,>=4
+Requires-Dist: pymupdf<2,>=1.25
+Provides-Extra: test
+Requires-Dist: pytest<10,>=8; extra == "test"

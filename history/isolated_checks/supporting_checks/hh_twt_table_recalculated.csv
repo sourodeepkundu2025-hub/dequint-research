@@ -1,0 +1,6 @@
+connectivity_radius,hh_ms,twt_ms,calculated_latency_saving_pct,printed_latency_saving_pct,hh_depth,twt_depth,calculated_depth_saving_pct
+1,0.12,0.12,0.0,0,2,2,0.0
+2,0.23,0.12,47.82608695652174,50,4,2,50.0
+3,0.35,0.23,34.28571428571428,33,6,4,33.333333333333336
+4,0.47,0.23,51.063829787234035,50,8,4,50.0
+6,0.7,0.35,50.0,50,12,6,50.0

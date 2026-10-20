@@ -1,0 +1,10 @@
+{
+  "runs": 460,
+  "offered_requests": 22080,
+  "paired_workload_checks": "passed",
+  "resource_leaks": 0,
+  "uncertainty_unit": "independent seed; two-sided Student-t 95% interval",
+  "summary_sha256": "2629d07cdde2c4e6f9c40863e1515f400b3594c96b534f5ae5fe50b1bea085d6",
+  "analysis_source_sha256": "e38c1ef60a001a3dd32b81e3c4eb54d650bce37e1087ed52b239b470af5c6016",
+  "claim": "finite-batch prospective simulation; no hardware or global optimality"
+}

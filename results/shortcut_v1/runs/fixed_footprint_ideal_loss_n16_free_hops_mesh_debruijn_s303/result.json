@@ -1,0 +1,8791 @@
+{
+  "scope": "finite-resource EPR provisioning and route timing; analytic ordered-CNOT Pauli task",
+  "backend": "native SeQUeNCe Kernel/FifoResource, abstract Bernoulli optics",
+  "full_native_gate_validation": false,
+  "hardware": false,
+  "topology_novelty_claim": false,
+  "quality_scope": "conditional independent-Pauli model; no cutoff/purification/data-memory capacity",
+  "config": {
+    "side": 4,
+    "topology": "mesh_debruijn",
+    "scaling": "fixed_footprint",
+    "pitch_m": 0.001,
+    "footprint_m": 0.01,
+    "route_metric": "hops",
+    "placement": "free",
+    "ports_per_node": 2,
+    "generator_mode": "global",
+    "generator_capacity": 16,
+    "excitation_rate_hz": 20000,
+    "reset_s": 5e-08,
+    "emission_efficiency": 0.75,
+    "detector_efficiency": 0.8,
+    "source_outage_probability": 0,
+    "attenuation_db_per_m": 0,
+    "shortcut_insertion_loss_db": 0,
+    "propagation_m_per_s": 200000000.0,
+    "raw_bell_fidelity": 0.99,
+    "memory_t2_s": 0.01,
+    "teleport_s": 1e-07,
+    "teleport_pauli_error": 0.001,
+    "gate_s": 5e-08,
+    "gate_pauli_error": 0.001,
+    "max_attempts": 100,
+    "max_events": 500000
+  },
+  "seed": 303,
+  "workload_hash": "382d7d7f46aaabfbad86ce14b6af811cdd0021c93bd47585c67fbbd75a0ae1bc",
+  "cost": {
+    "nodes": 16,
+    "edges": 45,
+    "mesh_edges": 24,
+    "added_shortcut_edges": 21,
+    "max_degree": 8,
+    "edge_terminations": 90,
+    "switchable_active_ports": 32,
+    "ports_per_node": 2,
+    "port_model": "shared switchable active ports; installed edge terminations counted separately",
+    "generator_mode": "global",
+    "global_pool_scope": "abstract service budget, not a physical pooled-switch model",
+    "channel_capacity_per_physical_edge": 1,
+    "total_generator_capacity": 16,
+    "total_optical_length_m": 0.21814964335367454,
+    "max_link_m": 0.009428090415820633,
+    "scaling": "fixed_footprint",
+    "effective_pitch_m": 0.0033333333333333335,
+    "footprint_side_m": 0.01
+  },
+  "rows": [
+    {
+      "request_id": 0,
+      "source": 3,
+      "target": 13,
+      "control_position": 13,
+      "target_position": 13,
+      "arrival_s": 4.826574715285342e-05,
+      "deadline_s": 0.050048265747152855,
+      "route": [
+        3,
+        9,
+        13
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9037796217428103,
+      "conditional_average_gate_fidelity": 0.9230236973942482,
+      "attempts": 7,
+      "completed_attempts": 7,
+      "aborted_attempts": 0,
+      "retries": 5,
+      "failed_attempts": 5,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.000748866103,
+      "latency_s": 0.0007006003558471466
+    },
+    {
+      "request_id": 1,
+      "source": 2,
+      "target": 3,
+      "control_position": 3,
+      "target_position": 3,
+      "arrival_s": 0.0011398630322750226,
+      "deadline_s": 0.051139863032275024,
+      "route": [
+        2,
+        3
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9638067806039722,
+      "conditional_average_gate_fidelity": 0.9710454244831777,
+      "attempts": 2,
+      "completed_attempts": 2,
+      "aborted_attempts": 0,
+      "retries": 1,
+      "failed_attempts": 1,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.001340113115,
+      "latency_s": 0.00020025008272497738
+    },
+    {
+      "request_id": 2,
+      "source": 7,
+      "target": 13,
+      "control_position": 13,
+      "target_position": 13,
+      "arrival_s": 0.0016367192215342482,
+      "deadline_s": 0.051636719221534254,
+      "route": [
+        7,
+        14,
+        13
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8462714702131557,
+      "conditional_average_gate_fidelity": 0.8770171761705245,
+      "attempts": 14,
+      "completed_attempts": 14,
+      "aborted_attempts": 0,
+      "retries": 12,
+      "failed_attempts": 12,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.003037670242,
+      "latency_s": 0.0014009510204657518
+    },
+    {
+      "request_id": 3,
+      "source": 14,
+      "target": 6,
+      "control_position": 6,
+      "target_position": 6,
+      "arrival_s": 0.002340980238588777,
+      "deadline_s": 0.05234098023858878,
+      "route": [
+        14,
+        10,
+        6
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9303035046054096,
+      "conditional_average_gate_fidelity": 0.9442428036843277,
+      "attempts": 4,
+      "completed_attempts": 4,
+      "aborted_attempts": 0,
+      "retries": 2,
+      "failed_attempts": 2,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.002741430405,
+      "latency_s": 0.000400450166411223
+    },
+    {
+      "request_id": 4,
+      "source": 2,
+      "target": 10,
+      "control_position": 10,
+      "target_position": 10,
+      "arrival_s": 0.0053895289871759774,
+      "deadline_s": 0.05538952898717598,
+      "route": [
+        2,
+        6,
+        10
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9124902097384786,
+      "conditional_average_gate_fidelity": 0.9299921677907829,
+      "attempts": 6,
+      "completed_attempts": 6,
+      "aborted_attempts": 0,
+      "retries": 4,
+      "failed_attempts": 4,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.005990079219,
+      "latency_s": 0.0006005502318240227
+    },
+    {
+      "request_id": 5,
+      "source": 14,
+      "target": 4,
+      "control_position": 4,
+      "target_position": 4,
+      "arrival_s": 0.005989258297391796,
+      "deadline_s": 0.0559892582973918,
+      "route": [
+        14,
+        10,
+        4
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9486542742763008,
+      "conditional_average_gate_fidelity": 0.9589234194210405,
+      "attempts": 2,
+      "completed_attempts": 2,
+      "aborted_attempts": 0,
+      "retries": 0,
+      "failed_attempts": 0,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.006189608459,
+      "latency_s": 0.00020035016160820443
+    },
+    {
+      "request_id": 6,
+      "source": 9,
+      "target": 12,
+      "control_position": 12,
+      "target_position": 12,
+      "arrival_s": 0.006158288988565499,
+      "deadline_s": 0.0561582889885655,
+      "route": [
+        9,
+        12
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8754910811352944,
+      "conditional_average_gate_fidelity": 0.9003928649082354,
+      "attempts": 12,
+      "completed_attempts": 12,
+      "aborted_attempts": 0,
+      "retries": 11,
+      "failed_attempts": 11,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.007359039577,
+      "latency_s": 0.0012007505884345012
+    },
+    {
+      "request_id": 7,
+      "source": 1,
+      "target": 10,
+      "control_position": 10,
+      "target_position": 10,
+      "arrival_s": 0.006170741843528044,
+      "deadline_s": 0.05617074184352805,
+      "route": [
+        1,
+        5,
+        10
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9213307739237583,
+      "conditional_average_gate_fidelity": 0.9370646191390065,
+      "attempts": 5,
+      "completed_attempts": 5,
+      "aborted_attempts": 0,
+      "retries": 3,
+      "failed_attempts": 3,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.006671242078,
+      "latency_s": 0.0005005002344719558
+    },
+    {
+      "request_id": 8,
+      "source": 0,
+      "target": 14,
+      "control_position": 14,
+      "target_position": 14,
+      "arrival_s": 0.006531922401971206,
+      "deadline_s": 0.05653192240197121,
+      "route": [
+        0,
+        4,
+        10,
+        14
+      ],
+      "planned_hops": 3,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8490103874230395,
+      "conditional_average_gate_fidelity": 0.8792083099384316,
+      "attempts": 12,
+      "completed_attempts": 12,
+      "aborted_attempts": 0,
+      "retries": 9,
+      "failed_attempts": 9,
+      "raw_pairs": 3,
+      "pairs_consumed": 3,
+      "pairs_discarded": 0,
+      "quantum_hops": 3,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.007732873205,
+      "latency_s": 0.0012009508030287937
+    },
+    {
+      "request_id": 9,
+      "source": 15,
+      "target": 5,
+      "control_position": 5,
+      "target_position": 5,
+      "arrival_s": 0.008015550906982959,
+      "deadline_s": 0.05801555090698296,
+      "route": [
+        15,
+        11,
+        5
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9213307653648346,
+      "conditional_average_gate_fidelity": 0.9370646122918677,
+      "attempts": 5,
+      "completed_attempts": 5,
+      "aborted_attempts": 0,
+      "retries": 3,
+      "failed_attempts": 3,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.00851605121,
+      "latency_s": 0.0005005003030170412
+    },
+    {
+      "request_id": 10,
+      "source": 1,
+      "target": 14,
+      "control_position": 14,
+      "target_position": 14,
+      "arrival_s": 0.009987643153971885,
+      "deadline_s": 0.059987643153971884,
+      "route": [
+        1,
+        5,
+        10,
+        14
+      ],
+      "planned_hops": 3,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.7122918187665742,
+      "conditional_average_gate_fidelity": 0.7698334550132594,
+      "attempts": 32,
+      "completed_attempts": 32,
+      "aborted_attempts": 0,
+      "retries": 29,
+      "failed_attempts": 29,
+      "raw_pairs": 3,
+      "pairs_consumed": 3,
+      "pairs_discarded": 0,
+      "quantum_hops": 3,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.013189594436,
+      "latency_s": 0.003201951282028116
+    },
+    {
+      "request_id": 11,
+      "source": 8,
+      "target": 0,
+      "control_position": 0,
+      "target_position": 0,
+      "arrival_s": 0.010149504394921138,
+      "deadline_s": 0.060149504394921144,
+      "route": [
+        8,
+        0
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9269028511132693,
+      "conditional_average_gate_fidelity": 0.9415222808906154,
+      "attempts": 6,
+      "completed_attempts": 6,
+      "aborted_attempts": 0,
+      "retries": 5,
+      "failed_attempts": 5,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.01074995483,
+      "latency_s": 0.0006004504350788625
+    },
+    {
+      "request_id": 12,
+      "source": 10,
+      "target": 7,
+      "control_position": 7,
+      "target_position": 7,
+      "arrival_s": 0.010275536714402393,
+      "deadline_s": 0.060275536714402396,
+      "route": [
+        10,
+        6,
+        7
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8308955088376894,
+      "conditional_average_gate_fidelity": 0.8647164070701514,
+      "attempts": 16,
+      "completed_attempts": 16,
+      "aborted_attempts": 0,
+      "retries": 14,
+      "failed_attempts": 14,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.011876587276,
+      "latency_s": 0.0016010505615976067
+    },
+    {
+      "request_id": 13,
+      "source": 4,
+      "target": 1,
+      "control_position": 1,
+      "target_position": 1,
+      "arrival_s": 0.011626385212647342,
+      "deadline_s": 0.06162638521264734,
+      "route": [
+        4,
+        0,
+        1
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8233739328907472,
+      "conditional_average_gate_fidelity": 0.8586991463125978,
+      "attempts": 17,
+      "completed_attempts": 17,
+      "aborted_attempts": 0,
+      "retries": 15,
+      "failed_attempts": 15,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.013327485808,
+      "latency_s": 0.0017011005953526583
+    },
+    {
+      "request_id": 14,
+      "source": 2,
+      "target": 15,
+      "control_position": 15,
+      "target_position": 15,
+      "arrival_s": 0.0132215956679813,
+      "deadline_s": 0.0632215956679813,
+      "route": [
+        2,
+        5,
+        11,
+        15
+      ],
+      "planned_hops": 3,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.6421399378391563,
+      "conditional_average_gate_fidelity": 0.7137119502713251,
+      "attempts": 45,
+      "completed_attempts": 45,
+      "aborted_attempts": 0,
+      "retries": 42,
+      "failed_attempts": 42,
+      "raw_pairs": 3,
+      "pairs_consumed": 3,
+      "pairs_discarded": 0,
+      "quantum_hops": 3,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.017724197875,
+      "latency_s": 0.0045026022070187004
+    },
+    {
+      "request_id": 15,
+      "source": 10,
+      "target": 14,
+      "control_position": 14,
+      "target_position": 14,
+      "arrival_s": 0.01383951993704614,
+      "deadline_s": 0.06383951993704615,
+      "route": [
+        10,
+        14
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9733818327693967,
+      "conditional_average_gate_fidelity": 0.9787054662155175,
+      "attempts": 1,
+      "completed_attempts": 1,
+      "aborted_attempts": 0,
+      "retries": 0,
+      "failed_attempts": 0,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.013939719987,
+      "latency_s": 0.00010020004995386043
+    },
+    {
+      "request_id": 16,
+      "source": 14,
+      "target": 7,
+      "control_position": 7,
+      "target_position": 7,
+      "arrival_s": 0.014835087860041467,
+      "deadline_s": 0.06483508786004147,
+      "route": [
+        14,
+        7
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9359239715197514,
+      "conditional_average_gate_fidelity": 0.9487391772158011,
+      "attempts": 5,
+      "completed_attempts": 5,
+      "aborted_attempts": 0,
+      "retries": 4,
+      "failed_attempts": 4,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.015335488272,
+      "latency_s": 0.0005004004119585331
+    },
+    {
+      "request_id": 17,
+      "source": 6,
+      "target": 8,
+      "control_position": 8,
+      "target_position": 8,
+      "arrival_s": 0.01540603059893881,
+      "deadline_s": 0.06540603059893882,
+      "route": [
+        6,
+        12,
+        8
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8784067830118356,
+      "conditional_average_gate_fidelity": 0.9027254264094685,
+      "attempts": 10,
+      "completed_attempts": 10,
+      "aborted_attempts": 0,
+      "retries": 8,
+      "failed_attempts": 8,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.016406781115,
+      "latency_s": 0.001000750516061192
+    },
+    {
+      "request_id": 18,
+      "source": 11,
+      "target": 12,
+      "control_position": 12,
+      "target_position": 12,
+      "arrival_s": 0.015441330512989652,
+      "deadline_s": 0.06544133051298966,
+      "route": [
+        11,
+        13,
+        12
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8867399667016911,
+      "conditional_average_gate_fidelity": 0.9093919733613529,
+      "attempts": 9,
+      "completed_attempts": 9,
+      "aborted_attempts": 0,
+      "retries": 7,
+      "failed_attempts": 7,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.0163420312,
+      "latency_s": 0.000900700687010347
+    },
+    {
+      "request_id": 19,
+      "source": 1,
+      "target": 10,
+      "control_position": 10,
+      "target_position": 10,
+      "arrival_s": 0.01618806945554695,
+      "deadline_s": 0.06618806945554695,
+      "route": [
+        1,
+        5,
+        10
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9213307726775022,
+      "conditional_average_gate_fidelity": 0.9370646181420017,
+      "attempts": 5,
+      "completed_attempts": 5,
+      "aborted_attempts": 0,
+      "retries": 3,
+      "failed_attempts": 3,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.016688569704,
+      "latency_s": 0.0005005002484530507
+    },
+    {
+      "request_id": 20,
+      "source": 11,
+      "target": 12,
+      "control_position": 12,
+      "target_position": 12,
+      "arrival_s": 0.016942833632045184,
+      "deadline_s": 0.06694283363204519,
+      "route": [
+        11,
+        13,
+        12
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9124901896683171,
+      "conditional_average_gate_fidelity": 0.9299921517346537,
+      "attempts": 6,
+      "completed_attempts": 6,
+      "aborted_attempts": 0,
+      "retries": 4,
+      "failed_attempts": 4,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.017543384052,
+      "latency_s": 0.0006005504199548158
+    },
+    {
+      "request_id": 21,
+      "source": 4,
+      "target": 8,
+      "control_position": 8,
+      "target_position": 8,
+      "arrival_s": 0.017611476981385422,
+      "deadline_s": 0.06761147698138542,
+      "route": [
+        4,
+        8
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8063765260593343,
+      "conditional_average_gate_fidelity": 0.8451012208474674,
+      "attempts": 21,
+      "completed_attempts": 21,
+      "aborted_attempts": 0,
+      "retries": 20,
+      "failed_attempts": 20,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.019712677691,
+      "latency_s": 0.00210120070961458
+    },
+    {
+      "request_id": 22,
+      "source": 9,
+      "target": 3,
+      "control_position": 3,
+      "target_position": 3,
+      "arrival_s": 0.01886338175326549,
+      "deadline_s": 0.06886338175326549,
+      "route": [
+        9,
+        3
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9092569397521028,
+      "conditional_average_gate_fidelity": 0.9274055518016823,
+      "attempts": 8,
+      "completed_attempts": 8,
+      "aborted_attempts": 0,
+      "retries": 7,
+      "failed_attempts": 7,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.019663932552,
+      "latency_s": 0.0008005507987345097
+    },
+    {
+      "request_id": 23,
+      "source": 11,
+      "target": 5,
+      "control_position": 5,
+      "target_position": 5,
+      "arrival_s": 0.01926040716674505,
+      "deadline_s": 0.06926040716674506,
+      "route": [
+        11,
+        5
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9180145654788967,
+      "conditional_average_gate_fidelity": 0.9344116523831174,
+      "attempts": 7,
+      "completed_attempts": 7,
+      "aborted_attempts": 0,
+      "retries": 6,
+      "failed_attempts": 6,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.019960907729,
+      "latency_s": 0.0007005005622549507
+    },
+    {
+      "request_id": 24,
+      "source": 5,
+      "target": 7,
+      "control_position": 7,
+      "target_position": 7,
+      "arrival_s": 0.020615176242901864,
+      "deadline_s": 0.07061517624290187,
+      "route": [
+        5,
+        6,
+        7
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8951969276539333,
+      "conditional_average_gate_fidelity": 0.9161575421231467,
+      "attempts": 8,
+      "completed_attempts": 8,
+      "aborted_attempts": 0,
+      "retries": 6,
+      "failed_attempts": 6,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.021415826541,
+      "latency_s": 0.0008006502980981364
+    },
+    {
+      "request_id": 25,
+      "source": 6,
+      "target": 3,
+      "control_position": 3,
+      "target_position": 3,
+      "arrival_s": 0.020702355818431436,
+      "deadline_s": 0.07070235581843144,
+      "route": [
+        6,
+        3
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9733818294191554,
+      "conditional_average_gate_fidelity": 0.9787054635353243,
+      "attempts": 1,
+      "completed_attempts": 1,
+      "aborted_attempts": 0,
+      "retries": 0,
+      "failed_attempts": 0,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.020802555889,
+      "latency_s": 0.00010020007056856309
+    },
+    {
+      "request_id": 26,
+      "source": 6,
+      "target": 14,
+      "control_position": 14,
+      "target_position": 14,
+      "arrival_s": 0.023265898757465885,
+      "deadline_s": 0.07326589875746589,
+      "route": [
+        6,
+        10,
+        14
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9394105920903391,
+      "conditional_average_gate_fidelity": 0.9515284736722712,
+      "attempts": 3,
+      "completed_attempts": 3,
+      "aborted_attempts": 0,
+      "retries": 1,
+      "failed_attempts": 1,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.02356629889,
+      "latency_s": 0.0003004001325341149
+    },
+    {
+      "request_id": 27,
+      "source": 3,
+      "target": 15,
+      "control_position": 15,
+      "target_position": 15,
+      "arrival_s": 0.023651845102210314,
+      "deadline_s": 0.07365184510221032,
+      "route": [
+        3,
+        7,
+        15
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8233739038575226,
+      "conditional_average_gate_fidelity": 0.8586991230860181,
+      "attempts": 17,
+      "completed_attempts": 17,
+      "aborted_attempts": 0,
+      "retries": 15,
+      "failed_attempts": 15,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.025352946053,
+      "latency_s": 0.001701100950789687
+    },
+    {
+      "request_id": 28,
+      "source": 4,
+      "target": 6,
+      "control_position": 6,
+      "target_position": 6,
+      "arrival_s": 0.023931315788210537,
+      "deadline_s": 0.07393131578821054,
+      "route": [
+        4,
+        2,
+        6
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8784067642902965,
+      "conditional_average_gate_fidelity": 0.9027254114322372,
+      "attempts": 10,
+      "completed_attempts": 10,
+      "aborted_attempts": 0,
+      "retries": 8,
+      "failed_attempts": 8,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.02493206655,
+      "latency_s": 0.001000750761789463
+    },
+    {
+      "request_id": 29,
+      "source": 9,
+      "target": 3,
+      "control_position": 3,
+      "target_position": 3,
+      "arrival_s": 0.02405279582542373,
+      "deadline_s": 0.07405279582542373,
+      "route": [
+        9,
+        3
+      ],
+      "planned_hops": 1,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.9733818181444822,
+      "conditional_average_gate_fidelity": 0.9787054545155858,
+      "attempts": 1,
+      "completed_attempts": 1,
+      "aborted_attempts": 0,
+      "retries": 0,
+      "failed_attempts": 0,
+      "raw_pairs": 1,
+      "pairs_consumed": 1,
+      "pairs_discarded": 0,
+      "quantum_hops": 1,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.024152995966,
+      "latency_s": 0.00010020014057626758
+    },
+    {
+      "request_id": 30,
+      "source": 7,
+      "target": 12,
+      "control_position": 12,
+      "target_position": 12,
+      "arrival_s": 0.024641822595744257,
+      "deadline_s": 0.07464182259574426,
+      "route": [
+        7,
+        6,
+        12
+      ],
+      "planned_hops": 2,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.83852741589338,
+      "conditional_average_gate_fidelity": 0.870821932714704,
+      "attempts": 15,
+      "completed_attempts": 15,
+      "aborted_attempts": 0,
+      "retries": 13,
+      "failed_attempts": 13,
+      "raw_pairs": 2,
+      "pairs_consumed": 2,
+      "pairs_discarded": 0,
+      "quantum_hops": 2,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.026142823277,
+      "latency_s": 0.0015010006812557417
+    },
+    {
+      "request_id": 31,
+      "source": 7,
+      "target": 0,
+      "control_position": 0,
+      "target_position": 0,
+      "arrival_s": 0.026049791652614195,
+      "deadline_s": 0.07604979165261419,
+      "route": [
+        7,
+        3,
+        1,
+        0
+      ],
+      "planned_hops": 3,
+      "completed": true,
+      "terminal_reason": "completed",
+      "conditional_process_fidelity": 0.8259003122701688,
+      "conditional_average_gate_fidelity": 0.8607202498161349,
+      "attempts": 15,
+      "completed_attempts": 15,
+      "aborted_attempts": 0,
+      "retries": 12,
+      "failed_attempts": 12,
+      "raw_pairs": 3,
+      "pairs_consumed": 3,
+      "pairs_discarded": 0,
+      "quantum_hops": 3,
+      "gate_timers_completed": 1,
+      "wait_s": 0.0,
+      "port_wait_s": 0.0,
+      "channel_wait_s": 0.0,
+      "generator_wait_s": 0.0,
+      "gate_wait_s": 0.0,
+      "finished_s": 0.027550892249,
+      "latency_s": 0.001501100596385807
+    }
+  ],
+  "events": [
+    {
+      "request_id": 0,
+      "time_s": 4.8265747e-05,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 4.8265747e-05,
+      "action": "admission",
+      "resource": "port:9",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 4.8265747e-05,
+      "action": "admission",
+      "resource": "channel:(3, 9)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 4.8265747e-05,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148315841,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148315841,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148415888,
+      "action": "admission",
+      "resource": "port:9",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148415888,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148415888,
+      "action": "admission",
+      "resource": "channel:(9, 13)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000148415888,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000248465921,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000348515954,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000448565987,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.00054861602,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000648666053,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000748716086,
+      "action": "attempt",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000748716086,
+      "action": "pair_consumed",
+      "edge": [
+        9,
+        13
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 0,
+      "time_s": 0.000748816103,
+      "action": "admission",
+      "resource": "gate:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001139863032,
+      "action": "admission",
+      "resource": "port:2",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001139863032,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001139863032,
+      "action": "admission",
+      "resource": "channel:(2, 3)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001139863032,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001239913065,
+      "action": "attempt",
+      "edge": [
+        2,
+        3
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001339963098,
+      "action": "attempt",
+      "edge": [
+        2,
+        3
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001339963098,
+      "action": "pair_consumed",
+      "edge": [
+        2,
+        3
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 1,
+      "time_s": 0.001340063115,
+      "action": "admission",
+      "resource": "gate:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001636719222,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001636719222,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001636719222,
+      "action": "admission",
+      "resource": "channel:(7, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001636719222,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001736769297,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001836819372,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.001936869447,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002036919522,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002136969597,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002237019672,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002337069747,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002340980239,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002340980239,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002340980239,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002340980239,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002437119822,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002441030272,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002537169897,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541080305,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541080305,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541180322,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541180322,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541180322,
+      "action": "admission",
+      "resource": "channel:(6, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002541180322,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002637219972,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002641230355,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002737270047,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002741280388,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002741280388,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 3,
+      "time_s": 0.002741380405,
+      "action": "admission",
+      "resource": "gate:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837320122,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837320122,
+      "action": "pair_consumed",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837420159,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837420159,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837420159,
+      "action": "admission",
+      "resource": "channel:(13, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002837420159,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.002937470192,
+      "action": "attempt",
+      "edge": [
+        13,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.003037520225,
+      "action": "attempt",
+      "edge": [
+        13,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.003037520225,
+      "action": "pair_consumed",
+      "edge": [
+        13,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 2,
+      "time_s": 0.003037620242,
+      "action": "admission",
+      "resource": "gate:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005389528987,
+      "action": "admission",
+      "resource": "port:2",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005389528987,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005389528987,
+      "action": "admission",
+      "resource": "channel:(2, 6)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005389528987,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.00548957902,
+      "action": "attempt",
+      "edge": [
+        2,
+        6
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.00548957902,
+      "action": "pair_consumed",
+      "edge": [
+        2,
+        6
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005489679037,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005489679037,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005489679037,
+      "action": "admission",
+      "resource": "channel:(6, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005489679037,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.00558972907,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005689779103,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005789829136,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005889879169,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.005989258297,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.005989258297,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.005989258297,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.005989258297,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005989929202,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005989929202,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 4,
+      "time_s": 0.005990029219,
+      "action": "admission",
+      "resource": "gate:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.00608930833,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.00608930833,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006089408347,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006089408347,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006089408347,
+      "action": "admission",
+      "resource": "channel:(4, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006089408347,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006158288989,
+      "action": "admission",
+      "resource": "port:9",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006158288989,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006158288989,
+      "action": "admission",
+      "resource": "channel:(9, 12)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006158288989,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006170741844,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006170741844,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006170741844,
+      "action": "admission",
+      "resource": "channel:(1, 5)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006170741844,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006189458422,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006189458422,
+      "action": "pair_consumed",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 5,
+      "time_s": 0.006189558459,
+      "action": "admission",
+      "resource": "gate:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006258339036,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006270791877,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006358389083,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.00637084191,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.00645843913,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006470891943,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006470891943,
+      "action": "pair_consumed",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.00647099196,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.00647099196,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.00647099196,
+      "action": "admission",
+      "resource": "channel:(5, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.00647099196,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006531922402,
+      "action": "admission",
+      "resource": "port:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006531922402,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006531922402,
+      "action": "admission",
+      "resource": "channel:(0, 4)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006531922402,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006558489177,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006571042007,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006631972435,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006631972435,
+      "action": "pair_consumed",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006632072452,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006632072452,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006632072452,
+      "action": "admission",
+      "resource": "channel:(4, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006632072452,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006658539224,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006671092054,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006671092054,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 7,
+      "time_s": 0.006671192078,
+      "action": "admission",
+      "resource": "gate:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006732122527,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006758589271,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006832172602,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006858639318,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.006932222677,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.006958689365,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007032272752,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007058739412,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007132322827,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007158789459,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007232372902,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007258839506,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007332422977,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007358889553,
+      "action": "attempt",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007358889553,
+      "action": "pair_consumed",
+      "edge": [
+        9,
+        12
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 6,
+      "time_s": 0.007358989577,
+      "action": "admission",
+      "resource": "gate:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432473052,
+      "action": "attempt",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432473052,
+      "action": "pair_consumed",
+      "edge": [
+        4,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432573089,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432573089,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432573089,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007432573089,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007532623122,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007632673155,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007732723188,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007732723188,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 8,
+      "time_s": 0.007732823205,
+      "action": "admission",
+      "resource": "gate:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008015550907,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008015550907,
+      "action": "admission",
+      "resource": "port:15",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008015550907,
+      "action": "admission",
+      "resource": "channel:(11, 15)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008015550907,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.00811560094,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008215650973,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315701006,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315701006,
+      "action": "pair_consumed",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315801023,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315801023,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315801023,
+      "action": "admission",
+      "resource": "channel:(5, 11)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008315801023,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008415851098,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008515901173,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.008515901173,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 9,
+      "time_s": 0.00851600121,
+      "action": "admission",
+      "resource": "gate:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.009987643154,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.009987643154,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.009987643154,
+      "action": "admission",
+      "resource": "channel:(1, 5)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.009987643154,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010087693187,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010149504395,
+      "action": "admission",
+      "resource": "port:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010149504395,
+      "action": "admission",
+      "resource": "port:8",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010149504395,
+      "action": "admission",
+      "resource": "channel:(0, 8)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010149504395,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.01018774322,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010249554462,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010275536714,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010275536714,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010275536714,
+      "action": "admission",
+      "resource": "channel:(6, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010275536714,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010287793253,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010349604529,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010375586747,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010387843286,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010449654596,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.01047563678,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010487893319,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010549704663,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010575686813,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010587943352,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.01064975473,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010675736846,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010687993385,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010749804797,
+      "action": "attempt",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666667
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.010749804797,
+      "action": "pair_consumed",
+      "edge": [
+        0,
+        8
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 11,
+      "time_s": 0.01074990483,
+      "action": "admission",
+      "resource": "gate:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010775786879,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010788043418,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010875836912,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010888093451,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.010975886945,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.010988143484,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011075936978,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011088193517,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011175987011,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.01118824355,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011276037044,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011288293583,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011376087077,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011388343616,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.01147613711,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011488393649,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011576187143,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588443682,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588443682,
+      "action": "pair_consumed",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588543699,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588543699,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588543699,
+      "action": "admission",
+      "resource": "channel:(5, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011588543699,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011626385213,
+      "action": "admission",
+      "resource": "port:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011626385213,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011626385213,
+      "action": "admission",
+      "resource": "channel:(0, 4)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011626385213,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676237176,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676237176,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676337193,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676337193,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676337193,
+      "action": "admission",
+      "resource": "channel:(6, 7)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011676337193,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011688593746,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011726435246,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011776387226,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011788643793,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011826485279,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011876437259,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011876437259,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 12,
+      "time_s": 0.011876537276,
+      "action": "admission",
+      "resource": "gate:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.01188869384,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.011926535312,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.011988743887,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012026585345,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012088793934,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012126635378,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012188843981,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012226685411,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012288894028,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012326735444,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012388944075,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012426785477,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012488994122,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.01252683551,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012589044169,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012626885543,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012689094216,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012726935576,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789144263,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789144263,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789244287,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789244287,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789244287,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012789244287,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012826985609,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.01288929432,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927035642,
+      "action": "attempt",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927035642,
+      "action": "pair_consumed",
+      "edge": [
+        0,
+        4
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927135659,
+      "action": "admission",
+      "resource": "port:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927135659,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927135659,
+      "action": "admission",
+      "resource": "channel:(0, 1)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.012927135659,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.012989344353,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013027185692,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.013089394386,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013127235725,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.013189444419,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.013189444419,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 10,
+      "time_s": 0.013189544436,
+      "action": "admission",
+      "resource": "gate:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013221595668,
+      "action": "admission",
+      "resource": "port:2",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013221595668,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013221595668,
+      "action": "admission",
+      "resource": "channel:(2, 5)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013221595668,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013227285758,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013321645715,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013327335791,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013327335791,
+      "action": "pair_consumed",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 13,
+      "time_s": 0.013327435808,
+      "action": "admission",
+      "resource": "gate:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013421695762,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013521745809,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013621795856,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013721845903,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.01382189595,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.013839519937,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.013839519937,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.013839519937,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.013839519937,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.013921945997,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.01393956997,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.01393956997,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 15,
+      "time_s": 0.013939669987,
+      "action": "admission",
+      "resource": "gate:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014021996044,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014122046091,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014222096138,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014322146185,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014422196232,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014522246279,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014622296326,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014722346373,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.01482239642,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01483508786,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01483508786,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01483508786,
+      "action": "admission",
+      "resource": "channel:(7, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01483508786,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.014922446467,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.014935137935,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015022496514,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01503518801,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015122546561,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.015135238085,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015222596608,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.01523528816,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015322646655,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.015335338235,
+      "action": "attempt",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.015335338235,
+      "action": "pair_consumed",
+      "edge": [
+        7,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 16,
+      "time_s": 0.015335438272,
+      "action": "admission",
+      "resource": "gate:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015406030599,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015406030599,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015406030599,
+      "action": "admission",
+      "resource": "channel:(6, 12)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015406030599,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015422696702,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015441330513,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015441330513,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015441330513,
+      "action": "admission",
+      "resource": "channel:(11, 13)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015441330513,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015506080693,
+      "action": "attempt",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015522746749,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015541380588,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606130787,
+      "action": "attempt",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606130787,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606230834,
+      "action": "admission",
+      "resource": "port:8",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606230834,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606230834,
+      "action": "admission",
+      "resource": "channel:(8, 12)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015606230834,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015622796796,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015641430663,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015706280867,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015722846843,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015741480738,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.0158063309,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.01582289689,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015841530813,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.015906380933,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.015922946937,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.015941580888,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016006430966,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016022996984,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016041630963,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016106480999,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016123047031,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016141681038,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016188069456,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016188069456,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016188069456,
+      "action": "admission",
+      "resource": "channel:(1, 5)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016188069456,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016206531032,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016223097078,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016241731113,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016241731113,
+      "action": "pair_consumed",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.01624183115,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.01624183115,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.01624183115,
+      "action": "admission",
+      "resource": "channel:(12, 13)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.01624183115,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016288119489,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016306581065,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323147125,
+      "action": "attempt",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323147125,
+      "action": "pair_consumed",
+      "edge": [
+        2,
+        5
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323247149,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323247149,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323247149,
+      "action": "admission",
+      "resource": "channel:(5, 11)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016323247149,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016341881183,
+      "action": "attempt",
+      "edge": [
+        12,
+        13
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.016341881183,
+      "action": "pair_consumed",
+      "edge": [
+        12,
+        13
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 18,
+      "time_s": 0.0163419812,
+      "action": "admission",
+      "resource": "gate:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388169522,
+      "action": "attempt",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388169522,
+      "action": "pair_consumed",
+      "edge": [
+        1,
+        5
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388269539,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388269539,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388269539,
+      "action": "admission",
+      "resource": "channel:(5, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016388269539,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016406631098,
+      "action": "attempt",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016406631098,
+      "action": "pair_consumed",
+      "edge": [
+        8,
+        12
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 17,
+      "time_s": 0.016406731115,
+      "action": "admission",
+      "resource": "gate:8",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016423297224,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016488319586,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016523347299,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016588369633,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016623397374,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.01668841968,
+      "action": "attempt",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0047140452079103175
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.01668841968,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 19,
+      "time_s": 0.016688519704,
+      "action": "admission",
+      "resource": "gate:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016723447449,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823497524,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823497524,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823597561,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823597561,
+      "action": "admission",
+      "resource": "port:15",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823597561,
+      "action": "admission",
+      "resource": "channel:(11, 15)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016823597561,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.016923647594,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.016942833632,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.016942833632,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.016942833632,
+      "action": "admission",
+      "resource": "channel:(11, 13)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.016942833632,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017023697627,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017042883707,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.01712374766,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017142933782,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017223797693,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017242983857,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017323847726,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343033932,
+      "action": "attempt",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343033932,
+      "action": "pair_consumed",
+      "edge": [
+        11,
+        13
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343133969,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343133969,
+      "action": "admission",
+      "resource": "port:13",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343133969,
+      "action": "admission",
+      "resource": "channel:(12, 13)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017343133969,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017423897759,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017443184002,
+      "action": "attempt",
+      "edge": [
+        12,
+        13
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017523947792,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017543234035,
+      "action": "attempt",
+      "edge": [
+        12,
+        13
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017543234035,
+      "action": "pair_consumed",
+      "edge": [
+        12,
+        13
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 20,
+      "time_s": 0.017543334052,
+      "action": "admission",
+      "resource": "gate:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017611476981,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017611476981,
+      "action": "admission",
+      "resource": "port:8",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017611476981,
+      "action": "admission",
+      "resource": "channel:(4, 8)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017611476981,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017623997825,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017711527014,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017724047858,
+      "action": "attempt",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017724047858,
+      "action": "pair_consumed",
+      "edge": [
+        11,
+        15
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 14,
+      "time_s": 0.017724147875,
+      "action": "admission",
+      "resource": "gate:15",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.017811577047,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.01791162708,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018011677113,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018111727146,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018211777179,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018311827212,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018411877245,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018511927278,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018611977311,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018712027344,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.018812077377,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.018863381753,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.018863381753,
+      "action": "admission",
+      "resource": "port:9",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.018863381753,
+      "action": "admission",
+      "resource": "channel:(3, 9)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.018863381753,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.01891212741,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.018963431847,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019012177443,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019063481941,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019112227476,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019163532035,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019212277509,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019260407167,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019260407167,
+      "action": "admission",
+      "resource": "port:11",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019260407167,
+      "action": "admission",
+      "resource": "channel:(5, 11)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019260407167,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019263582129,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019312327542,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019360457242,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019363632223,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019412377575,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019460507317,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019463682317,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019512427608,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019560557392,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019563732411,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019612477641,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019660607467,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019663782505,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019663782505,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 22,
+      "time_s": 0.019663882552,
+      "action": "admission",
+      "resource": "gate:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019712527674,
+      "action": "attempt",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019712527674,
+      "action": "pair_consumed",
+      "edge": [
+        4,
+        8
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 21,
+      "time_s": 0.019712627691,
+      "action": "admission",
+      "resource": "gate:8",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019760657542,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019860707617,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019960757692,
+      "action": "attempt",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.007453559924999299
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019960757692,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        11
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 23,
+      "time_s": 0.019960857729,
+      "action": "admission",
+      "resource": "gate:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020615176243,
+      "action": "admission",
+      "resource": "port:5",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020615176243,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020615176243,
+      "action": "admission",
+      "resource": "channel:(5, 6)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020615176243,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020702355818,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020702355818,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020702355818,
+      "action": "admission",
+      "resource": "channel:(3, 6)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020702355818,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020715226276,
+      "action": "attempt",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020802405865,
+      "action": "attempt",
+      "edge": [
+        3,
+        6
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.004714045207910317
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020802405865,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        6
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 25,
+      "time_s": 0.020802505889,
+      "action": "admission",
+      "resource": "gate:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020815276309,
+      "action": "attempt",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.020915326342,
+      "action": "attempt",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021015376375,
+      "action": "attempt",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115426408,
+      "action": "attempt",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115426408,
+      "action": "pair_consumed",
+      "edge": [
+        5,
+        6
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115526425,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115526425,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115526425,
+      "action": "admission",
+      "resource": "channel:(6, 7)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021115526425,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021215576458,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021315626491,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021415676524,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021415676524,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 24,
+      "time_s": 0.021415776541,
+      "action": "admission",
+      "resource": "gate:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023265898757,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023265898757,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023265898757,
+      "action": "admission",
+      "resource": "channel:(6, 10)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023265898757,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02336594879,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023465998823,
+      "action": "attempt",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023465998823,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        10
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02346609884,
+      "action": "admission",
+      "resource": "port:10",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02346609884,
+      "action": "admission",
+      "resource": "port:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02346609884,
+      "action": "admission",
+      "resource": "channel:(10, 14)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02346609884,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023566148873,
+      "action": "attempt",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.023566148873,
+      "action": "pair_consumed",
+      "edge": [
+        10,
+        14
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 26,
+      "time_s": 0.02356624889,
+      "action": "admission",
+      "resource": "gate:14",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023651845102,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023651845102,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023651845102,
+      "action": "admission",
+      "resource": "channel:(3, 7)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023651845102,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023751895135,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023851945168,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.023931315788,
+      "action": "admission",
+      "resource": "port:2",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.023931315788,
+      "action": "admission",
+      "resource": "port:4",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.023931315788,
+      "action": "admission",
+      "resource": "channel:(2, 4)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.023931315788,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.023951995201,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024031365863,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024052045234,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024052795825,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024052795825,
+      "action": "admission",
+      "resource": "port:9",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024052795825,
+      "action": "admission",
+      "resource": "channel:(3, 9)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024052795825,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024131415938,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024152095267,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024152845919,
+      "action": "attempt",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024152845919,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        9
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 29,
+      "time_s": 0.024152945966,
+      "action": "admission",
+      "resource": "gate:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024231466013,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.0242521453,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024331516088,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024352195333,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024352195333,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02435229535,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02435229535,
+      "action": "admission",
+      "resource": "port:15",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02435229535,
+      "action": "admission",
+      "resource": "channel:(7, 15)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02435229535,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024431566163,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024452345417,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024531616238,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024552395484,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024631666313,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024641822596,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024641822596,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024641822596,
+      "action": "admission",
+      "resource": "channel:(6, 7)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024641822596,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024652445551,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024731716388,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024741872629,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024752495618,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024831766463,
+      "action": "attempt",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0074535599249993
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024831766463,
+      "action": "pair_consumed",
+      "edge": [
+        2,
+        4
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.0248318665,
+      "action": "admission",
+      "resource": "port:2",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.0248318665,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.0248318665,
+      "action": "admission",
+      "resource": "channel:(2, 6)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.0248318665,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024841922662,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024852545685,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024931916533,
+      "action": "attempt",
+      "edge": [
+        2,
+        6
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.024931916533,
+      "action": "pair_consumed",
+      "edge": [
+        2,
+        6
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 28,
+      "time_s": 0.02493201655,
+      "action": "admission",
+      "resource": "gate:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.024941972695,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.024952595752,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025042022728,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.025052645819,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025142072761,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.025152695886,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025242122794,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.025252745953,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025342172827,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02535279602,
+      "action": "attempt",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.02535279602,
+      "action": "pair_consumed",
+      "edge": [
+        7,
+        15
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 27,
+      "time_s": 0.025352896053,
+      "action": "admission",
+      "resource": "gate:15",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.02544222286,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025542272893,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025642322926,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025742372959,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025842422992,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942473025,
+      "action": "attempt",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.003333333333333333
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942473025,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        7
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942573042,
+      "action": "admission",
+      "resource": "port:6",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942573042,
+      "action": "admission",
+      "resource": "port:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942573042,
+      "action": "admission",
+      "resource": "channel:(6, 12)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.025942573042,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.026042623136,
+      "action": "attempt",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026049791653,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026049791653,
+      "action": "admission",
+      "resource": "port:7",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026049791653,
+      "action": "admission",
+      "resource": "channel:(3, 7)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026049791653,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.02614267323,
+      "action": "attempt",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.009428090415820633
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.02614267323,
+      "action": "pair_consumed",
+      "edge": [
+        6,
+        12
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 30,
+      "time_s": 0.026142773277,
+      "action": "admission",
+      "resource": "gate:12",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026149841686,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026249891719,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026349941752,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026449991785,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026550041818,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026650091851,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026750141884,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.026850191917,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.02695024195,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027050291983,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150342016,
+      "action": "attempt",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150342016,
+      "action": "pair_consumed",
+      "edge": [
+        3,
+        7
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150442033,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150442033,
+      "action": "admission",
+      "resource": "port:3",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150442033,
+      "action": "admission",
+      "resource": "channel:(1, 3)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027150442033,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.0272504921,
+      "action": "attempt",
+      "edge": [
+        1,
+        3
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.006666666666666666
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.0272504921,
+      "action": "pair_consumed",
+      "edge": [
+        1,
+        3
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027250592133,
+      "action": "admission",
+      "resource": "port:0",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027250592133,
+      "action": "admission",
+      "resource": "port:1",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027250592133,
+      "action": "admission",
+      "resource": "channel:(0, 1)",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027250592133,
+      "action": "admission",
+      "resource": "generator:global",
+      "wait_s": 0.0,
+      "admitted": true
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027350642166,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027450692199,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": false,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027550742232,
+      "action": "attempt",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out",
+      "accepted": true,
+      "probability": 0.18000000000000005,
+      "length_m": 0.0033333333333333335
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027550742232,
+      "action": "pair_consumed",
+      "edge": [
+        0,
+        1
+      ],
+      "phase": "out"
+    },
+    {
+      "request_id": 31,
+      "time_s": 0.027550842249,
+      "action": "admission",
+      "resource": "gate:0",
+      "wait_s": 0.0,
+      "admitted": true
+    }
+  ],
+  "summary": {
+    "requests": 32,
+    "completed": 32,
+    "failed": 0,
+    "attempts": 327,
+    "completed_attempts": 327,
+    "failed_attempts": 269,
+    "aborted_attempts": 0,
+    "retries": 269,
+    "raw_pairs": 58,
+    "pairs_consumed": 58,
+    "pairs_discarded": 0,
+    "wait_s": 0.0
+  },
+  "resources": [
+    {
+      "name": "port:0",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.002701851196
+    },
+    {
+      "name": "port:1",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0029020511090000036
+    },
+    {
+      "name": "port:2",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.004402702376000001
+    },
+    {
+      "name": "port:3",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0032024019629999993
+    },
+    {
+      "name": "port:4",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.005303252666999998
+    },
+    {
+      "name": "port:5",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.008805504438999998
+    },
+    {
+      "name": "port:6",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.005303952295000001
+    },
+    {
+      "name": "port:7",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.006303953324999999
+    },
+    {
+      "name": "port:8",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.003502051426
+    },
+    {
+      "name": "port:9",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0028019018839999968
+    },
+    {
+      "name": "port:10",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.006104552944999996
+    },
+    {
+      "name": "port:11",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.003802602565000002
+    },
+    {
+      "name": "port:12",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.002701951472
+    },
+    {
+      "name": "port:13",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0023017514050000017
+    },
+    {
+      "name": "port:14",
+      "capacity": 2,
+      "peak_used": 2,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0031024519299999984
+    },
+    {
+      "name": "port:15",
+      "capacity": 2,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0022014011330000003
+    },
+    {
+      "name": "channel:(0, 1)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0007005502650000005
+    },
+    {
+      "name": "channel:(0, 4)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.001400900495999999
+    },
+    {
+      "name": "channel:(0, 8)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0006004004350000005
+    },
+    {
+      "name": "channel:(1, 2)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(1, 3)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.00010015010000000157
+    },
+    {
+      "name": "channel:(1, 5)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0021013507440000015
+    },
+    {
+      "name": "channel:(1, 8)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(2, 3)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0002002000830000001
+    },
+    {
+      "name": "channel:(2, 4)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0009005507120000006
+    },
+    {
+      "name": "channel:(2, 5)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.003101651480999999
+    },
+    {
+      "name": "channel:(2, 6)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.00020030010000000095
+    },
+    {
+      "name": "channel:(2, 9)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(3, 6)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.00010015007100000126
+    },
+    {
+      "name": "channel:(3, 7)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0018011006279999991
+    },
+    {
+      "name": "channel:(3, 9)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0010008010809999975
+    },
+    {
+      "name": "channel:(4, 5)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(4, 8)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0021011507099999993
+    },
+    {
+      "name": "channel:(4, 9)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(4, 10)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0009006507489999994
+    },
+    {
+      "name": "channel:(5, 6)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0005003501819999985
+    },
+    {
+      "name": "channel:(5, 9)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(5, 10)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.001701150870999998
+    },
+    {
+      "name": "channel:(5, 11)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0014010011610000005
+    },
+    {
+      "name": "channel:(6, 7)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0018012006450000007
+    },
+    {
+      "name": "channel:(6, 10)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0023015508269999996
+    },
+    {
+      "name": "channel:(6, 11)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(6, 12)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0004004004699999994
+    },
+    {
+      "name": "channel:(6, 13)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(7, 11)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(7, 14)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0017010513490000002
+    },
+    {
+      "name": "channel:(7, 15)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0010006007029999993
+    },
+    {
+      "name": "channel:(8, 9)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(8, 12)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0008005002810000002
+    },
+    {
+      "name": "channel:(9, 10)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(9, 12)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0012007005879999992
+    },
+    {
+      "name": "channel:(9, 13)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0006004002150000001
+    },
+    {
+      "name": "channel:(10, 11)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(10, 13)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(10, 14)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0012012004979999984
+    },
+    {
+      "name": "channel:(11, 13)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0012008009740000006
+    },
+    {
+      "name": "channel:(11, 15)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.001200800430000001
+    },
+    {
+      "name": "channel:(12, 13)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0003003501330000012
+    },
+    {
+      "name": "channel:(12, 14)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "channel:(13, 14)",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.00020020008299999987
+    },
+    {
+      "name": "channel:(14, 15)",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "generator:global",
+      "capacity": 16,
+      "peak_used": 4,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.032716365639
+    },
+    {
+      "name": "gate:0",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.0000000000114084e-07
+    },
+    {
+      "name": "gate:1",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 4.999999999970306e-08
+    },
+    {
+      "name": "gate:2",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "gate:3",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.9999999999729436e-07
+    },
+    {
+      "name": "gate:4",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 5.000000000057042e-08
+    },
+    {
+      "name": "gate:5",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 9.99999999976714e-08
+    },
+    {
+      "name": "gate:6",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 9.999999999810508e-08
+    },
+    {
+      "name": "gate:7",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.500000000008439e-07
+    },
+    {
+      "name": "gate:8",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.0000000000287557e-07
+    },
+    {
+      "name": "gate:9",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "gate:10",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.5000000000171126e-07
+    },
+    {
+      "name": "gate:11",
+      "capacity": 1,
+      "peak_used": 0,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 0.0
+    },
+    {
+      "name": "gate:12",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.9999999999794488e-07
+    },
+    {
+      "name": "gate:13",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.0000000000005664e-07
+    },
+    {
+      "name": "gate:14",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 2.0000000000228169e-07
+    },
+    {
+      "name": "gate:15",
+      "capacity": 1,
+      "peak_used": 1,
+      "used": 0,
+      "waiting_units": 0,
+      "integral_used_s": 1.0000000000287557e-07
+    }
+  ]
+}

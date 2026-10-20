@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="7" time="31.151" timestamp="2026-10-20T19:01:45.816331+05:30" hostname="ZZ-839309"><testcase classname="tests.test_review_supplement" name="test_design_and_matched_workloads" time="0.102" /><testcase classname="tests.test_review_supplement" name="test_summary_counts_raw_sha_and_failed_pair_cost[wired]" time="1.487"><failure message="assert 0 &gt; 0">tmp_path = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp_r2/test_summary_counts_raw_sha_an0')
+fabric = 'wired'
+
+    @pytest.mark.parametrize("fabric", ["wired", "radio"])
+    def test_summary_counts_raw_sha_and_failed_pair_cost(tmp_path, fabric):
+        cfg = supplement.config(20_000, "hh", fabric)
+        result = saved_run(tmp_path, cfg)
+        summary, rows, audit = supplement.reconcile_run(tmp_path)
+        assert summary["requests"] == len(rows) == 24
+        assert sum(audit["terminal_outcomes_mutually_exclusive"].values()) == 24
+        assert sum(audit["terminal_failure_reasons_exact"].values()) == 24 - summary["completed"]
+        assert audit["payload_pairs_consumed_failed_requests"] == sum(r["consumed_pairs"] for r in rows if not r["completed"])
+&gt;       assert audit["payload_pairs_consumed_failed_requests"] &gt; 0
+E       assert 0 &gt; 0
+
+tests\test_review_supplement.py:59: AssertionError</failure></testcase><testcase classname="tests.test_review_supplement" name="test_summary_counts_raw_sha_and_failed_pair_cost[radio]" time="0.907"><failure message="assert 0 &gt; 0">tmp_path = WindowsPath('<LOCAL_HOME>/<LOCAL_WORKSPACE>/Documents/AI_research/DEQUINT_rebuild/results/review_supplement_v1/test_tmp_r2/test_summary_counts_raw_sha_an1')
+fabric = 'radio'
+
+    @pytest.mark.parametrize("fabric", ["wired", "radio"])
+    def test_summary_counts_raw_sha_and_failed_pair_cost(tmp_path, fabric):
+        cfg = supplement.config(20_000, "hh", fabric)
+        result = saved_run(tmp_path, cfg)
+        summary, rows, audit = supplement.reconcile_run(tmp_path)
+        assert summary["requests"] == len(rows) == 24
+        assert sum(audit["terminal_outcomes_mutually_exclusive"].values()) == 24
+        assert sum(audit["terminal_failure_reasons_exact"].values()) == 24 - summary["completed"]
+        assert audit["payload_pairs_consumed_failed_requests"] == sum(r["consumed_pairs"] for r in rows if not r["completed"])
+&gt;       assert audit["payload_pairs_consumed_failed_requests"] &gt; 0
+E       assert 0 &gt; 0
+
+tests\test_review_supplement.py:59: AssertionError</failure></testcase><testcase classname="tests.test_review_supplement" name="test_summary_tamper_detected_even_with_rehashed_summary" time="0.941" /><testcase classname="tests.test_review_supplement" name="test_exclusive_writes_and_missing_latency" time="0.028" /><testcase classname="tests.test_review_supplement" name="test_unobserved_stages_not_invented" time="0.060" /><testcase classname="tests.test_review_supplement" name="test_source_inventory_recursive_and_drift" time="0.145" /></testsuite></testsuites>

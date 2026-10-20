@@ -1,0 +1,5 @@
+id,source,url,inspection_scope,implication
+LIT-SC01,Shortcuts to quantum network routing,https://arxiv.org/html/1610.05238v1,Primary HTML abstract and routing/replenishment sections,Quantum shortcuts and their resource/replenishment costs are prior art
+LIT-SC02,An Optical Interconnect for Modular Quantum Computers,https://arxiv.org/html/2412.09299v2,Primary HTML introduction and topology/link-architecture sections,Low diameter alone is insufficient; optical loss and switch resources matter
+LIT-SC03,Distributed quantum computing across an optical network link,https://www.nature.com/articles/s41586-024-08404-x,Primary abstract and process-tomography/distributed-gate sections,Physical gate evidence requires actual hardware and channel characterization; not our implementation
+LIT-SC04,A combinatorial problem,https://research.tue.nl/en/publications/a-combinatorial-problem/,Primary institutional bibliographic identity and public version link,Classical de Bruijn construction is not a new graph invention

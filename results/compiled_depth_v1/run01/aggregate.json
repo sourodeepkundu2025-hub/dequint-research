@@ -1,0 +1,272 @@
+[
+  {
+    "graph": "line3",
+    "policy": "endpoint",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 32,
+      "median": 32,
+      "max": 32
+    },
+    "depth_quantum_core": {
+      "min": 37,
+      "median": 37,
+      "max": 37
+    },
+    "depth_instrument_qubit": {
+      "min": 44,
+      "median": 44,
+      "max": 44
+    },
+    "depth_instrument_core": {
+      "min": 59,
+      "median": 59,
+      "max": 59
+    },
+    "cx_count": {
+      "min": 21,
+      "median": 21,
+      "max": 21
+    }
+  },
+  {
+    "graph": "line3",
+    "policy": "rendezvous",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 26,
+      "median": 26,
+      "max": 26
+    },
+    "depth_quantum_core": {
+      "min": 31,
+      "median": 31,
+      "max": 31
+    },
+    "depth_instrument_qubit": {
+      "min": 38,
+      "median": 38,
+      "max": 38
+    },
+    "depth_instrument_core": {
+      "min": 54,
+      "median": 54,
+      "max": 54
+    },
+    "cx_count": {
+      "min": 21,
+      "median": 21,
+      "max": 21
+    }
+  },
+  {
+    "graph": "line3",
+    "policy": "sabre_swap",
+    "runs": 4,
+    "depth_quantum_qubit": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_quantum_core": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_instrument_qubit": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_instrument_core": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "cx_count": {
+      "min": 19,
+      "median": 19.0,
+      "max": 19
+    }
+  },
+  {
+    "graph": "line5",
+    "policy": "endpoint",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 64,
+      "median": 64,
+      "max": 64
+    },
+    "depth_quantum_core": {
+      "min": 73,
+      "median": 73,
+      "max": 73
+    },
+    "depth_instrument_qubit": {
+      "min": 88,
+      "median": 88,
+      "max": 88
+    },
+    "depth_instrument_core": {
+      "min": 117,
+      "median": 117,
+      "max": 117
+    },
+    "cx_count": {
+      "min": 41,
+      "median": 41,
+      "max": 41
+    }
+  },
+  {
+    "graph": "line5",
+    "policy": "rendezvous",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 42,
+      "median": 42,
+      "max": 42
+    },
+    "depth_quantum_core": {
+      "min": 49,
+      "median": 49,
+      "max": 49
+    },
+    "depth_instrument_qubit": {
+      "min": 60,
+      "median": 60,
+      "max": 60
+    },
+    "depth_instrument_core": {
+      "min": 82,
+      "median": 82,
+      "max": 82
+    },
+    "cx_count": {
+      "min": 41,
+      "median": 41,
+      "max": 41
+    }
+  },
+  {
+    "graph": "line5",
+    "policy": "sabre_swap",
+    "runs": 4,
+    "depth_quantum_qubit": {
+      "min": 19,
+      "median": 22.0,
+      "max": 25
+    },
+    "depth_quantum_core": {
+      "min": 19,
+      "median": 22.0,
+      "max": 25
+    },
+    "depth_instrument_qubit": {
+      "min": 19,
+      "median": 22.0,
+      "max": 25
+    },
+    "depth_instrument_core": {
+      "min": 19,
+      "median": 22.0,
+      "max": 25
+    },
+    "cx_count": {
+      "min": 31,
+      "median": 31.0,
+      "max": 31
+    }
+  },
+  {
+    "graph": "square2",
+    "policy": "endpoint",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 32,
+      "median": 32,
+      "max": 32
+    },
+    "depth_quantum_core": {
+      "min": 37,
+      "median": 37,
+      "max": 37
+    },
+    "depth_instrument_qubit": {
+      "min": 44,
+      "median": 44,
+      "max": 44
+    },
+    "depth_instrument_core": {
+      "min": 59,
+      "median": 59,
+      "max": 59
+    },
+    "cx_count": {
+      "min": 21,
+      "median": 21,
+      "max": 21
+    }
+  },
+  {
+    "graph": "square2",
+    "policy": "rendezvous",
+    "runs": 1,
+    "depth_quantum_qubit": {
+      "min": 26,
+      "median": 26,
+      "max": 26
+    },
+    "depth_quantum_core": {
+      "min": 31,
+      "median": 31,
+      "max": 31
+    },
+    "depth_instrument_qubit": {
+      "min": 38,
+      "median": 38,
+      "max": 38
+    },
+    "depth_instrument_core": {
+      "min": 54,
+      "median": 54,
+      "max": 54
+    },
+    "cx_count": {
+      "min": 21,
+      "median": 21,
+      "max": 21
+    }
+  },
+  {
+    "graph": "square2",
+    "policy": "sabre_swap",
+    "runs": 4,
+    "depth_quantum_qubit": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_quantum_core": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_instrument_qubit": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "depth_instrument_core": {
+      "min": 13,
+      "median": 13.0,
+      "max": 19
+    },
+    "cx_count": {
+      "min": 19,
+      "median": 19.0,
+      "max": 19
+    }
+  }
+]

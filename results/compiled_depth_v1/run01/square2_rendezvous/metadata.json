@@ -1,0 +1,109 @@
+{
+  "policy": "rendezvous",
+  "meeting": [
+    1,
+    0
+  ],
+  "hops": 4,
+  "bell_pairs": 4,
+  "bsm": 4,
+  "correction_bits": 8,
+  "storage_cx": 12,
+  "out_hops": 2,
+  "return_hops": 2,
+  "history": [
+    {
+      "operand": 0,
+      "phase": "out",
+      "source": [
+        0,
+        0
+      ],
+      "destination": [
+        1,
+        0
+      ],
+      "input": 0,
+      "output": 6,
+      "instruction_range": [
+        0,
+        15
+      ],
+      "measurement_bits": [
+        0,
+        1
+      ]
+    },
+    {
+      "operand": 1,
+      "phase": "out",
+      "source": [
+        1,
+        1
+      ],
+      "destination": [
+        1,
+        0
+      ],
+      "input": 9,
+      "output": 7,
+      "instruction_range": [
+        15,
+        30
+      ],
+      "measurement_bits": [
+        2,
+        3
+      ]
+    },
+    {
+      "operand": 0,
+      "phase": "return",
+      "source": [
+        1,
+        0
+      ],
+      "destination": [
+        0,
+        0
+      ],
+      "input": 6,
+      "output": 0,
+      "instruction_range": [
+        31,
+        46
+      ],
+      "measurement_bits": [
+        4,
+        5
+      ]
+    },
+    {
+      "operand": 1,
+      "phase": "return",
+      "source": [
+        1,
+        0
+      ],
+      "destination": [
+        1,
+        1
+      ],
+      "input": 7,
+      "output": 9,
+      "instruction_range": [
+        46,
+        61
+      ],
+      "measurement_bits": [
+        6,
+        7
+      ]
+    }
+  ],
+  "final_slots": [
+    0,
+    9
+  ],
+  "restored": true
+}

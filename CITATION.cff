@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this research software repository and the exact commit used."
+type: software
+title: "DEQUINT: Resource-Aware Quantum Interconnect Research Software and Evidence"
+version: 0.1.0
+date-released: 2026-10-20
+authors:
+  - family-names: Kundu
+    given-names: Sourodeep
+    affiliation: "Vellore Institute of Technology"
+repository-code: "https://github.com/sourodeepkundu2025-hub/dequint-research"
+url: "https://github.com/sourodeepkundu2025-hub/dequint-research"
+abstract: >-
+  Reproducible simulation software, regression tests, raw experiment records,
+  source checkpoints and analysis for resource-aware decentralised quantum
+  interconnects. Includes distinct abstract event-network, native photonic,
+  application timing, quantum-overlay and ideal compiled-channel evidence.
+  No physical hardware or journal acceptance is claimed.
+keywords:
+  - quantum networks
+  - quantum interconnects
+  - teleportation
+  - discrete-event simulation
+  - reproducible research
